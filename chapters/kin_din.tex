@@ -1,0 +1,226 @@
+\chapter{Studio del moto}
+
+\section{Cinematica}
+
+\subsection{Cinematica diretta}
+\graphicspath{{media/2_kin_din/1_cin_dir}}
+
+La cinematica diretta del robot SCARA è la seguente:
+\[
+\begin{cases}
+    x = l_1 cos(\alpha)+l_2 cos(\alpha+\beta)\\
+    y = l_1 sin(\alpha)+l_2 sin(\alpha+\beta)\\
+    z = h - s\\
+    g = \alpha+\beta+\gamma.
+\end{cases}\]
+
+dove la posa è costituita dalla terna $(x,y,z)$ che definisce le coordinate del gripper nel sistema di riferimento assoluto, mentre $g$ l'orientamento del gripper rispetto al semiasse positivo $x$.
+
+La cinematica diretta è stata valutata utilizzando una MATLAB function apposita, che si riporta qua sotto.
+
+\lstinputlisting[language=Octave]{media/1_intro/SCARAdir.m}
+
+Si riporta di seguito lo script implementato per la simulazione della cinematica diretta del manipolatore SCARA.
+
+\lstinputlisting[language=Octave, lastline=12]{media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m}
+
+La seguente simulazione è stata svolta tra le coordinate definite ai giunti $Q_i = \begin{bmatrix}
+    -0.5 & 0.1 & 0.1 & 0\\
+\end{bmatrix}^{T}$ come punto iniziale della traiettoria e $Q_f = \begin{bmatrix}
+    2 & 1 & 0.4 & -pi/4\\
+\end{bmatrix}^{T}$ come punto finale. Queste coordinate, insieme alle caratteristiche geometriche e dinamiche del robot, sono state calcolate con i rispettivi script.
+
+\lstinputlisting[language=Octave, firstline=13, lastline=35, firstnumber=13]{media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m}
+
+La legge di moto scelta è di tipo cicloidale, con una durata di 5 $s$, ed è stata calcolata separatamente per ciascuna coordinata ai giunti. Per ogni punto della traiettoria si è poi calcolata la posizione, velocità a accelerazioni assoluta attraverso l'uso dello jacobiano e della derivata dello jacobiano rispetto al tempo.
+
+\lstinputlisting[language=Octave, firstline=37, firstnumber=37]{media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m}
+
+Infine si esegue il plot dei grafici ottenuti. I risultati sono riportati nella figura \ref{fig:posa_dir_cin}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{posa}
+    \caption{Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria curvilinea.}
+    \label{fig:posa_dir_cin}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{posizione_gripper}
+    \caption{Posizioni del gripper nel calcolo della cinematica diretta.}
+    \label{fig:pos_gripper_dir_cin}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{velocità_gripper}
+    \caption{Velocità del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive coordinate di posizione.}
+    \label{fig:vel_gripper_dir_cin}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{accelerazione_gripper}
+    \caption{Accelerazioni del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
+    \label{fig:acc_gripper_dir_cin}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{g_joint}
+    \caption{Coordinate di orientamento, velocità ed accelerazione del quarto giunto rotoidale (gripper). Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
+    \label{fig:gripper_dir_cin}
+\end{figure}
+
+
+\subsection{Cinematica inversa}
+\graphicspath{{media/2_kin_din/2_cin_inv}}
+
+La cinematica inversa è stata calcolata per via numerica utilizzando l'algoritmo di Newton- Raphson, di cui si riporta la MATLAB function utilizzata.
+
+\lstinputlisting[language=Octave]{media/2_kin_din/2_cin_inv/SCARAinv.m}
+
+Si riporta in seguito la simulazione della traiettoria, definita rispetto al sistema di riferimento posto alla base del robot, tra il punto di coordinate  $S_i = \begin{bmatrix}
+     -0.9 & 0.4 & 0 & 0 \\
+\end{bmatrix}^{T}$ al punto $S_f = \begin{bmatrix}
+     0.9 & 1 & 0.1 & \frac{\pi}{3} \\
+\end{bmatrix}^{T}$.
+
+Sono state scelte come coordinate iniziali ai giunti per l'algoritmo Newton-Raphson 
+$ Q_{i_0}= \begin{bmatrix}
+  2 & 1.5 & 0 & 0\\  
+\end{bmatrix}^{T}$ e $Q_{f_0}= \begin{bmatrix}
+    0.5 & 0.2 & 0.5 & 0.1\\
+\end{bmatrix}$
+
+\lstinputlisting[language=Octave]{media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{posa}
+    \caption{Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria rettilinea.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{pos_fisso.eps}
+    \caption{Posizione del gripper nel sistema di riferimento alla base del robot.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{vel_fisso}
+    \caption{Velocità del gripper nel sistema di riferimento alla base del robot.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{acc_fisso}
+    \caption{Accelerazione del gripper nel sistema di riferimento alla base del robot.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{gripper_fisso}
+    \caption{Orientamento del gripper nel sistema di riferimento alla base del robot.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{pos_giunti}
+    \caption{Orientamento dei giunti durante la traiettoria simulata.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{vel_giunti}
+    \caption{Velocità dei giunti durante la traiettoria simulata.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics[width=0.7\linewidth]{acc_giunti}
+    \caption{Accelerazione dei giunti durante la traiettoria simulata.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{prism_giunti}
+    \caption{Posizione, velocità e accelerazione del giunto prismatico durante la traiettoria simulata.}
+    \label{fig:enter-label}
+\end{figure}
+
+\section{Dinamica inversa}
+\graphicspath{{media/2_kin_din/3_din_inv}}
+
+Cinematica diretta estesa:
+\[
+\begin{cases}
+    x_4 = l_1cos(a)+l_2cos(\alpha+\beta)\\
+    y_4 = l_1sin(\alpha)+l_2sin(\alpha+\beta)\\
+    z_4 = h-s\\
+    g_4 = \alpha+\beta+\gamma\\
+    x_3 = l_1cos(\alpha)+l_2cos(\alpha+\beta)\\
+    y_3 = l_1sin(\alpha)+l_2sin(\alpha+\beta)\\
+    z_3 = h-s+g_3\\
+    x_2 = l_1cos(\alpha)+g_2cos(\alpha+\beta)\\
+    y_2 = l_1sin(\alpha)+g_2sin(\alpha+\beta)\\
+    z_2 = h\\
+    g_2 = \alpha+\beta\\
+    x_1 = g_1cos(\alpha)\\
+    y_2 = g_1sin(\alpha)\\
+    z_1 = h\\
+    g_1 = \alpha.
+\end{cases}
+\]
+
+Jacobiano esteso:
+\[
+\begin{bmatrix}
+    -l_1sin(\alpha)-l_2sin(\alpha+\beta) & -l_2sin(\alpha+\beta) & 0 & 0 \\
+    l_1cos(\alpha)+l_2cos(\alpha+\beta) & l_2cos(\alpha+\beta) & 0 & 0\\
+    0 & 0 & -1 & 0\\
+    1 & 1 & 0 & 1\\
+    -l_1sin(\alpha)-l_2sin(\alpha+\beta) & -l_2sin(\alpha+\beta) & 0 & 0\\
+    l_1cos(\alpha)+l_2cos(\alpha+\beta) & l_2cos(\alpha+\beta) & 0 & 0\\
+    0 & 0 & -1 & 0\\
+    -l_1sin(\alpha)-g_2sin(\alpha+\beta) & -g_2sin(\alpha+\beta) & 0 & 0\\
+    l_1cos(\alpha)+g_2cos(\alpha+\beta) & g_2cos(\alpha+\beta) & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    1 & 1 & 0 & 0\\
+    -g_1sin(\alpha) & 0 & 0 & 0\\
+    g_1cos(\alpha) & 0 & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    1 & 0 & 0 & 0\\
+\end{bmatrix}
+\]
+
+Derivata dello Jacobiano esteso:
+\[
+\begin{bmatrix}
+    -l_1cos(\alpha)\Dot{\alpha}-l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+    -l_1sin(\alpha)\Dot{\alpha}-l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    -l_1cos(\alpha)\Dot{\alpha}-l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+    -l_1sin(\alpha)\Dot{\alpha}-l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    -l_1cos(\alpha)\Dot{\alpha}-g_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -g_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+    -l_1sin(\alpha)\Dot{\alpha}-g_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -g_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    -g_1cos(\alpha)\Dot{\alpha} & 0 & 0 & 0\\
+    -g_1sin(\alpha)\Dot{\alpha} & 0 & 0 & 0\\
+    0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0\\
+\end{bmatrix}
+\]

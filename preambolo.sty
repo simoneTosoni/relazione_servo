@@ -1,0 +1,105 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} 
+\usepackage[english,italian]{babel}
+
+\usepackage{geometry}           % impostazione generale di pagina
+\usepackage{emptypage}          % per lasciare bianche le pagine senza testo
+% \usepackage[babel]{csquotes}    % per la bibliografia
+% %\usepackage[safeinputenc, maxbibnames=9, maxcitenames=10, giveninits=true, url=true, backend=biber, sorting=none]{biblatex}           % per la bibliografia
+\usepackage{lipsum}             % inserire lorem ipsum \lipsum[]
+\usepackage[table]{xcolor} % per colorare le tabelle
+\usepackage{caption}            % per le didascalie
+\usepackage{booktabs}           % per le tabelle
+\usepackage{pdfpages}           % inserire pdf esterni
+\usepackage{siunitx}            % unità di misura del SI
+\usepackage{xltabular}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage{float}
+
+\usepackage{listings} % for code listing and formatting
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\usepackage{svg}
+
+
+% \usepackage[%
+%   titleformat=italic,% Titles in italic 
+%   titleformat=commasep,% A comma between athors and title 
+%   titleformat=all,% Always show a title (or a short title)
+%   commabeforerest,% A comma after title 
+%   ibidem=strict,% 
+%   citefull=all,% The first citing in full form 
+%   oxford,% The oxford style
+%   dotafter=true,% 
+%   see,% An extra optional argument as a prenote 
+%   idem
+% ]{jurabib} % per le citazoni n stile Oxford
+
+% ------------------ opzioni di jurabib rimosse ---------------------------------
+%  super,% Footnotes 
+% ------------------ opzioni di jurabib rimosse ---------------------------------
+
+\usepackage{hyperref}           % collegamenti ipertestuali e segnalibri
+\usepackage{apacite}
+\usepackage[]{fancyhdr}         % AGGIUNTO DA SIMO PER SISTEMARE GLI HEADERS
+\usepackage[title,titletoc]{appendix} % AGGIUNTO DA SIMO PER SISTEMARE LE APPENDICI
+\usepackage{amssymb}            % AGGIUNTO DA SIMO PER SIMBOLI MATEMATICI E LETTERE GRECHE
+\usepackage{subcaption}         % per avere le subfigure
+\usepackage{enumitem}
+\usepackage{tabularx}    % per avere tabelle più flessibili
+\usepackage{ltablex}
+\usepackage[nottoc,numbib]{tocbibind} % per inserire la bibliografia nell'indice
+\usepackage{keyval}
+
+
+%\bibliographystyle{jox}
+%\bibliography{Esempio semplice compilabile per tesi di laurea/biblio} % per settare il path della bibliografia
+
+\newcommand{\tabitem}{\textbullet~~}  % inserire item a pallini nelle table
+\renewcommand{\labelenumii}{\arabic{enumi}.\alph{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\alph{enumii}.\roman{enumiii}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}
+
+\sisetup{separate-uncertainty}
+\hypersetup{hidelinks}
+\urlstyle{same}
+
+% questo nuovo comando \pic serve per inserire le immagini velocemente
+% \pic{ nome (senza estensione) }{ posizione }{ dimensione (altezza in centimetri) }{ didascalia }
+% posizione: t in cima, b in fondo, p in pagina a parte, H esattamente qui, h circa qui
+% per fare riferimenti all'immagine usare il nome del file (senza estensione)
+\newcommand{\pic}[4]{
+    \begin{figure}[#2]
+        \begin{center}
+            \includegraphics[height={#3}cm]{#1}
+            \caption{#4}
+            \label{fig:#1}
+        \end{center}
+    \end{figure}
+}
