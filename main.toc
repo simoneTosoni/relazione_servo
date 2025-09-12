@@ -3,9 +3,4 @@
 \contentsline {chapter}{Elenco delle figure}{2}{chapter*.2}%
 \contentsline {chapter}{Elenco delle tabelle}{3}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Caratteristiche del robot}{4}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Studio del moto}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cinematica}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Cinematica diretta}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Cinematica inversa}{14}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Dinamica inversa}{22}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Studio della traiettoria}{24}{chapter.3}%
+\contentsline {chapter}{\numberline {2}Simulazione della task assegnata}{9}{chapter.2}%

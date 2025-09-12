@@ -34,7 +34,7 @@ La seguente simulazione è stata svolta tra le coordinate definite ai giunti $Q_
 
 La legge di moto scelta è di tipo cicloidale, con una durata di 5 $s$, ed è stata calcolata separatamente per ciascuna coordinata ai giunti. Per ogni punto della traiettoria si è poi calcolata la posizione, velocità a accelerazioni assoluta attraverso l'uso dello jacobiano e della derivata dello jacobiano rispetto al tempo.
 
-\lstinputlisting[language=Octave, firstline=37, firstnumber=37]{media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m}
+%\lstinputlisting[language=Octave, firstline=37, firstnumber=37]{media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m}
 
 Infine si esegue il plot dei grafici ottenuti. I risultati sono riportati nella figura \ref{fig:posa_dir_cin}.
 
@@ -77,7 +77,7 @@ Infine si esegue il plot dei grafici ottenuti. I risultati sono riportati nella 
 \subsection{Cinematica inversa}
 \graphicspath{{media/2_kin_din/2_cin_inv}}
 
-La cinematica inversa è stata calcolata per via numerica utilizzando l'algoritmo di Newton- Raphson, di cui si riporta la MATLAB function utilizzata.
+La cinematica inversa è stata calcolata per via analitica con la funzione riportata in seguito.
 
 \lstinputlisting[language=Octave]{media/2_kin_din/2_cin_inv/SCARAinv.m}
 
