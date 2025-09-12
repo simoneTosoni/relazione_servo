@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 11:13
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 11:39
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1247,23 +1247,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ]
 Capitolo 1.
 Package epstopdf Info: Source file: <media/1_intro/elaborato.eps>
-(epstopdf)                    date: 2025-09-12 10:59:45
-(epstopdf)                    size: 127999 bytes
+(epstopdf)                    date: 2025-09-12 11:35:29
+(epstopdf)                    size: 127832 bytes
 (epstopdf)             Output file: <media/1_intro/elaborato-eps-converted-to.p
 df>
-(epstopdf)                    date: 2025-09-12 11:01:13
-(epstopdf)                    size: 43337 bytes
+(epstopdf)                    date: 2025-09-12 11:36:06
+(epstopdf)                    size: 44670 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/elaborato-ep
 s-converted-to.pdf media/1_intro/elaborato.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/elaborato-eps-converted-to.pdf, id=86, 512.91624pt x 628.3475pt>
-
+<media/1_intro/elaborato-eps-converted-to.pdf, id=86, 597.23125pt x 725.71124pt
+>
 File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 <use media/1_intro/elaborato-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
 input line 13.
-(luatex.def)             Requested size: 292.77629pt x 271.62776pt.
+(luatex.def)             Requested size: 292.77629pt x 264.13069pt.
 [4
 
 <./media/1_intro/elaborato-eps-converted-to.pdf>]
@@ -1280,7 +1280,7 @@ Overfull \hbox (18.57559pt too wide) detected at line 70
 \OML/cmm/m/it/10.95 J[] \OT1/cmr/m/n/10.95 = [] [] = []
  []
 
-(./media/1_intro/SCARAjacP.m [6]) (./media/1_intro/cicloidale.m)
+(./media/1_intro/SCARAjacP.m) [6] (./media/1_intro/cicloidale.m)
 (./media/1_intro/geometria_SCARA.m) [7]
 Package epstopdf Info: Source file: <media/1_intro/working_area_xy.eps>
 (epstopdf)                    date: 2025-06-23 23:37:37
@@ -1293,7 +1293,7 @@ d-to.pdf>
 _xy-eps-converted-to.pdf media/1_intro/working_area_xy.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_xy-eps-converted-to.pdf, id=262, 421.575pt x 316.18
+<media/1_intro/working_area_xy-eps-converted-to.pdf, id=264, 421.575pt x 316.18
 124pt>
 File: media/1_intro/working_area_xy-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1312,7 +1312,7 @@ d-to.pdf>
 _yz-eps-converted-to.pdf media/1_intro/working_area_yz.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_yz-eps-converted-to.pdf, id=263, 421.575pt x 316.18
+<media/1_intro/working_area_yz-eps-converted-to.pdf, id=265, 421.575pt x 316.18
 124pt>
 File: media/1_intro/working_area_yz-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1325,12 +1325,12 @@ ed on input line 99.
 eps-converted-to.pdf><./media/1_intro/working_area_yz-eps-converted-to.pdf>]
 Capitolo 2.
 Package epstopdf Info: Source file: <media/1_intro/elaborato.eps>
-(epstopdf)                    date: 2025-09-12 10:59:45
-(epstopdf)                    size: 127999 bytes
+(epstopdf)                    date: 2025-09-12 11:35:29
+(epstopdf)                    size: 127832 bytes
 (epstopdf)             Output file: <media/1_intro/elaborato-eps-converted-to.p
 df>
-(epstopdf)                    date: 2025-09-12 11:01:13
-(epstopdf)                    size: 43337 bytes
+(epstopdf)                    date: 2025-09-12 11:36:06
+(epstopdf)                    size: 44670 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/elaborato-ep
 s-converted-to.pdf media/1_intro/elaborato.eps>
 (epstopdf)             \includegraphics on input line 9.
@@ -1339,7 +1339,7 @@ File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 <use media/1_intro/elaborato-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
 input line 9.
-(luatex.def)             Requested size: 418.25368pt x 512.38153pt.
+(luatex.def)             Requested size: 125.47737pt x 253.10608pt.
 ) [10
 
 ] [11] (./main.aux)
@@ -1352,12 +1352,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  33974 strings out of 477805
- 381522,1373583 words of node,token memory allocated
+ 381553,1373583 words of node,token memory allocated
  657 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 22 attribute, 68 glue_spec
 , 13 attribute_list, 2 write nodes
-   avail lists: 1:2,2:7542,3:316,4:6763,5:5961,6:118,7:11261,8:101,9:17763,10:36
-,11:964
+   avail lists: 1:2,2:7491,3:317,4:6935,5:5939,6:121,7:11241,8:101,9:17846,10:36
+,11:974
  53072 multiletter control sequences out of 65536+600000
  80 fonts using 5146807 bytes
  109i,18n,100p,558b,2048s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1379,7 +1379,7 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt9.pfb>
-Output written on main.pdf (12 pages, 405349 bytes).
+Output written on main.pdf (12 pages, 406622 bytes).
 
 PDF statistics: 379 PDF objects out of 1000 (max. 8388607)
  316 compressed objects within 4 object streams
