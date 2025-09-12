@@ -41,18 +41,26 @@ figure
 subplot(4,1,1)
 plot(tt_1,Siniziale(1,:))
 title("Traiettoria tratto iniziale da P1 asse x")
+xlabel('Tempo (s)');
+ylabel('m')
 grid on
 subplot(4,1,2)
 plot(tt_1,Siniziale(2,:))
 title("Traiettoria tratto iniziale da P1 asse y")
+xlabel('Tempo (s)');
+ylabel('m')
 grid on
 subplot(4,1,3)
 plot(tt_1,Siniziale(3,:))
 title("Traiettoria tratto iniziale da P1 asse z")
+xlabel('Tempo (s)');
+ylabel('m')
 grid on
 subplot(4,1,4)
 plot(tt_1,Siniziale(4,:))
 title("Traiettoria tratto iniziale da P1 phi")
+xlabel('Tempo (s)');
+ylabel('rad')
 grid on
 
 figure
@@ -60,95 +68,150 @@ subplot(4,1,1)
 plot(tt_1,Sd(1,:),tt_1,gradient(Siniziale(1,:),tt_1))
 title("Velocità tratto iniziale da P1 asse x")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(m/s)');
 grid on
 subplot(4,1,2)
 plot(tt_1,Sd(2,:),tt_1,gradient(Siniziale(2,:),tt_1))
 title("Velocità tratto iniziale da P1 asse y")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(m/s)');
 grid on
 subplot(4,1,3)
 plot(tt_1,Sd(3,:),tt_1,gradient(Siniziale(3,:),tt_1))
 title("Velocità tratto iniziale da P1 asse z")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(m/s)');
 grid on
 subplot(4,1,4)
 plot(tt_1,Sd(4,:),tt_1,gradient(Siniziale(4,:),tt_1))
 title("Velocità tratto iniziale da P1 phi")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(rad/s)');
 grid on
 
 figure
 subplot(4,1,1)
 plot(tt_1,Sdd(1,:),tt_1,gradient(Sd(1,:),tt_1))
-title("Acceelerazione tratto iniziale da P1 asse x")
+title("Accelerazione tratto iniziale da P1 asse x")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(m/s^2)');
 grid on
 subplot(4,1,2)
 plot(tt_1,Sdd(2,:),tt_1,gradient(Sd(2,:),tt_1))
-title("Acceelerazione tratto iniziale da P1 asse y")
+title("Accelerazione tratto iniziale da P1 asse y")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(m/s^2)');
 grid on
 subplot(4,1,3)
 plot(tt_1,Sdd(3,:),tt_1,gradient(Sd(3,:),tt_1))
-title("Acceelerazione tratto iniziale da P1 asse z")
+title("Accelerazione tratto iniziale da P1 asse z")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(m/s^2)');
 grid on
 subplot(4,1,4)
 plot(tt_1,Sdd(4,:),tt_1,gradient(Sd(4,:),tt_1))
-title("Acceelerazione tratto iniziale da P1 phi")
+title("Accelerazione tratto iniziale da P1 phi")
 legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('(rad/s^2)');
 grid on
 
 figure
 subplot(4,1,1)
 plot(tt_1,q_j1_1)
 title("Traiettoria tratto iniziale da P1 j1")
+ylabel('rad')
+xlabel('Tempo (s)');
 grid on
 subplot(4,1,2)
 plot(tt_1,q_j2_1)
 title("Traiettoria tratto iniziale da P1 j2")
+ylabel('rad')
+xlabel('Tempo (s)');
 grid on
 subplot(4,1,3)
 plot(tt_1,q_j3_1)
 title("Traiettoria tratto iniziale da P1 j3")
+ylabel('m')
+xlabel('Tempo (s)');
 grid on
 subplot(4,1,4)
 plot(tt_1,q_j4_1)
 title("Traiettoria tratto iniziale da P1 j4")
+ylabel('rad')
+xlabel('Tempo (s)');
 grid on
 
 figure
 subplot(4,1,1)
-plot(tt_1,qd_j1_1)
+plot(tt_1,qd_j1_1,tt_1,gradient(q_1(1,:),tt_1))
 title("Velocità tratto iniziale da P1 j1")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('rad/s')
 grid on
 subplot(4,1,2)
-plot(tt_1,qd_j2_1)
+plot(tt_1,qd_j2_1,tt_1,gradient(q_1(2,:),tt_1))
 title("Velocità tratto iniziale da P1 j2")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('rad/s')
 grid on
 subplot(4,1,3)
-plot(tt_1,qd_j3_1)
+plot(tt_1,qd_j3_1,tt_1,gradient(q_1(3,:),tt_1))
 title("Velocità tratto iniziale da P1 j3")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('m/s')
 grid on
 subplot(4,1,4)
-plot(tt_1,qd_j4_1)
+plot(tt_1,qd_j4_1,tt_1,gradient(q_1(4,:),tt_1))
 title("Velocità tratto iniziale da P1 j4")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('rad/s')
 grid on
 
 figure
 subplot(4,1,1)
-plot(tt_1,qdd_j1_1)
+plot(tt_1,qdd_j1_1,tt_1,gradient(qd_1(1,:),tt_1))
 title("Accelerazione tratto iniziale da P1 j1")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('rad/s^2')
 grid on
 subplot(4,1,2)
-plot(tt_1,qdd_j2_1)
+plot(tt_1,qdd_j2_1,tt_1,gradient(qd_1(2,:),tt_1))
 title("Accelerazione tratto iniziale da P1 j2")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('rad/s^2')
 grid on
 subplot(4,1,3)
-plot(tt_1,qdd_j3_1)
+plot(tt_1,qdd_j3_1,tt_1,gradient(qd_1(3,:),tt_1))
 title("Accelerazione tratto iniziale da P1 j3")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('m/s^2')
 grid on
 subplot(4,1,4)
-plot(tt_1,qdd_j4_1)
+plot(tt_1,qdd_j4_1,tt_1,gradient(qd_1(4,:),tt_1))
 title("Accelerazione tratto iniziale da P1 j4")
+legend("analitica","numerica",'Location','best')
+xlabel('Tempo (s)');
+ylabel('rad/s^2')
 grid on
+
+exportgraphics(figure(2),"traiettoria_w_iniziale.eps",'ContentType', 'vector')
+exportgraphics(figure(3),"velocita_w_iniziale.eps",'ContentType', 'vector')
+exportgraphics(figure(4),"accelerazione_w_iniziale.eps",'ContentType', 'vector')
+exportgraphics(figure(5),"traiettoria_j_iniziale.eps",'ContentType', 'vector')
+exportgraphics(figure(6),"velocita_j_iniziale.eps",'ContentType', 'vector')
+exportgraphics(figure(7),"accelerazione_j_iniziale.eps",'ContentType', 'vector')

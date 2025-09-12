@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 17:15
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 17:32
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1075,6 +1075,30 @@ LaTeX Warning: Label `fig:' multiply defined.
 
 LaTeX Warning: Label `sub@fig:' multiply defined.
 
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
 )
 \openout1 = main.aux
 
@@ -1260,7 +1284,7 @@ df>
 s-converted-to.pdf media/1_intro/elaborato.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/elaborato-eps-converted-to.pdf, id=86, 597.23125pt x 725.71124pt
+<media/1_intro/elaborato-eps-converted-to.pdf, id=92, 597.23125pt x 725.71124pt
 >
 File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 <use media/1_intro/elaborato-eps-converted-to.pdf>
@@ -1296,7 +1320,7 @@ d-to.pdf>
 _xy-eps-converted-to.pdf media/1_intro/working_area_xy.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_xy-eps-converted-to.pdf, id=264, 421.575pt x 316.18
+<media/1_intro/working_area_xy-eps-converted-to.pdf, id=270, 421.575pt x 316.18
 124pt>
 File: media/1_intro/working_area_xy-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1315,7 +1339,7 @@ d-to.pdf>
 _yz-eps-converted-to.pdf media/1_intro/working_area_yz.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_yz-eps-converted-to.pdf, id=265, 421.575pt x 316.18
+<media/1_intro/working_area_yz-eps-converted-to.pdf, id=271, 421.575pt x 316.18
 124pt>
 File: media/1_intro/working_area_yz-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1365,7 +1389,7 @@ ia/traiettoria_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pdf, i
-d=349, 368.37625pt x 271.0125pt>
+d=355, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pd
@@ -1387,7 +1411,7 @@ ia/traiettoria_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pdf, i
-d=350, 355.3275pt x 280.04625pt>
+d=356, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pd
@@ -1395,10 +1419,100 @@ f>
 Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_w_iniziale
 -eps-converted-to.pdf  used on input line 40.
 (luatex.def)             Requested size: 334.60422pt x 263.72209pt.
+Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/velocita_j
+_iniziale.eps>
+(epstopdf)                    date: 2025-09-12 17:11:23
+(epstopdf)                    size: 41208 bytes
+(epstopdf)             Output file: <media/3_simulazione_traiettoria/velocita_j
+_iniziale-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-12 17:19:38
+(epstopdf)                    size: 11581 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/3_simulazione_traiet
+toria/velocita_j_iniziale-eps-converted-to.pdf media/3_simulazione_traiettoria/
+velocita_j_iniziale.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
+<media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf, id=3
+57, 367.3725pt x 271.0125pt>
+File: media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf>
+Package luatex.def Info: media/3_simulazione_traiettoria/velocita_j_iniziale-ep
+s-converted-to.pdf  used on input line 50.
+(luatex.def)             Requested size: 334.60422pt x 246.85745pt.
+Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/velocita_w
+_iniziale.eps>
+(epstopdf)                    date: 2025-09-12 17:11:22
+(epstopdf)                    size: 40106 bytes
+(epstopdf)             Output file: <media/3_simulazione_traiettoria/velocita_w
+_iniziale-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-12 17:19:38
+(epstopdf)                    size: 11712 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/3_simulazione_traiet
+toria/velocita_w_iniziale-eps-converted-to.pdf media/3_simulazione_traiettoria/
+velocita_w_iniziale.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf, id=3
+58, 358.33875pt x 276.03125pt>
+File: media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>
+Package luatex.def Info: media/3_simulazione_traiettoria/velocita_w_iniziale-ep
+s-converted-to.pdf  used on input line 56.
+(luatex.def)             Requested size: 334.60422pt x 257.76358pt.
+Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/accelerazi
+one_j_iniziale.eps>
+(epstopdf)                    date: 2025-09-12 17:11:23
+(epstopdf)                    size: 41699 bytes
+(epstopdf)             Output file: <media/3_simulazione_traiettoria/accelerazi
+one_j_iniziale-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-12 17:19:39
+(epstopdf)                    size: 11723 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/3_simulazione_traiet
+toria/accelerazione_j_iniziale-eps-converted-to.pdf media/3_simulazione_traiett
+oria/accelerazione_j_iniziale.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+<media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.pdf,
+ id=359, 372.39125pt x 271.0125pt>
+File: media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to
+.pdf Graphic file (type pdf)
+<use media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
+pdf>
+Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_j_inizia
+le-eps-converted-to.pdf  used on input line 66.
+(luatex.def)             Requested size: 334.60422pt x 243.52026pt.
+Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/accelerazi
+one_w_iniziale.eps>
+(epstopdf)                    date: 2025-09-12 17:11:22
+(epstopdf)                    size: 42661 bytes
+(epstopdf)             Output file: <media/3_simulazione_traiettoria/accelerazi
+one_w_iniziale-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-12 17:19:39
+(epstopdf)                    size: 11905 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/3_simulazione_traiet
+toria/accelerazione_w_iniziale-eps-converted-to.pdf media/3_simulazione_traiett
+oria/accelerazione_w_iniziale.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+<media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.pdf,
+ id=360, 372.39125pt x 271.0125pt>
+File: media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
+.pdf Graphic file (type pdf)
+<use media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.
+pdf>
+Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_w_inizia
+le-eps-converted-to.pdf  used on input line 72.
+(luatex.def)             Requested size: 334.60422pt x 243.52026pt.
 ) [12] [13<./media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converte
 d-to.pdf><./media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted
 -to.pdf>]
-(./main.aux)
+[14<./media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf><
+./media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>]
+[15<./media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
+pdf><./media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
+.pdf>] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1407,14 +1521,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34233 strings out of 477805
+ 34393 strings out of 477805
  381553,1373583 words of node,token memory allocated
  657 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 22 attribute, 68 glue_spec
 , 13 attribute_list, 2 write nodes
-   avail lists: 1:2,2:7491,3:317,4:6935,5:6440,6:121,7:12224,8:101,9:19241,10:36
-,11:1032
- 53141 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:7873,3:362,4:6935,5:6477,6:121,7:12665,8:101,9:19355,10:36
+,11:1145
+ 53193 multiletter control sequences out of 65536+600000
  80 fonts using 5146807 bytes
  109i,18n,100p,558b,2048s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
@@ -1435,10 +1549,10 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt9.pfb>
-Output written on main.pdf (14 pages, 429266 bytes).
+Output written on main.pdf (16 pages, 463885 bytes).
 
-PDF statistics: 487 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 206 named destinations out of 1000 (max. 131072)
+PDF statistics: 532 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 210 named destinations out of 1000 (max. 131072)
  108 words of extra memory for PDF output out of 10000 (max. 100000000)
 
