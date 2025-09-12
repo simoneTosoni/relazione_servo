@@ -7,6 +7,14 @@
 
 Il manipolatore SCARA è un robot con 4 gradi di libertà, formato da 4 giunti in configurazione $RRPR$\footnote{R: giunto rotoidale, P: giunto prismatico.}.
 
+\begin{figure}[tbph!]
+	\centering
+	\label{fig:robor_pic}
+	\includegraphics[trim=0 2.9cm 11.9cm 13.5cm,clip,width=0.7\linewidth]{elaborato}
+	\caption{Robot SCARA.}
+\end{figure}
+
+
 Le masse, le inerzie, le lunghezze dei link, i limiti dell'area di lavoro, il motion range e le velocità massime dei giunti del robot sono state tratte dalla scheda tecnica di alcuni SCARA in commercio. In particolare si è considerato un esemplare Fanuc SR-20\textit{i}A, che presenta un carico massimo al polso di 20 kg e uno sbraccio massimo di 1100 mm. Si riportano nella tabella \ref{tab:caratteristiche_costruttive} i dati tecnici considerati per le simulazioni riportate nei capitoli successivi.  
 
 \begin{table}[htbp!]
@@ -92,7 +100,7 @@ Si riportano in figura \ref{fig:working_space} i grafici che mostrano l'area di 
         \caption{Area di lavoro SCARA - piano yz}
         \label{fig:working_space_YZ}
     \end{subfigure}
-    \caption{Area di lavoro del manipolatore.}
+    \caption{Area di lavoro con manipolatore in una posizione singolare.}
     \label{fig:working_space}
 \end{figure}
 
