@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 16:17
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 17:15
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1068,7 +1068,14 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:' multiply defined.
+
+)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -1343,20 +1350,71 @@ input line 9.
 consecutive:
 ) (./media/3_simulazione_traiettoria/creazione_nodi.m
 consecutive:
-) (./media/3_simulazione_traiettoria/tratto_iniziale.m [11])) [12] (./main.aux)
+) (./media/3_simulazione_traiettoria/tratto_iniziale.m [11])
+Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
+a_j_iniziale.eps>
+(epstopdf)                    date: 2025-09-12 17:11:22
+(epstopdf)                    size: 34359 bytes
+(epstopdf)             Output file: <media/3_simulazione_traiettoria/traiettori
+a_j_iniziale-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-12 17:15:01
+(epstopdf)                    size: 10056 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/3_simulazione_traiet
+toria/traiettoria_j_iniziale-eps-converted-to.pdf media/3_simulazione_traiettor
+ia/traiettoria_j_iniziale.eps>
+(epstopdf)             \includegraphics on input line 34.
+Package epstopdf Info: Output file is already uptodate.
+<media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pdf, i
+d=349, 368.37625pt x 271.0125pt>
+File: media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.p
+df Graphic file (type pdf)
+<use media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pd
+f>
+Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_j_iniziale
+-eps-converted-to.pdf  used on input line 34.
+(luatex.def)             Requested size: 334.60422pt x 246.16272pt.
+Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
+a_w_iniziale.eps>
+(epstopdf)                    date: 2025-09-12 17:11:21
+(epstopdf)                    size: 35311 bytes
+(epstopdf)             Output file: <media/3_simulazione_traiettoria/traiettori
+a_w_iniziale-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-12 17:15:01
+(epstopdf)                    size: 10160 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/3_simulazione_traiet
+toria/traiettoria_w_iniziale-eps-converted-to.pdf media/3_simulazione_traiettor
+ia/traiettoria_w_iniziale.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+<media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pdf, i
+d=350, 355.3275pt x 280.04625pt>
+File: media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.p
+df Graphic file (type pdf)
+<use media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pd
+f>
+Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_w_iniziale
+-eps-converted-to.pdf  used on input line 40.
+(luatex.def)             Requested size: 334.60422pt x 263.72209pt.
+) [12] [13<./media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converte
+d-to.pdf><./media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted
+-to.pdf>]
+(./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B660EBD889094F18FD67335E5964B9CE;1782.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34151 strings out of 477805
+ 34233 strings out of 477805
  381553,1373583 words of node,token memory allocated
  657 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 22 attribute, 68 glue_spec
 , 13 attribute_list, 2 write nodes
-   avail lists: 1:2,2:7491,3:317,4:6935,5:6438,6:121,7:12224,8:101,9:19198,10:36
+   avail lists: 1:2,2:7491,3:317,4:6935,5:6440,6:121,7:12224,8:101,9:19241,10:36
 ,11:1032
- 53113 multiletter control sequences out of 65536+600000
+ 53141 multiletter control sequences out of 65536+600000
  80 fonts using 5146807 bytes
  109i,18n,100p,558b,2048s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
@@ -1377,10 +1435,10 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt9.pfb>
-Output written on main.pdf (13 pages, 415165 bytes).
+Output written on main.pdf (14 pages, 429266 bytes).
 
-PDF statistics: 466 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
- 204 named destinations out of 1000 (max. 131072)
+PDF statistics: 487 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 206 named destinations out of 1000 (max. 131072)
  108 words of extra memory for PDF output out of 10000 (max. 100000000)
 
