@@ -8,4 +8,4 @@
 \contentsline {section}{\numberline {2.2}Simulazione del tratto iniziale}{11}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Simulazione del tratto centrale}{12}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Simulazione del tratto finale}{12}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Calcolo delle coppie e forze ai giunti}{12}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Calcolo delle coppie e forze ai giunti}{16}{section.2.5}%
