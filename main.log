@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 11:39
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  12 SEP 2025 16:17
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1068,11 +1068,7 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-) (./main.aux
-
-LaTeX Warning: Label `fig:robor_pic' multiply defined.
-
-)
+) (./main.aux)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -1340,25 +1336,27 @@ File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
 input line 9.
 (luatex.def)             Requested size: 125.47737pt x 253.10608pt.
-) [10
+(./media/3_simulazione_traiettoria/creazione_nodi.m [10
 
-] [11] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+])
+(./media/3_simulazione_traiettoria/creazione_nodi.m
+consecutive:
+) (./media/3_simulazione_traiettoria/creazione_nodi.m
+consecutive:
+) (./media/3_simulazione_traiettoria/tratto_iniziale.m [11])) [12] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B660EBD889094F18FD67335E5964B9CE;1782.
 )
 
 Here is how much of LuaTeX's memory you used:
- 33974 strings out of 477805
+ 34151 strings out of 477805
  381553,1373583 words of node,token memory allocated
  657 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 22 attribute, 68 glue_spec
 , 13 attribute_list, 2 write nodes
-   avail lists: 1:2,2:7491,3:317,4:6935,5:5939,6:121,7:11241,8:101,9:17846,10:36
-,11:974
- 53072 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:7491,3:317,4:6935,5:6438,6:121,7:12224,8:101,9:19198,10:36
+,11:1032
+ 53113 multiletter control sequences out of 65536+600000
  80 fonts using 5146807 bytes
  109i,18n,100p,558b,2048s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
@@ -1379,10 +1377,10 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt9.pfb>
-Output written on main.pdf (12 pages, 406622 bytes).
+Output written on main.pdf (13 pages, 415165 bytes).
 
-PDF statistics: 379 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 126 named destinations out of 1000 (max. 131072)
+PDF statistics: 466 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 204 named destinations out of 1000 (max. 131072)
  108 words of extra memory for PDF output out of 10000 (max. 100000000)
 

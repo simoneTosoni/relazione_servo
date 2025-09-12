@@ -1,19 +1,31 @@
 \chapter{Simulazione della task assegnata}
-\graphicspath{{media/1_intro}}
+\graphicspath{{media/1_intro},{media/3_simulazione_traiettoria}}
 
 \section{Creazione della traiettoria}
+La traiettoria assegnata è riportata nella figura \ref{fig:traiettoria_assegnata}.
 
 \begin{figure}[tbph!]
 	\centering
-	\label{fig:robor_pic}
 	\includegraphics[trim=19.5cm 3.5cm 0cm 19cm,clip,width=0.3\linewidth]{elaborato}
-	
 	\caption{Forma della traiettoria assegnata.}
+	\label{fig:traiettoria_assegnata}
 \end{figure}
 
 
+Per la creazione dei punti della traiettoria si è proceduto prima definendo i punti nel piano ricreando la forma della traiettoria assegnata, poi con alcune trasformazioni si è proceduto a inclinare e scalare il piano su cui giacevano inizialmente.
+
+\lstinputlisting[language=Octave, lastline=13]{media/3_simulazione_traiettoria/creazione_nodi.m}
+
+\lstinputlisting[language=Octave, firstline=24, lastline=47, firstnumber=24]{media/3_simulazione_traiettoria/creazione_nodi.m}
+
+Creata la traiettoria assegnata è necessario identificare un punto $ P1 $ dell'area di lavoro del manipolatore dal quale parte il tratto iniziale della traiettoria e al quale rientra al termine della simulazione.
+
+\lstinputlisting[language=Octave, firstline=49, lastline=51, firstnumber=49]{media/3_simulazione_traiettoria/creazione_nodi.m}
 
 \section{Simulazione del tratto iniziale}
+Il tratto iniziale prevede la movimentazione del manipolatore dal punto $ P1 $ al primo punto della traiettoria assegnata. 
+
+\lstinputlisting[language=Octave, lastline=33]{media/3_simulazione_traiettoria/tratto_iniziale.m}
 
 \section{Simulazione del tratto centrale}
 
