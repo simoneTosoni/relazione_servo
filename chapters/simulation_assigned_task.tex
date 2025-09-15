@@ -22,8 +22,16 @@ Creata la traiettoria assegnata è necessario identificare un punto $ P1 $ dell'
 
 \lstinputlisting[language=Octave, firstline=49, lastline=51, firstnumber=49]{media/3_simulazione_traiettoria/creazione_nodi.m}
 
+\begin{figure}[ptbh!]
+	\centering
+	\includegraphics[width=\linewidth]{media/3_simulazione_traiettoria/traiettoria_completa}
+	\caption{Traiettoria completa da simulare.}
+	\label{fig:traiettoria_completa}
+\end{figure}
+
+\newpage
 \section{Simulazione del tratto iniziale}
-Il tratto iniziale prevede la movimentazione del manipolatore dal punto $ P1 $ al primo punto della traiettoria assegnata. 
+Il tratto iniziale prevede il movimento nello spazio dei giunti del manipolatore dal punto $ P1 $ al primo punto della traiettoria assegnata. 
 
 \lstinputlisting[language=Octave, lastline=33]{media/3_simulazione_traiettoria/tratto_iniziale.m}
 
@@ -76,10 +84,12 @@ Il tratto iniziale prevede la movimentazione del manipolatore dal punto $ P1 $ a
 	\caption{Accelerazione del tratto iniziale.}
 \end{figure}
 
+\newpage
 \section{Simulazione del tratto centrale}
 
+\newpage
 \section{Simulazione del tratto finale}
-Il tratto finale prevede la movimentazione del manipolatore dall'ultimo punto della traiettoria assegnata al punto $ P1 $.
+Il tratto finale prevede il movimento nello spazio dei giunti del manipolatore dall'ultimo punto della traiettoria assegnata al punto $ P1 $.
 
 \lstinputlisting[language=Octave, lastline=34]{media/3_simulazione_traiettoria/tratto_finale.m}
 
@@ -132,5 +142,6 @@ Il tratto finale prevede la movimentazione del manipolatore dall'ultimo punto de
 	\caption{Accelerazione del tratto finale.}
 \end{figure}
 
+\newpage
 \section{Calcolo delle coppie e forze ai giunti}
 

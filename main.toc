@@ -5,7 +5,7 @@
 \contentsline {chapter}{\numberline {1}Caratteristiche del robot}{4}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Simulazione della task assegnata}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Creazione della traiettoria}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Simulazione del tratto iniziale}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Simulazione del tratto centrale}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Simulazione del tratto finale}{12}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Calcolo delle coppie e forze ai giunti}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.2}Simulazione del tratto iniziale}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Simulazione del tratto centrale}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Simulazione del tratto finale}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Calcolo delle coppie e forze ai giunti}{22}{section.2.5}%
