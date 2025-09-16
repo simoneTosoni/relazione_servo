@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{report}
+\documentclass[11pt,a4paper,twoside,openright]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -6,25 +6,29 @@
 \usepackage{graphicx}
 \usepackage{gensymb}
 \usepackage{epstopdf}
+\usepackage{titlepic}
+\usepackage{emptypage}
 \epstopdfDeclareGraphicsRule{.pdf}{png}{.png}{convert #1 \OutputFile}
 \DeclareGraphicsExtensions{.png,.pdf}
 
 \usepackage{preambolo}
 
-\title{\textbf{Relazione progetto}\\Servo System and Robotics}
-\author{Simone Tosoni\\matricola 731405}
+\title{\textbf{{\Huge Relazione progetto}}\\{\huge Servo System and Robotics}}
+\author{{\Large Simone Tosoni}\\{\Large matricola 731405}}
 \date{Sep 2025}
+\titlepic{\includegraphics[trim=0 3.2cm 14cm 16cm,clip,width=0.4\linewidth]{media/1_intro/elaborato}}
 
 \begin{document}
 
 \maketitle
-
+\cleardoublepage
 \tableofcontents
 \listoffigures
 \listoftables
 
 \input{chapters/intro}
-%\input{chapters/kin_din} tutto da sistemare, non so nemmeno se serve
+\input{chapters/kin_din}  % DA SISTEMARE PROFONDAMENTE RIESPORTANDO I GRAFICI
 \input{chapters/simulation_assigned_task}
+\input{chapters/control_structure}
 
 \end{document}
