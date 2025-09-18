@@ -40,7 +40,7 @@ Infine si esegue il plot dei grafici ottenuti. I risultati sono riportati nella 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{posa}
+    \includegraphics[width=\linewidth]{posa}
     \caption{Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria curvilinea.}
     \label{fig:posa_dir_cin}
 \end{figure}
@@ -77,35 +77,38 @@ Infine si esegue il plot dei grafici ottenuti. I risultati sono riportati nella 
 \subsection{Cinematica inversa}
 \graphicspath{{media/2_kin_din/2_cin_inv}}
 
+La cinematica inversa del robot SCARA è la seguente:
+
+\[
+\begin{cases}
+	\alpha=acos(\frac{(x^2+y^2-l_1^2-l_2^2)}{(2l_1l_2)})\\
+	\beta=atan(\frac{y}{x})-atan(\frac{l_2sin(q_2)}{l_1+l_2cos(q_2)})\\
+	s=h-z\\
+	\gamma=g-q_1-q_2\\
+\end{cases}\].
+
 La cinematica inversa è stata calcolata per via analitica con la funzione riportata in seguito.
 
-\lstinputlisting[language=Octave]{media/2_kin_din/2_cin_inv/SCARAinv.m}
+\lstinputlisting[language=Octave]{media/2_kin_din/2_cin_inv/SCARAinvAnalitica.m}
 
 Si riporta in seguito la simulazione della traiettoria, definita rispetto al sistema di riferimento posto alla base del robot, tra il punto di coordinate  $S_i = \begin{bmatrix}
      -0.9 & 0.4 & 0 & 0 \\
 \end{bmatrix}^{T}$ al punto $S_f = \begin{bmatrix}
-     0.9 & 1 & 0.1 & \frac{\pi}{3} \\
+     0.7 & 0.2 & 0.1 & \frac{\pi}{3} \\
 \end{bmatrix}^{T}$.
 
-Sono state scelte come coordinate iniziali ai giunti per l'algoritmo Newton-Raphson 
-$ Q_{i_0}= \begin{bmatrix}
-  2 & 1.5 & 0 & 0\\  
-\end{bmatrix}^{T}$ e $Q_{f_0}= \begin{bmatrix}
-    0.5 & 0.2 & 0.5 & 0.1\\
-\end{bmatrix}$
-
-\lstinputlisting[language=Octave]{media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m}
+\lstinputlisting[language=Octave,lastline=38]{media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{posa}
+    \includegraphics[width=\linewidth]{posa}
     \caption{Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria rettilinea.}
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{pos_fisso.eps}
+    \includegraphics[width=0.8\linewidth]{pos_fisso.eps}
     \caption{Posizione del gripper nel sistema di riferimento alla base del robot.}
     \label{fig:enter-label}
 \end{figure}

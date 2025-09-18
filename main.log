@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  18 SEP 2025 11:15
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  18 SEP 2025 17:49
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1457,7 +1457,7 @@ f)
 <use media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf  u
 sed on input line 43.
-(luatex.def)             Requested size: 292.77629pt x 212.0625pt.
+(luatex.def)             Requested size: 418.25368pt x 302.94778pt.
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/posizione_grippe
 r.eps>
 (epstopdf)                    date: 2025-09-18 11:09:10
@@ -1479,6 +1479,10 @@ file (type pdf)
 Package luatex.def Info: media/2_kin_din/1_cin_dir/posizione_gripper-eps-conver
 ted-to.pdf  used on input line 50.
 (luatex.def)             Requested size: 292.77629pt x 219.5837pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17<./media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/velocità_grippe
 r.eps>
 (epstopdf)                    date: 2025-09-18 11:10:03
@@ -1492,7 +1496,7 @@ velocità_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/velocità_grip
 per.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=464, 414.
+<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=476, 414.
 54875pt x 321.2pt>
 File: media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1500,11 +1504,6 @@ file (type pdf)
 Package luatex.def Info: media/2_kin_din/1_cin_dir/velocità_gripper-eps-conver
 ted-to.pdf  used on input line 57.
 (luatex.def)             Requested size: 292.77629pt x 226.85283pt.
-
-Underfull \vbox (badness 2600) has occurred while \output is active []
-
- [17<./media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf><./media/2_kin_din/1_
-cin_dir/posizione_gripper-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/accelerazione_gr
 ipper.eps>
 (epstopdf)                    date: 2025-09-18 11:11:05
@@ -1518,7 +1517,7 @@ accelerazione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/accelerazi
 one_gripper.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=484, 
+<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=477, 
 429.605pt x 311.1625pt>
 File: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1526,6 +1525,11 @@ hic file (type pdf)
 Package luatex.def Info: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-co
 nverted-to.pdf  used on input line 64.
 (luatex.def)             Requested size: 292.77629pt x 212.0625pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18<./media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf><./media
+/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/g_joint.eps>
 (epstopdf)                    date: 2025-09-18 11:12:24
 (epstopdf)                    size: 42245 bytes
@@ -1537,7 +1541,7 @@ erted-to.pdf>
 g_joint-eps-converted-to.pdf media/2_kin_din/1_cin_dir/g_joint.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=485, 429.605pt x 46
+<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=496, 429.605pt x 46
 7.7475pt>
 File: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1548,210 +1552,214 @@ Package luatex.def Info: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18<./media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf><./media
-/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf>]
-(./media/2_kin_din/2_cin_inv/SCARAinv.m [19<./media/2_kin_din/1_cin_dir/g_joint-
-eps-converted-to.pdf>])
-(./media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22])
+ [19<./media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf>]
+(./media/2_kin_din/2_cin_inv/SCARAinvAnalitica.m [20<./media/2_kin_din/1_cin_dir
+/g_joint-eps-converted-to.pdf>])
+(./media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m [21])
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/posa.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 30962 bytes
+(epstopdf)                    date: 2025-09-18 17:05:42
+(epstopdf)                    size: 32080 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/posa-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:16
-(epstopdf)                    size: 10961 bytes
+(epstopdf)                    date: 2025-09-18 17:08:40
+(epstopdf)                    size: 11402 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 posa-eps-converted-to.pdf media/2_kin_din/2_cin_inv/posa.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=683, 429.605pt x 311.1
+<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=580, 429.605pt x 311.1
 625pt>
 File: media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf Graphic file (type pd
 f)
 <use media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf  u
-sed on input line 101.
-(luatex.def)             Requested size: 292.77629pt x 212.0625pt.
+sed on input line 104.
+(luatex.def)             Requested size: 418.25368pt x 302.94778pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/pos_fisso.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 23546 bytes
+(epstopdf)                    date: 2025-09-18 17:46:32
+(epstopdf)                    size: 23771 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/pos_fisso-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:17
-(epstopdf)                    size: 9773 bytes
+(epstopdf)                    date: 2025-09-18 17:48:04
+(epstopdf)                    size: 10008 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 pos_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_fisso.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=684, 421.575pt x 
-316.18124pt>
+<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=581, 368.37625pt 
+x 304.13625pt>
 File: media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.p
-df  used on input line 108.
-(luatex.def)             Requested size: 292.77629pt x 219.5837pt.
+df  used on input line 111.
+(luatex.def)             Requested size: 334.60422pt x 276.24928pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22<./media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/vel_fisso.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 28859 bytes
+(epstopdf)                    date: 2025-09-18 17:46:32
+(epstopdf)                    size: 29088 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/vel_fisso-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:17
-(epstopdf)                    size: 11402 bytes
+(epstopdf)                    date: 2025-09-18 17:48:05
+(epstopdf)                    size: 11380 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 vel_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_fisso.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=685, 421.575pt x 
-316.18124pt>
+<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=598, 362.35374pt 
+x 308.15125pt>
 File: media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.p
-df  used on input line 115.
-(luatex.def)             Requested size: 292.77629pt x 219.5837pt.
+df  used on input line 118.
+(luatex.def)             Requested size: 292.77629pt x 248.98517pt.
 
-[23<./media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf><./media/2_kin_din/2_c
-in_inv/pos_fisso-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23<./media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/acc_fisso.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 30097 bytes
+(epstopdf)                    date: 2025-09-18 17:46:32
+(epstopdf)                    size: 29944 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/acc_fisso-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:18
-(epstopdf)                    size: 11310 bytes
+(epstopdf)                    date: 2025-09-18 17:48:05
+(epstopdf)                    size: 11465 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 acc_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_fisso.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=708, 422.57875pt 
-x 316.18124pt>
+<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=610, 371.3875pt x
+ 304.13625pt>
 File: media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.p
-df  used on input line 122.
-(luatex.def)             Requested size: 292.77629pt x 219.06747pt.
+df  used on input line 125.
+(luatex.def)             Requested size: 292.77629pt x 239.7638pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/gripper_fisso.ep
 s>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 39258 bytes
+(epstopdf)                    date: 2025-09-18 17:32:48
+(epstopdf)                    size: 43608 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/gripper_fisso-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:18
-(epstopdf)                    size: 12012 bytes
+(epstopdf)                    date: 2025-09-18 17:48:06
+(epstopdf)                    size: 12943 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 gripper_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/gripper_fisso.eps>
 
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=709, 421.575p
-t x 316.18124pt>
+<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=611, 429.605p
+t x 495.8525pt>
 File: media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf Graphic file
  (type pdf)
 <use media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-
-to.pdf  used on input line 129.
-(luatex.def)             Requested size: 292.77629pt x 219.5837pt.
+to.pdf  used on input line 132.
+(luatex.def)             Requested size: 292.77629pt x 337.93184pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24<./media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf><./media/2_kin_d
 in/2_cin_inv/acc_fisso-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/pos_giunti.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 22098 bytes
+(epstopdf)                    date: 2025-09-18 17:46:33
+(epstopdf)                    size: 22559 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/pos_giunti-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:19
-(epstopdf)                    size: 9475 bytes
+(epstopdf)                    date: 2025-09-18 17:48:06
+(epstopdf)                    size: 9813 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 pos_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_giunti.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=728, 421.575pt x
- 316.18124pt>
+<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=630, 364.36125pt
+ x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.
-pdf  used on input line 136.
-(luatex.def)             Requested size: 334.60422pt x 250.95763pt.
+pdf  used on input line 139.
+(luatex.def)             Requested size: 334.60422pt x 274.6985pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25<./media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/vel_giunti.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 28280 bytes
+(epstopdf)                    date: 2025-09-18 17:46:33
+(epstopdf)                    size: 28369 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/vel_giunti-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:19
-(epstopdf)                    size: 11761 bytes
+(epstopdf)                    date: 2025-09-18 17:48:06
+(epstopdf)                    size: 11858 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 vel_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_giunti.eps>
-(epstopdf)             \includegraphics on input line 143.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=729, 421.575pt x
- 316.18124pt>
+<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=642, 364.36125pt
+ x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.
-pdf  used on input line 143.
-(luatex.def)             Requested size: 334.60422pt x 250.95763pt.
+pdf  used on input line 146.
+(luatex.def)             Requested size: 334.60422pt x 274.6985pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/acc_giunti.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 28951 bytes
+(epstopdf)                    date: 2025-09-18 17:46:33
+(epstopdf)                    size: 29459 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/acc_giunti-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:20
-(epstopdf)                    size: 11719 bytes
+(epstopdf)                    date: 2025-09-18 17:48:07
+(epstopdf)                    size: 11877 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 acc_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_giunti.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=730, 421.575pt x
- 316.18124pt>
+<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=643, 367.3725pt 
+x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.
-pdf  used on input line 150.
-(luatex.def)             Requested size: 292.77629pt x 219.5837pt.
+pdf  used on input line 153.
+(luatex.def)             Requested size: 292.77629pt x 238.39517pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/prism_giunti.eps
 >
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 39145 bytes
+(epstopdf)                    date: 2025-09-18 17:29:18
+(epstopdf)                    size: 41990 bytes
 (epstopdf)             Output file: <media/2_kin_din/2_cin_inv/prism_giunti-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:20
-(epstopdf)                    size: 11920 bytes
+(epstopdf)                    date: 2025-09-18 17:48:07
+(epstopdf)                    size: 12424 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/2_cin_inv/
 prism_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/prism_giunti.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=731, 421.575pt
- x 316.18124pt>
+<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=644, 429.605pt
+ x 454.69875pt>
 File: media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-t
-o.pdf  used on input line 157.
-(luatex.def)             Requested size: 292.77629pt x 219.5837pt.
+o.pdf  used on input line 160.
+(luatex.def)             Requested size: 292.77629pt x 309.88487pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25<./media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf><./media/2_k
-in_din/2_cin_inv/pos_giunti-eps-converted-to.pdf>] [26<./media/2_kin_din/2_cin_i
-nv/vel_giunti-eps-converted-to.pdf><./media/2_kin_din/2_cin_inv/acc_giunti-eps-c
-onverted-to.pdf>]
-Underfull \vbox (badness 1210) has occurred while \output is active []
+ [26<./media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf>] [27<./media/2
+_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf><./media/2_kin_din/2_cin_inv/
+acc_giunti-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27<./media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf>])
-(./chapters/simulation_assigned_task.tex [28]
+ [28<./media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29])
+(./chapters/simulation_assigned_task.tex [30]
 Capitolo 3.
 Package epstopdf Info: Source file: <media/1_intro/elaborato.eps>
 (epstopdf)                    date: 2025-09-12 11:35:29
@@ -1769,7 +1777,7 @@ File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
 input line 9.
 (luatex.def)             Requested size: 125.47737pt x 253.10608pt.
-(./media/3_simulazione_traiettoria/creazione_nodi.m [29
+(./media/3_simulazione_traiettoria/creazione_nodi.m [31
 
 ])
 (./media/3_simulazione_traiettoria/creazione_nodi.m
@@ -1791,7 +1799,7 @@ toria/traiettoria_completa-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf, id=
-795, 421.575pt x 316.18124pt>
+706, 421.575pt x 316.18124pt>
 File: media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf>
@@ -1799,7 +1807,7 @@ File: media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf
 Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_completa-e
 ps-converted-to.pdf  used on input line 27.
 (luatex.def)             Requested size: 418.25368pt x 313.69583pt.
- [30] [31<./media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-t
+ [32] [33<./media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-t
 o.pdf>] (./media/3_simulazione_traiettoria/tratto_iniziale.m)
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
 a_j_iniziale.eps>
@@ -1815,7 +1823,7 @@ ia/traiettoria_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pdf, i
-d=852, 368.37625pt x 271.0125pt>
+d=762, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pd
@@ -1837,7 +1845,7 @@ ia/traiettoria_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pdf, i
-d=853, 355.3275pt x 280.04625pt>
+d=763, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pd
@@ -1858,8 +1866,8 @@ toria/velocita_j_iniziale-eps-converted-to.pdf media/3_simulazione_traiettoria/
 velocita_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf, id=8
-54, 367.3725pt x 271.0125pt>
+<media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf, id=7
+64, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf>
@@ -1879,8 +1887,8 @@ toria/velocita_w_iniziale-eps-converted-to.pdf media/3_simulazione_traiettoria/
 velocita_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf, id=8
-55, 358.33875pt x 276.03125pt>
+<media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf, id=7
+65, 358.33875pt x 276.03125pt>
 File: media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>
@@ -1901,7 +1909,7 @@ oria/accelerazione_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.pdf,
- id=856, 372.39125pt x 271.0125pt>
+ id=766, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
@@ -1923,7 +1931,7 @@ oria/accelerazione_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.pdf,
- id=857, 372.39125pt x 271.0125pt>
+ id=767, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.
@@ -1931,14 +1939,14 @@ pdf>
 Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_w_inizia
 le-eps-converted-to.pdf  used on input line 80.
 (luatex.def)             Requested size: 334.60422pt x 243.52026pt.
- [32] [33<./media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted
+ [34] [35<./media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted
 -to.pdf><./media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-
 to.pdf>]
-[34<./media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf><
+[36<./media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf><
 ./media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>]
-[35<./media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
+[37<./media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
 pdf><./media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
-.pdf>] [36] (./media/3_simulazione_traiettoria/tratto_finale.m)
+.pdf>] [38] (./media/3_simulazione_traiettoria/tratto_finale.m)
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
 a_j_finale.eps>
 (epstopdf)                    date: 2025-09-12 18:10:15
@@ -1953,7 +1961,7 @@ toria/traiettoria_j_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf, id=
-955, 368.37625pt x 271.0125pt>
+865, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf>
@@ -1975,7 +1983,7 @@ toria/traiettoria_w_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf, id=
-956, 355.3275pt x 280.04625pt>
+866, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf>
@@ -1996,7 +2004,7 @@ toria/velocita_j_finale-eps-converted-to.pdf media/3_simulazione_traiettoria/ve
 locita_j_finale.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf, id=957
+<media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf, id=867
 , 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -2017,7 +2025,7 @@ toria/velocita_w_finale-eps-converted-to.pdf media/3_simulazione_traiettoria/ve
 locita_w_finale.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf, id=958
+<media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf, id=868
 , 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -2039,7 +2047,7 @@ ia/accelerazione_j_finale.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pdf, i
-d=959, 367.3725pt x 271.0125pt>
+d=869, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
@@ -2061,7 +2069,7 @@ ia/accelerazione_w_finale.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pdf, i
-d=960, 367.3725pt x 271.0125pt>
+d=870, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pd
@@ -2069,18 +2077,18 @@ f>
 Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_w_finale
 -eps-converted-to.pdf  used on input line 138.
 (luatex.def)             Requested size: 334.60422pt x 246.85745pt.
- [37] [38<./media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-t
+ [39] [40<./media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-t
 o.pdf><./media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.p
 df>]
-[39<./media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf><./
+[41<./media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf><./
 media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf>]
-[40<./media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
+[42<./media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
 f><./media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pdf
->]) (./chapters/control_structure.tex [41] [42
+>]) (./chapters/control_structure.tex [43] [44
 
 ]
 Capitolo 4.
-) [43] (./main.aux)
+) [45] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2089,14 +2097,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35613 strings out of 477805
- 596195,1373583 words of node,token memory allocated
- 758 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 42 attribute, 69 glue_spec
-, 23 attribute_list, 2 write, 6 pdf_action nodes
-   avail lists: 1:1,2:12244,3:346,4:11712,5:10979,6:120,7:20358,8:101,9:32136,10
-:54,11:1676
- 53600 multiletter control sequences out of 65536+600000
+ 35500 strings out of 477805
+ 476929,1373583 words of node,token memory allocated
+ 764 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 44 attribute, 69 glue_spec
+, 24 attribute_list, 2 write, 6 pdf_action nodes
+   avail lists: 1:3,2:8608,3:346,4:7568,5:7081,6:120,7:14148,8:101,9:21193,10:43
+,11:1219
+ 53582 multiletter control sequences out of 65536+600000
  81 fonts using 5229487 bytes
  109i,18n,100p,558b,2048s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
@@ -2118,10 +2126,10 @@ ype1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.p
 fb>
-Output written on main.pdf (43 pages, 742835 bytes).
+Output written on main.pdf (45 pages, 736375 bytes).
 
-PDF statistics: 1160 PDF objects out of 1200 (max. 8388607)
- 977 compressed objects within 10 object streams
- 512 named destinations out of 1000 (max. 131072)
+PDF statistics: 1068 PDF objects out of 1200 (max. 8388607)
+ 884 compressed objects within 9 object streams
+ 417 named destinations out of 1000 (max. 131072)
  166 words of extra memory for PDF output out of 10000 (max. 100000000)
 

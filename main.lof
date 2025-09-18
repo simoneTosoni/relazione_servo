@@ -5,26 +5,26 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Area di lavoro con manipolatore in una posizione singolare.\relax }}{14}{figure.caption.6}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria curvilinea.\relax }}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Posizioni del gripper nel calcolo della cinematica diretta.\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Posizioni del gripper nel calcolo della cinematica diretta.\relax }}{18}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Velocità del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive coordinate di posizione.\relax }}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Accelerazioni del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{18}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Coordinate di orientamento, velocità ed accelerazione del quarto giunto rotoidale (gripper). Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive posizioni e velocità.\relax }}{19}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria rettilinea.\relax }}{23}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Accelerazioni del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{19}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Coordinate di orientamento, velocità ed accelerazione del quarto giunto rotoidale (gripper). Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive posizioni e velocità.\relax }}{20}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria rettilinea.\relax }}{22}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Posizione del gripper nel sistema di riferimento alla base del robot.\relax }}{23}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Velocità del gripper nel sistema di riferimento alla base del robot.\relax }}{24}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Accelerazione del gripper nel sistema di riferimento alla base del robot.\relax }}{24}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Orientamento del gripper nel sistema di riferimento alla base del robot.\relax }}{25}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Orientamento dei giunti durante la traiettoria simulata.\relax }}{25}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Velocità dei giunti durante la traiettoria simulata.\relax }}{26}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Accelerazione dei giunti durante la traiettoria simulata.\relax }}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Posizione, velocità e accelerazione del giunto prismatico durante la traiettoria simulata.\relax }}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Orientamento dei giunti durante la traiettoria simulata.\relax }}{26}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Velocità dei giunti durante la traiettoria simulata.\relax }}{27}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Accelerazione dei giunti durante la traiettoria simulata.\relax }}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Posizione, velocità e accelerazione del giunto prismatico durante la traiettoria simulata.\relax }}{28}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Forma della traiettoria assegnata.\relax }}{29}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Traiettoria completa da simulare.\relax }}{31}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Traiettoria del tratto iniziale.\relax }}{33}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Velocità del tratto iniziale.\relax }}{34}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Accelerazione del tratto iniziale.\relax }}{35}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Traiettoria del tratto finale.\relax }}{38}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Velocità del tratto finale.\relax }}{39}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Accelerazione del tratto finale.\relax }}{40}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Forma della traiettoria assegnata.\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Traiettoria completa da simulare.\relax }}{33}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Traiettoria del tratto iniziale.\relax }}{35}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Velocità del tratto iniziale.\relax }}{36}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Accelerazione del tratto iniziale.\relax }}{37}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Traiettoria del tratto finale.\relax }}{40}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Velocità del tratto finale.\relax }}{41}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Accelerazione del tratto finale.\relax }}{42}{figure.caption.28}%
 \addvspace {10\p@ }
