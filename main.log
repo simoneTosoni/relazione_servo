@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  16 SEP 2025 11:52
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  18 SEP 2025 11:15
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1440,12 +1440,12 @@ Capitolo 2.
 consecutive:
 ) [16]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/posa.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 30969 bytes
+(epstopdf)                    date: 2025-09-18 11:02:47
+(epstopdf)                    size: 31234 bytes
 (epstopdf)             Output file: <media/2_kin_din/1_cin_dir/posa-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:14
-(epstopdf)                    size: 11130 bytes
+(epstopdf)                    date: 2025-09-18 11:13:38
+(epstopdf)                    size: 11180 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/1_cin_dir/
 posa-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posa.eps>
 (epstopdf)             \includegraphics on input line 43.
@@ -1460,12 +1460,12 @@ sed on input line 43.
 (luatex.def)             Requested size: 292.77629pt x 212.0625pt.
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/posizione_grippe
 r.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 23698 bytes
+(epstopdf)                    date: 2025-09-18 11:09:10
+(epstopdf)                    size: 23828 bytes
 (epstopdf)             Output file: <media/2_kin_din/1_cin_dir/posizione_grippe
 r-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:14
-(epstopdf)                    size: 10040 bytes
+(epstopdf)                    date: 2025-09-18 11:13:38
+(epstopdf)                    size: 10089 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/1_cin_dir/
 posizione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posizione_grip
 per.eps>
@@ -1481,12 +1481,12 @@ ted-to.pdf  used on input line 50.
 (luatex.def)             Requested size: 292.77629pt x 219.5837pt.
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/velocità_grippe
 r.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 28298 bytes
+(epstopdf)                    date: 2025-09-18 11:10:03
+(epstopdf)                    size: 28431 bytes
 (epstopdf)             Output file: <media/2_kin_din/1_cin_dir/velocità_grippe
 r-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:15
-(epstopdf)                    size: 11384 bytes
+(epstopdf)                    date: 2025-09-18 11:13:39
+(epstopdf)                    size: 11435 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/1_cin_dir/
 velocità_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/velocità_grip
 per.eps>
@@ -1507,46 +1507,46 @@ Underfull \vbox (badness 2600) has occurred while \output is active []
 cin_dir/posizione_gripper-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/accelerazione_gr
 ipper.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 28543 bytes
+(epstopdf)                    date: 2025-09-18 11:11:05
+(epstopdf)                    size: 28256 bytes
 (epstopdf)             Output file: <media/2_kin_din/1_cin_dir/accelerazione_gr
 ipper-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:15
-(epstopdf)                    size: 11425 bytes
+(epstopdf)                    date: 2025-09-18 11:13:39
+(epstopdf)                    size: 11484 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/1_cin_dir/
 accelerazione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/accelerazi
 one_gripper.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 <media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=484, 
-414.54875pt x 321.2pt>
+429.605pt x 311.1625pt>
 File: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-co
 nverted-to.pdf  used on input line 64.
-(luatex.def)             Requested size: 292.77629pt x 226.85283pt.
+(luatex.def)             Requested size: 292.77629pt x 212.0625pt.
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/g_joint.eps>
-(epstopdf)                    date: 2025-06-23 23:37:37
-(epstopdf)                    size: 41747 bytes
+(epstopdf)                    date: 2025-09-18 11:12:24
+(epstopdf)                    size: 42245 bytes
 (epstopdf)             Output file: <media/2_kin_din/1_cin_dir/g_joint-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-06-24 17:20:16
-(epstopdf)                    size: 12185 bytes
+(epstopdf)                    date: 2025-09-18 11:13:40
+(epstopdf)                    size: 12547 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/2_kin_din/1_cin_dir/
 g_joint-eps-converted-to.pdf media/2_kin_din/1_cin_dir/g_joint.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=485, 429.605pt x 45
-3.695pt>
+<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=485, 429.605pt x 46
+7.7475pt>
 File: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf Graphic file (type
  pdf)
 <use media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf
   used on input line 71.
-(luatex.def)             Requested size: 292.77629pt x 309.2008pt.
+(luatex.def)             Requested size: 292.77629pt x 318.7778pt.
 
-Underfull \vbox (badness 2205) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18<./media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf><./media
 /2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf>]
@@ -2118,7 +2118,7 @@ ype1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.p
 fb>
-Output written on main.pdf (43 pages, 742345 bytes).
+Output written on main.pdf (43 pages, 742835 bytes).
 
 PDF statistics: 1160 PDF objects out of 1200 (max. 8388607)
  977 compressed objects within 10 object streams

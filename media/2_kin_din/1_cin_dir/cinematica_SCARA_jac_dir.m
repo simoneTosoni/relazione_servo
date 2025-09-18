@@ -39,39 +39,45 @@ plot(tt,S(1,:),tt,S(2,:),tt,S(3,:))
 grid on
 ylim([-0.8 1.4])
 xlabel("t [s]")
-legend('x [m]','y [m]','z [m]','Location','best')
+ylabel("[m]")
+legend('x','y','z','Location','best')
 title('Coordinate posizione gripper')
 
 figure(4)
 plot(tt,Sd(1,:),tt,Sd(2,:),tt,Sd(3,:),tt(1:end-1),diff(S(1,:))./diff(tt(1:end)),tt(1:end-1),diff(S(2,:))./diff(tt(1:end)),tt(1:end-1),diff(S(3,:))./diff(tt(1:end)),[tt(1) tt(end)],[0 0],'k')
 grid on
 xlabel("t [s]")
-legend('xd [m/s]','yd [m/s]','zd [m/s]','xd#','yd#','zd#','Location','best')
-title('Velocita' gripper')
+ylabel("[m/s]")
+legend('xd','yd','zd','xd#','yd#','zd#','Location','best')
+title('Velocità gripper')
 
 figure(5)
 plot(tt,Sdd(1,:),tt,Sdd(2,:),tt,Sdd(3,:),tt(1:end-1),diff(Sd(1,:))./diff(tt(1:end)),tt(1:end-1),diff(Sd(2,:))./diff(tt(1:end)),tt(1:end-1),diff(Sd(3,:))./diff(tt(1:end)),[tt(1) tt(end)],[0 0],'k')
 grid on
 xlabel("t [s]")
-legend("xdd [m/s^2]",'ydd [m/s^2]','zdd [m/s^2]','xdd#','ydd#','zdd#',"Location",'best')
+ylabel("[m/s^2]")
+legend("xdd",'ydd','zdd','xdd#','ydd#','zdd#',"Location",'best')
 title('Accelerazioni gripper')
 
 figure(6)
 subplot(3,1,1,"align")
 plot(tt,S(4,:),[tt(1) tt(end)],[0 0],'k')
 xlabel("t [s]")
+ylabel("[rad]")
 grid on
 legend('g ',"Location",'best')
 title('Orientamento gripper')
 subplot(3,1,2,"align")
 plot(tt,Sd(4,:),tt(1:end-1),diff(S(4,:))./diff(tt(1:end)),[tt(1) tt(end)],[0 0],'k')
 xlabel("t [s]")
+ylabel("[rad/s]")
 grid on
 legend('gd ','gd# ')
-title('Velocita' orientamento gripper')
+title('Velocità orientamento gripper')
 subplot(3,1,3,"align")
 plot(tt,Sdd(4,:),tt(1:end-1),diff(Sd(4,:))./diff(tt(1:end)),[tt(1) tt(end)],[0 0],'k')
 xlabel("t [s]")
+ylabel("[rad/s^2]")
 grid on
 legend('gdd ','gdd# ',"Location",'best')
 title("Accelerazione orientamento gripper");
