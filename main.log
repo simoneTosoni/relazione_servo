@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  19 SEP 2025 11:48
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  19 SEP 2025 15:34
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -64,10 +64,36 @@ f-var/luatex-cache/generic/names/luaotfload-names.luc)
 \belowcaptionskip=\skip48
 \bibindent=\dimen137
 )
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen138
+\Gm@wd@mp=\dimen139
+\Gm@odd@mp=\dimen140
+\Gm@even@mp=\dimen141
+\Gm@layoutwidth=\dimen142
+\Gm@layoutheight=\dimen143
+\Gm@layouthoffset=\dimen144
+\Gm@layoutvoffset=\dimen145
+\Gm@dimlist=\toks17
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
@@ -82,51 +108,51 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen138
+\@emptytoks=\toks20
+\ex@=\dimen146
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen139
+\pmbraise@=\dimen147
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count192
+\inf@bad=\count195
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count193
-\leftroot@=\count194
+\uproot@=\count196
+\leftroot@=\count197
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count195
-\DOTSCASE@=\count196
+\classnum@=\count198
+\DOTSCASE@=\count199
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box50
 \strutbox@=\box51
-\big@size=\dimen140
+\big@size=\dimen148
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count197
-\c@MaxMatrixCols=\count198
+\macc@depth=\count266
+\c@MaxMatrixCols=\count267
 \dotsspace@=\muskip16
-\c@parentequation=\count199
-\dspbrk@lvl=\count266
-\tag@help=\toks19
-\row@=\count267
-\column@=\count268
-\maxfields@=\count269
-\andhelp@=\toks20
-\eqnshift@=\dimen141
-\alignsep@=\dimen142
-\tagshift@=\dimen143
-\tagwidth@=\dimen144
-\totwidth@=\dimen145
-\lineht@=\dimen146
-\@envbody=\toks21
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
+\tag@help=\toks21
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
+\andhelp@=\toks22
+\eqnshift@=\dimen149
+\alignsep@=\dimen150
+\tagshift@=\dimen151
+\tagwidth@=\dimen152
+\totwidth@=\dimen153
+\lineht@=\dimen154
+\@envbody=\toks23
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
@@ -144,10 +170,6 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
@@ -162,8 +184,8 @@ Package graphics Info: Driver file: luatex.def on input line 107.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -192,14 +214,10 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks24
+\pdftexcmds@toks=\toks25
 )
 (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -222,8 +240,26 @@ Package: titlepic 2017/03/14 1.2 Package to display a picture on the title page
 Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
 pages
 )
+(/usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip52
+\mylen=\skip53
+\myhi=\skip54
+\px=\skip55
+\py=\skip56
+\pyy=\skip57
+\pxx=\skip58
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+))
 Package epstopdf-base Info: Redefining graphics rule for `.pdf' on input line 1
-1.
+3.
 
 (./preambolo.sty (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -328,8 +364,8 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 \babelcatcodetablenum=\catcodetable12
 \bbl@pattcodes=\catcodetable13
 )
-\babel@savecnt=\count270
-\U@D=\dimen149
+\babel@savecnt=\count273
+\U@D=\dimen157
 \l@unhyphenated=\language88
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
@@ -337,9 +373,9 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2020/05/21 v.1.4.04 Italian support for the babel system
-\it@lettering=\count271
-\it@doublequoteactive=\count272
-\it@ISOcompliance=\count273
+\it@lettering=\count274
+\it@doublequoteactive=\count275
+\it@ISOcompliance=\count276
 
 (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-it.tex
 UTF-8 Italian hyphenation patterns
@@ -347,26 +383,7 @@ UTF-8 Italian hyphenation patterns
 (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-
 it.tex)))) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count274
-)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
-\Gm@bindingoffset=\dimen150
-\Gm@wd@mp=\dimen151
-\Gm@odd@mp=\dimen152
-\Gm@even@mp=\dimen153
-\Gm@layoutwidth=\dimen154
-\Gm@layoutheight=\dimen155
-\Gm@layouthoffset=\dimen156
-\Gm@layoutvoffset=\dimen157
-\Gm@dimlist=\toks25
+\etb@tempcnta=\count277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -403,13 +420,14 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \ar@mcellbox=\box53
 \extrarowheight=\dimen159
 \NC@list=\toks26
-\extratabsurround=\skip52
-\backup@length=\skip53
+\extratabsurround=\skip59
+\backup@length=\skip60
 \ar@cellbox=\box54
 )
 \everycr=\toks27
-\minrowclearance=\skip54
+\minrowclearance=\skip61
 )
+LaTeX Info: Redefining \color on input line 711.
 \rownum=\count282
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
@@ -470,12 +488,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count290
 \calc@Adimen=\dimen180
 \calc@Bdimen=\dimen181
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count291
-\calc@Cskip=\skip57
+\calc@Cskip=\skip64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
@@ -544,10 +562,10 @@ Package: ltablex 2014/08/13 v1.1 Modified tabularx
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip58
-\LTright=\skip59
-\LTpre=\skip60
-\LTpost=\skip61
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
 \LTchunksize=\count305
 \LTcapwidth=\dimen197
 \LT@head=\box64
@@ -564,8 +582,8 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count310
-\rotFPtop=\skip62
-\rotFPbot=\skip63
+\rotFPtop=\skip69
+\rotFPbot=\skip70
 \rot@float@box=\box69
 \rot@mess@toks=\toks32
 )
@@ -1014,29 +1032,29 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count353
-\bibleftmargin=\skip65
-\bibindent=\skip66
-\bibparsep=\skip67
-\bibitemsep=\skip68
-\biblabelsep=\skip69
+\bibleftmargin=\skip72
+\bibindent=\skip73
+\bibparsep=\skip74
+\bibitemsep=\skip75
+\biblabelsep=\skip76
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip70
-\f@nch@O@elh=\skip71
-\f@nch@O@erh=\skip72
-\f@nch@O@olh=\skip73
-\f@nch@O@orh=\skip74
-\f@nch@O@elf=\skip75
-\f@nch@O@erf=\skip76
-\f@nch@O@olf=\skip77
-\f@nch@O@orf=\skip78
+\f@nch@headwidth=\skip77
+\f@nch@O@elh=\skip78
+\f@nch@O@erh=\skip79
+\f@nch@O@olh=\skip80
+\f@nch@O@orh=\skip81
+\f@nch@O@elf=\skip82
+\f@nch@O@erf=\skip83
+\f@nch@O@olf=\skip84
+\f@nch@O@orf=\skip85
 )
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
@@ -1051,7 +1069,7 @@ Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip79
+\labelindent=\skip86
 \enit@outerparindent=\dimen312
 \enit@toks=\toks48
 \enit@inbox=\box86
@@ -1166,60 +1184,32 @@ LaTeX Warning: Label `sub@fig:' multiply defined.
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-1.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+0.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen313
-\scratchbox=\box87
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen314
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks50
-)
-LaTeX Info: Redefining \celsius on input line 21.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 21.
-
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 21.
-Package gensymb Info: Using \Omega for \ohm on input line 21.
-
-Package gensymb Warning: Not defining \micro.
-
-LaTeX Info: Redefining \it@ocap on input line 21.
-LaTeX Info: Redefining \it@ccap on input line 21.
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -1228,15 +1218,15 @@ LaTeX Info: Redefining \it@ccap on input line 21.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* h-part:(L,W,R)=(85.35826pt, 433.62pt, 78.52962pt)
+* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=-0.56833pt
-* \evensidemargin=35.28255pt
-* \topmargin=-7.86334pt
+* \textwidth=433.62pt
+* \textheight=578.15999pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=6.25963pt
+* \topmargin=-2.51526pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1254,6 +1244,34 @@ LaTeX Info: Redefining \it@ccap on input line 21.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count361
+\scratchdimen=\dimen313
+\scratchbox=\box87
+\nofMPsegments=\count362
+\nofMParguments=\count363
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count364
+\MPscratchDim=\dimen314
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
+\everyMPtoPDFconversion=\toks50
+)
+LaTeX Info: Redefining \celsius on input line 40.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 40.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 40.
+Package gensymb Info: Using \Omega for \ohm on input line 40.
+
+Package gensymb Warning: Not defining \micro.
+
+LaTeX Info: Redefining \it@ocap on input line 40.
+LaTeX Info: Redefining \it@ccap on input line 40.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1274,9 +1292,9 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 21.
+alian.trsl' found. on input line 40.
 \c@lstlisting=\count367
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1289,9 +1307,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count368
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1303,12 +1321,12 @@ LaTeX Info: Redefining \nameref on input line 21.
 Package apacite Warning: No suitable language definition file (italian.apc) fou
 nd.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1323,43 +1341,95 @@ df>
 (epstopdf)                    size: 44670 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/elaborato-ep
 s-converted-to.pdf media/1_intro/elaborato.eps>
-(epstopdf)             \includegraphics on input line 24.
+(epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/elaborato-eps-converted-to.pdf, id=67, 597.23125pt x 725.71124pt
+<media/1_intro/elaborato-eps-converted-to.pdf, id=71, 597.23125pt x 725.71124pt
 >
 File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 <use media/1_intro/elaborato-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
-input line 24.
-(luatex.def)             Requested size: 167.2989pt x 150.91852pt.
+input line 43.
+(luatex.def)             Requested size: 173.44534pt x 156.46237pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./media/1_intro/elaborato-ep
 s-converted-to.pdf>] [2
 
-] (./main.toc)
+]
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
+4.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (./main.toc)
 \tf@toc=\write5
 
 \openout5 = main.toc
- [3
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3
 
 ] [4
 
-] (./main.lof [5])
+] (./main.lof
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5])
 \tf@lof=\write6
 
 \openout6 = main.lof
- [6] (./main.lot)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6] (./main.lot)
 \tf@lot=\write7
 
 \openout7 = main.lot
+ (./chapters/intro.tex
 
-(./chapters/intro.tex [7
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7
 
 ] [8
 
 ]
 Capitolo 1.
+LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 1
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pzc.fd
+File: ot1pzc.fd 2020/03/25 font definitions for OT1/pzc.
+)
+LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
+(Font)              Font shape `OT1/pzc/m/it' tried instead on input line 1.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
 Package epstopdf Info: Source file: <media/1_intro/elaborato.eps>
 (epstopdf)                    date: 2025-09-12 11:35:29
 (epstopdf)                    size: 127832 bytes
@@ -1369,28 +1439,62 @@ df>
 (epstopdf)                    size: 44670 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/elaborato-ep
 s-converted-to.pdf media/1_intro/elaborato.eps>
-(epstopdf)             \includegraphics on input line 13.
+(epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 <use media/1_intro/elaborato-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
-input line 13.
-(luatex.def)             Requested size: 292.77629pt x 264.13069pt.
+input line 14.
+(luatex.def)             Requested size: 303.53267pt x 273.83583pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [9] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-0.
+1.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./media/1_intro/SCARAjac.m [10])
-Overfull \hbox (18.57559pt too wide) detected at line 70
+) (./media/1_intro/SCARAjac.m
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10])
+Overfull \hbox (3.20927pt too wide) detected at line 71
 \OML/cmm/m/it/10.95 J[] \OT1/cmr/m/n/10.95 = [] [] = []
  []
 
-(./media/1_intro/SCARAjacP.m) [11] (./media/1_intro/cicloidale.m)
-(./media/1_intro/geometria_SCARA.m) [12]
+(./media/1_intro/SCARAjacP.m
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]) (./media/1_intro/cicloidale.m) (./media/1_intro/geometria_SCARA.m
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12])
 Package epstopdf Info: Source file: <media/1_intro/working_area_xy.eps>
 (epstopdf)                    date: 2025-06-23 23:37:37
 (epstopdf)                    size: 69503 bytes
@@ -1400,7 +1504,7 @@ d-to.pdf>
 (epstopdf)                    size: 13755 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/working_area
 _xy-eps-converted-to.pdf media/1_intro/working_area_xy.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
 <media/1_intro/working_area_xy-eps-converted-to.pdf, id=373, 421.575pt x 316.18
 124pt>
@@ -1408,8 +1512,8 @@ File: media/1_intro/working_area_xy-eps-converted-to.pdf Graphic file (type pdf
 )
 <use media/1_intro/working_area_xy-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/working_area_xy-eps-converted-to.pdf  us
-ed on input line 92.
-(luatex.def)             Requested size: 334.60422pt x 250.95763pt.
+ed on input line 93.
+(luatex.def)             Requested size: 346.89731pt x 260.1773pt.
 Package epstopdf Info: Source file: <media/1_intro/working_area_yz.eps>
 (epstopdf)                    date: 2025-06-23 23:37:37
 (epstopdf)                    size: 59225 bytes
@@ -1419,7 +1523,7 @@ d-to.pdf>
 (epstopdf)                    size: 12099 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/working_area
 _yz-eps-converted-to.pdf media/1_intro/working_area_yz.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 <media/1_intro/working_area_yz-eps-converted-to.pdf, id=374, 421.575pt x 316.18
 124pt>
@@ -1427,18 +1531,68 @@ File: media/1_intro/working_area_yz-eps-converted-to.pdf Graphic file (type pdf
 )
 <use media/1_intro/working_area_yz-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/working_area_yz-eps-converted-to.pdf  us
-ed on input line 99.
-(luatex.def)             Requested size: 334.60422pt x 250.95763pt.
-) (./chapters/kin_din.tex [13] [14<./media/1_intro/working_area_xy-eps-converted
--to.pdf><./media/1_intro/working_area_yz-eps-converted-to.pdf>]
-Capitolo 2.
-(./media/1_intro/SCARAdir.m [15
+ed on input line 100.
+(luatex.def)             Requested size: 346.89731pt x 260.1773pt.
 
-])
-(./media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m)
+
+LaTeX Warning: Float too large for page by 2.79462pt on input line 106.
+
+) (./chapters/kin_din.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14<./media/1_intro/working_area_xy-eps-converted-to.pdf><./media/1_intro/workin
+g_area_yz-eps-converted-to.pdf>]
+Capitolo 2.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+(./media/1_intro/SCARAdir.m
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15
+
+]) (./media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m)
+Overfull \hbox (49.22473pt too wide) in paragraph at lines 27--32
+[]\T1/lmr/m/n/10.95 La se-guen-te si-mu-la-zio-ne è sta-ta svol-ta tra le coor-
+di-na-te de-fi-ni-te ai giun-ti $\OML/cmm/m/it/10.95 Q[] \OT1/cmr/m/n/10.95 = [
+][]$
+ []
+
 (./media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m
 consecutive:
-) [16]
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/posa.eps>
 (epstopdf)                    date: 2025-09-18 11:02:47
 (epstopdf)                    size: 31234 bytes
@@ -1450,14 +1604,14 @@ ed-to.pdf>
 posa-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posa.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf, id=468, 429.605pt x 311.1
+<media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf, id=475, 429.605pt x 311.1
 625pt>
 File: media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf Graphic file (type pd
 f)
 <use media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf  u
 sed on input line 43.
-(luatex.def)             Requested size: 418.25368pt x 302.94778pt.
+(luatex.def)             Requested size: 433.62pt x 314.07698pt.
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/posizione_grippe
 r.eps>
 (epstopdf)                    date: 2025-09-18 11:09:10
@@ -1471,18 +1625,27 @@ posizione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posizione_grip
 per.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf, id=469, 421.
+<media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf, id=476, 421.
 575pt x 316.18124pt>
 File: media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/posizione_gripper-eps-conver
 ted-to.pdf  used on input line 50.
-(luatex.def)             Requested size: 292.77629pt x 219.5837pt.
+(luatex.def)             Requested size: 303.53267pt x 227.65514pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17<./media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17<./media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/velocità_grippe
 r.eps>
 (epstopdf)                    date: 2025-09-18 11:10:03
@@ -1496,14 +1659,14 @@ velocità_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/velocità_grip
 per.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=482, 414.
+<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=489, 414.
 54875pt x 321.2pt>
 File: media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/velocità_gripper-eps-conver
 ted-to.pdf  used on input line 57.
-(luatex.def)             Requested size: 292.77629pt x 226.85283pt.
+(luatex.def)             Requested size: 303.53267pt x 235.1896pt.
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/accelerazione_gr
 ipper.eps>
 (epstopdf)                    date: 2025-09-18 11:11:05
@@ -1517,19 +1680,28 @@ accelerazione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/accelerazi
 one_gripper.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=483, 
+<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=490, 
 429.605pt x 311.1625pt>
 File: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-co
 nverted-to.pdf  used on input line 64.
-(luatex.def)             Requested size: 292.77629pt x 212.0625pt.
+(luatex.def)             Requested size: 303.53267pt x 219.84914pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6284) has occurred while \output is active []
 
- [18<./media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf><./media
-/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18<./media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf><./media/
+2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/1_cin_dir/g_joint.eps>
 (epstopdf)                    date: 2025-09-18 11:12:24
 (epstopdf)                    size: 42245 bytes
@@ -1541,21 +1713,47 @@ erted-to.pdf>
 g_joint-eps-converted-to.pdf media/2_kin_din/1_cin_dir/g_joint.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=502, 429.605pt x 46
+<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=509, 429.605pt x 46
 7.7475pt>
 File: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf Graphic file (type
  pdf)
 <use media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf
   used on input line 71.
-(luatex.def)             Requested size: 292.77629pt x 318.7778pt.
+(luatex.def)             Requested size: 303.53267pt x 330.48288pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19<./media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf>]
-(./media/2_kin_din/2_cin_inv/SCARAinvAnalitica.m [20<./media/2_kin_din/1_cin_dir
-/g_joint-eps-converted-to.pdf>])
-(./media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m [21])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19<./media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf>]
+(./media/2_kin_din/2_cin_inv/SCARAinvAnalitica.m
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20<./media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf>])
+(./media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21])
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/posa.eps>
 (epstopdf)                    date: 2025-09-18 17:05:42
 (epstopdf)                    size: 32080 bytes
@@ -1567,14 +1765,14 @@ ed-to.pdf>
 posa-eps-converted-to.pdf media/2_kin_din/2_cin_inv/posa.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=586, 429.605pt x 311.1
+<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=590, 429.605pt x 311.1
 625pt>
 File: media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf Graphic file (type pd
 f)
 <use media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf  u
 sed on input line 104.
-(luatex.def)             Requested size: 418.25368pt x 302.94778pt.
+(luatex.def)             Requested size: 433.62pt x 314.07698pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/pos_fisso.eps>
 (epstopdf)                    date: 2025-09-18 17:46:32
 (epstopdf)                    size: 23771 bytes
@@ -1586,18 +1784,27 @@ nverted-to.pdf>
 pos_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_fisso.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=587, 368.37625pt 
+<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=591, 368.37625pt 
 x 304.13625pt>
 File: media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.p
 df  used on input line 111.
-(luatex.def)             Requested size: 334.60422pt x 276.24928pt.
+(luatex.def)             Requested size: 303.53267pt x 250.59991pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22<./media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22<./media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/vel_fisso.eps>
 (epstopdf)                    date: 2025-09-18 17:46:32
 (epstopdf)                    size: 29088 bytes
@@ -1609,18 +1816,14 @@ nverted-to.pdf>
 vel_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_fisso.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=604, 362.35374pt 
+<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=611, 362.35374pt 
 x 308.15125pt>
 File: media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.p
 df  used on input line 118.
-(luatex.def)             Requested size: 292.77629pt x 248.98517pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23<./media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf>]
+(luatex.def)             Requested size: 303.53267pt x 258.13527pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/acc_fisso.eps>
 (epstopdf)                    date: 2025-09-18 17:46:32
 (epstopdf)                    size: 29944 bytes
@@ -1632,14 +1835,25 @@ nverted-to.pdf>
 acc_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_fisso.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=616, 371.3875pt x
+<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=612, 371.3875pt x
  304.13625pt>
 File: media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.p
 df  used on input line 125.
-(luatex.def)             Requested size: 292.77629pt x 239.7638pt.
+(luatex.def)             Requested size: 303.53267pt x 248.57191pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23<./media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf><./media/2_kin_di
+n/2_cin_inv/vel_fisso-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/gripper_fisso.ep
 s>
 (epstopdf)                    date: 2025-09-18 17:32:48
@@ -1653,19 +1867,27 @@ gripper_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/gripper_fisso.eps>
 
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=617, 429.605p
+<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=631, 429.605p
 t x 495.8525pt>
 File: media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf Graphic file
  (type pdf)
 <use media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-
 to.pdf  used on input line 132.
-(luatex.def)             Requested size: 292.77629pt x 337.93184pt.
+(luatex.def)             Requested size: 303.53267pt x 350.34024pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24<./media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf><./media/2_kin_d
-in/2_cin_inv/acc_fisso-eps-converted-to.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24<./media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/pos_giunti.eps>
 (epstopdf)                    date: 2025-09-18 17:46:33
 (epstopdf)                    size: 22559 bytes
@@ -1677,18 +1899,27 @@ onverted-to.pdf>
 pos_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_giunti.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=636, 364.36125pt
+<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=643, 364.36125pt
  x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.
 pdf  used on input line 139.
-(luatex.def)             Requested size: 334.60422pt x 274.6985pt.
+(luatex.def)             Requested size: 303.53267pt x 249.1894pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25<./media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25<./media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/vel_giunti.eps>
 (epstopdf)                    date: 2025-09-18 17:46:33
 (epstopdf)                    size: 28369 bytes
@@ -1700,14 +1931,14 @@ onverted-to.pdf>
 vel_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_giunti.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=648, 364.36125pt
+<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=655, 364.36125pt
  x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.
 pdf  used on input line 146.
-(luatex.def)             Requested size: 334.60422pt x 274.6985pt.
+(luatex.def)             Requested size: 303.53267pt x 249.1894pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/acc_giunti.eps>
 (epstopdf)                    date: 2025-09-18 17:46:33
 (epstopdf)                    size: 29459 bytes
@@ -1719,14 +1950,14 @@ onverted-to.pdf>
 acc_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_giunti.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=649, 367.3725pt 
+<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=656, 367.3725pt 
 x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.
 pdf  used on input line 153.
-(luatex.def)             Requested size: 292.77629pt x 238.39517pt.
+(luatex.def)             Requested size: 303.53267pt x 247.1538pt.
 Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/prism_giunti.eps
 >
 (epstopdf)                    date: 2025-09-18 17:29:18
@@ -1739,26 +1970,50 @@ Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/prism_giunti.eps
 prism_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/prism_giunti.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=650, 429.605pt
+<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=657, 429.605pt
  x 454.69875pt>
 File: media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-t
 o.pdf  used on input line 160.
-(luatex.def)             Requested size: 292.77629pt x 309.88487pt.
+(luatex.def)             Requested size: 303.53267pt x 321.26341pt.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26<./media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf><./media/2_kin_d
+in/2_cin_inv/vel_giunti-eps-converted-to.pdf>]
+Overfull \vbox (67.0572pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27<./media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf><./media/2_kin_d
+in/2_cin_inv/prism_giunti-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26<./media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf>] [27<./media/2
-_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf><./media/2_kin_din/2_cin_inv/
-acc_giunti-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28<./media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28]
 Package epstopdf Info: Source file: <media/2_kin_din/3_din_inv/coppie.eps>
 (epstopdf)                    date: 2025-09-19 11:34:32
 (epstopdf)                    size: 38362 bytes
@@ -1770,14 +2025,14 @@ rted-to.pdf>
 coppie-eps-converted-to.pdf media/2_kin_din/3_din_inv/coppie.eps>
 (epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf, id=696, 359.3425pt x 29
+<media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf, id=699, 359.3425pt x 29
 8.11375pt>
 File: media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf 
  used on input line 233.
-(luatex.def)             Requested size: 292.77629pt x 242.90825pt.
+(luatex.def)             Requested size: 303.53267pt x 251.83308pt.
 Package epstopdf Info: Source file: <media/2_kin_din/3_din_inv/energia.eps>
 (epstopdf)                    date: 2025-09-19 11:34:33
 (epstopdf)                    size: 22745 bytes
@@ -1789,14 +2044,14 @@ erted-to.pdf>
 energia-eps-converted-to.pdf media/2_kin_din/3_din_inv/energia.eps>
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf, id=697, 366.36874pt x 
+<media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf, id=700, 366.36874pt x 
 299.1175pt>
 File: media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf Graphic file (type
  pdf)
 <use media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf
   used on input line 240.
-(luatex.def)             Requested size: 292.77629pt x 239.04785pt.
+(luatex.def)             Requested size: 303.53267pt x 247.82928pt.
 Package epstopdf Info: Source file: <media/2_kin_din/3_din_inv/potenza.eps>
 (epstopdf)                    date: 2025-09-19 11:34:33
 (epstopdf)                    size: 20184 bytes
@@ -1808,21 +2063,40 @@ erted-to.pdf>
 potenza-eps-converted-to.pdf media/2_kin_din/3_din_inv/potenza.eps>
 (epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf, id=698, 370.38374pt x 
+<media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf, id=701, 370.38374pt x 
 299.1175pt>
 File: media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf Graphic file (type
  pdf)
 <use media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf>
 Package luatex.def Info: media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf
   used on input line 247.
-(luatex.def)             Requested size: 292.77629pt x 236.44627pt.
-)
-(./chapters/simulation_assigned_task.tex [30<./media/2_kin_din/3_din_inv/coppie-
-eps-converted-to.pdf>] [31<./media/2_kin_din/3_din_inv/energia-eps-converted-to.
-pdf><./media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf>] [32
+(luatex.def)             Requested size: 303.53267pt x 245.13187pt.
+) (./chapters/simulation_assigned_task.tex
 
-]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[29<./media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30<./media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf><./media/2_kin_din/
+3_din_inv/potenza-eps-converted-to.pdf>]
 Capitolo 3.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
 Package epstopdf Info: Source file: <media/1_intro/elaborato.eps>
 (epstopdf)                    date: 2025-09-12 11:35:29
 (epstopdf)                    size: 127832 bytes
@@ -1838,8 +2112,18 @@ File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 <use media/1_intro/elaborato-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
 input line 9.
-(luatex.def)             Requested size: 125.47737pt x 253.10608pt.
-(./media/3_simulazione_traiettoria/creazione_nodi.m [33])
+(luatex.def)             Requested size: 130.08731pt x 262.45374pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[31
+
+] (./media/3_simulazione_traiettoria/creazione_nodi.m)
 (./media/3_simulazione_traiettoria/creazione_nodi.m
 consecutive:
 ) (./media/3_simulazione_traiettoria/creazione_nodi.m
@@ -1859,16 +2143,34 @@ toria/traiettoria_completa-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf, id=
-744, 421.575pt x 316.18124pt>
+740, 421.575pt x 316.18124pt>
 File: media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf>
 
 Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_completa-e
 ps-converted-to.pdf  used on input line 27.
-(luatex.def)             Requested size: 418.25368pt x 313.69583pt.
- [34] [35<./media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-t
-o.pdf>] (./media/3_simulazione_traiettoria/tratto_iniziale.m)
+(luatex.def)             Requested size: 433.62pt x 325.22163pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33<./media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf>
+] (./media/3_simulazione_traiettoria/tratto_iniziale.m)
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
 a_j_iniziale.eps>
 (epstopdf)                    date: 2025-09-12 17:11:22
@@ -1883,14 +2185,14 @@ ia/traiettoria_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pdf, i
-d=801, 368.37625pt x 271.0125pt>
+d=800, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pd
 f>
 Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_j_iniziale
 -eps-converted-to.pdf  used on input line 42.
-(luatex.def)             Requested size: 334.60422pt x 246.16272pt.
+(luatex.def)             Requested size: 346.89731pt x 255.20665pt.
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
 a_w_iniziale.eps>
 (epstopdf)                    date: 2025-09-12 17:11:21
@@ -1905,14 +2207,18 @@ ia/traiettoria_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pdf, i
-d=802, 355.3275pt x 280.04625pt>
+d=801, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pd
 f>
 Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_w_iniziale
 -eps-converted-to.pdf  used on input line 48.
-(luatex.def)             Requested size: 334.60422pt x 263.72209pt.
+(luatex.def)             Requested size: 346.89731pt x 273.40933pt.
+
+
+LaTeX Warning: Float too large for page by 11.05598pt on input line 53.
+
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/velocita_j
 _iniziale.eps>
 (epstopdf)                    date: 2025-09-12 17:11:23
@@ -1927,13 +2233,13 @@ velocita_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf, id=8
-03, 367.3725pt x 271.0125pt>
+02, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf>
 Package luatex.def Info: media/3_simulazione_traiettoria/velocita_j_iniziale-ep
 s-converted-to.pdf  used on input line 58.
-(luatex.def)             Requested size: 334.60422pt x 246.85745pt.
+(luatex.def)             Requested size: 346.89731pt x 255.9262pt.
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/velocita_w
 _iniziale.eps>
 (epstopdf)                    date: 2025-09-12 17:11:22
@@ -1948,13 +2254,16 @@ velocita_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf, id=8
-04, 358.33875pt x 276.03125pt>
+03, 358.33875pt x 276.03125pt>
 File: media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>
 Package luatex.def Info: media/3_simulazione_traiettoria/velocita_w_iniziale-ep
 s-converted-to.pdf  used on input line 64.
-(luatex.def)             Requested size: 334.60422pt x 257.76358pt.
+(luatex.def)             Requested size: 346.89731pt x 267.23613pt.
+
+LaTeX Warning: Float too large for page by 5.60233pt on input line 69.
+
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/accelerazi
 one_j_iniziale.eps>
 (epstopdf)                    date: 2025-09-12 17:11:23
@@ -1969,14 +2278,14 @@ oria/accelerazione_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.pdf,
- id=805, 372.39125pt x 271.0125pt>
+ id=804, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
 pdf>
 Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_j_inizia
 le-eps-converted-to.pdf  used on input line 74.
-(luatex.def)             Requested size: 334.60422pt x 243.52026pt.
+(luatex.def)             Requested size: 346.89731pt x 252.46907pt.
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/accelerazi
 one_w_iniziale.eps>
 (epstopdf)                    date: 2025-09-12 17:11:22
@@ -1991,22 +2300,64 @@ oria/accelerazione_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.pdf,
- id=806, 372.39125pt x 271.0125pt>
+ id=805, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.
 pdf>
 Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_w_inizia
 le-eps-converted-to.pdf  used on input line 80.
-(luatex.def)             Requested size: 334.60422pt x 243.52026pt.
- [36] [37<./media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted
--to.pdf><./media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-
-to.pdf>]
-[38<./media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf><
+(luatex.def)             Requested size: 346.89731pt x 252.46907pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[34]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[35<./media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pd
+f><./media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pdf
+>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[36<./media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf><
 ./media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>]
-[39<./media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[37<./media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
 pdf><./media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
-.pdf>] [40] (./media/3_simulazione_traiettoria/tratto_finale.m)
+.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[38] (./media/3_simulazione_traiettoria/tratto_finale.m)
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
 a_j_finale.eps>
 (epstopdf)                    date: 2025-09-12 18:10:15
@@ -2021,14 +2372,14 @@ toria/traiettoria_j_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf, id=
-904, 368.37625pt x 271.0125pt>
+903, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf>
 
 Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_j_finale-e
 ps-converted-to.pdf  used on input line 100.
-(luatex.def)             Requested size: 334.60422pt x 246.16272pt.
+(luatex.def)             Requested size: 346.89731pt x 255.20665pt.
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/traiettori
 a_w_finale.eps>
 (epstopdf)                    date: 2025-09-12 18:10:14
@@ -2043,14 +2394,18 @@ toria/traiettoria_w_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf, id=
-905, 355.3275pt x 280.04625pt>
+904, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf>
 
 Package luatex.def Info: media/3_simulazione_traiettoria/traiettoria_w_finale-e
 ps-converted-to.pdf  used on input line 106.
-(luatex.def)             Requested size: 334.60422pt x 263.72209pt.
+(luatex.def)             Requested size: 346.89731pt x 273.40933pt.
+
+
+LaTeX Warning: Float too large for page by 11.05598pt on input line 111.
+
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/velocita_j
 _finale.eps>
 (epstopdf)                    date: 2025-09-12 18:10:16
@@ -2064,14 +2419,14 @@ toria/velocita_j_finale-eps-converted-to.pdf media/3_simulazione_traiettoria/ve
 locita_j_finale.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf, id=906
+<media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf, id=905
 , 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf>
 Package luatex.def Info: media/3_simulazione_traiettoria/velocita_j_finale-eps-
 converted-to.pdf  used on input line 116.
-(luatex.def)             Requested size: 334.60422pt x 246.85745pt.
+(luatex.def)             Requested size: 346.89731pt x 255.9262pt.
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/velocita_w
 _finale.eps>
 (epstopdf)                    date: 2025-09-12 18:10:14
@@ -2085,14 +2440,14 @@ toria/velocita_w_finale-eps-converted-to.pdf media/3_simulazione_traiettoria/ve
 locita_w_finale.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf, id=907
+<media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf, id=906
 , 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf>
 Package luatex.def Info: media/3_simulazione_traiettoria/velocita_w_finale-eps-
 converted-to.pdf  used on input line 122.
-(luatex.def)             Requested size: 334.60422pt x 246.85745pt.
+(luatex.def)             Requested size: 346.89731pt x 255.9262pt.
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/accelerazi
 one_j_finale.eps>
 (epstopdf)                    date: 2025-09-12 18:10:16
@@ -2107,14 +2462,14 @@ ia/accelerazione_j_finale.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pdf, i
-d=908, 367.3725pt x 271.0125pt>
+d=907, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
 f>
 Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_j_finale
 -eps-converted-to.pdf  used on input line 132.
-(luatex.def)             Requested size: 334.60422pt x 246.85745pt.
+(luatex.def)             Requested size: 346.89731pt x 255.9262pt.
 Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/accelerazi
 one_w_finale.eps>
 (epstopdf)                    date: 2025-09-12 18:10:15
@@ -2129,67 +2484,124 @@ ia/accelerazione_w_finale.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pdf, i
-d=909, 367.3725pt x 271.0125pt>
+d=908, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pd
 f>
 Package luatex.def Info: media/3_simulazione_traiettoria/accelerazione_w_finale
 -eps-converted-to.pdf  used on input line 138.
-(luatex.def)             Requested size: 334.60422pt x 246.85745pt.
- [41] [42<./media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-t
-o.pdf><./media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.p
-df>]
-[43<./media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf><./
+(luatex.def)             Requested size: 346.89731pt x 255.9262pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[39]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[40<./media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf>
+<./media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[41<./media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf><./
 media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf>]
-[44<./media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[42<./media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
 f><./media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pdf
->]) (./chapters/control_structure.tex [45] [46
+>]) (./chapters/control_structure.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[43] [44
 
 ]
 Capitolo 4.
-) [47] (./main.aux)
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[45] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0AB97D859B4AB2B97A20B4B879F1CF07;2635.
+(rerunfilecheck)             Checksum: 3B9E845112BEC432C2AB0A3AA501465B;2750.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35598 strings out of 477805
- 476937,1373583 words of node,token memory allocated
- 764 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 44 attribute, 69 glue_spec
+ 35785 strings out of 477805
+ 476947,1373583 words of node,token memory allocated
+ 779 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 44 attribute, 72 glue_spec
 , 24 attribute_list, 2 write, 6 pdf_action nodes
-   avail lists: 1:2,2:8608,3:346,4:7568,5:7081,6:120,7:14148,8:101,9:21193,10:43
-,11:1219
- 53621 multiletter control sequences out of 65536+600000
- 81 fonts using 5229487 bytes
- 109i,18n,100p,558b,2048s stack positions out of 5000i,500n,10000p,200000b,80000s
+   avail lists: 1:1,2:8722,3:358,4:7568,5:7083,6:124,7:14227,8:99,9:21257,10:43,
+11:1233
+ 53768 multiletter control sequences out of 65536+600000
+ 83 fonts using 5370447 bytes
+ 109i,18n,100p,558b,2050s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
-/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.p
-fb>
-Output written on main.pdf (47 pages, 758069 bytes).
+/lm/lm-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/zapfchan/uzcmi8a.pfb>
+Output written on main.pdf (45 pages, 790799 bytes).
 
-PDF statistics: 1107 PDF objects out of 1200 (max. 8388607)
- 911 compressed objects within 10 object streams
- 422 named destinations out of 1000 (max. 131072)
- 166 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1113 PDF objects out of 1200 (max. 8388607)
+ 917 compressed objects within 10 object streams
+ 421 named destinations out of 1000 (max. 131072)
+ 174 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,4 +1,5 @@
 \documentclass[11pt,a4paper,twoside,openright]{report}
+\usepackage[a4paper,inner=3.0cm,total={6in,8in}]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -8,10 +9,28 @@
 \usepackage{epstopdf}
 \usepackage{titlepic}
 \usepackage{emptypage}
+\usepackage[Bjornstrup]{fncychap}
 \epstopdfDeclareGraphicsRule{.pdf}{png}{.png}{convert #1 \OutputFile}
 \DeclareGraphicsExtensions{.png,.pdf}
 
 \usepackage{preambolo}
+
+% HEADER SETTINGS BEGIN
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyfoot{}
+\fancyhead[RO]{\thepage}
+\fancyhead[LE]{\thepage}
+\fancyhead[CE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+
+% Stile personalizzato per le pagine di inizio capitolo
+\fancypagestyle{plain}{
+	\fancyhf{} % Svuota tutti i campi
+	\fancyhead[RO]{\thepage} % Numero di pagina in alto a destra
+	\renewcommand{\headrulewidth}{0.4pt}
+}
+% HEADER SETTINGS END
 
 \title{\textbf{{\Huge Relazione progetto}}\\{\huge Servo System and Robotics}}
 \author{{\Large Simone Tosoni}\\{\Large matricola 731405}}
