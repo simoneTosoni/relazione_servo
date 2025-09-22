@@ -24,7 +24,7 @@ Si riporta di seguito lo script implementato per la simulazione della cinematica
 
 \lstinputlisting[language=Octave, lastline=12]{media/2_kin_din/1_cin_dir/cinematica_SCARA_jac_dir.m}
 
-La seguente simulazione è stata svolta tra le coordinate definite ai giunti $Q_i = \begin{bmatrix}
+La simulazione è stata svolta tra le coordinate definite ai giunti $Q_i = \begin{bmatrix}
     -0.5 & 0.1 & 0.1 & 0\\
 \end{bmatrix}^{T}$ come punto iniziale della traiettoria e $Q_f = \begin{bmatrix}
     2 & 1 & 0.4 & -pi/4\\
@@ -165,9 +165,14 @@ Si riporta in seguito la simulazione della traiettoria, definita rispetto al sis
 \section{Dinamica inversa}
 \graphicspath{{media/2_kin_din/3_din_inv}}
 
-Cinematica diretta estesa:
+Le coppie e forze ai giunti del manipolatore sono state calcolate secondo il modello:
+\[ F_{q} = \left( J_e^{T}MJ_e \right) \ddot{Q}+\left( J_e^{T}M\dot{J_e} \right) \dot{Q} -J_e^{T}F_{se} + J_e^{T} M A_g\]
+
+\lstinputlisting[language=Octave,firstline=12,lastline=19]{media/2_kin_din/3_din_inv/dinamica_SCARA_jac_inv.m}
+
+nella quale $ S_e $ cinematica estesa del manipolatore corrisponde alla seguente matrice:
 \[
-\begin{cases}
+\begin{bmatrix}
     x_4 = l_1cos(a)+l_2cos(\alpha+\beta)\\
     y_4 = l_1sin(\alpha)+l_2sin(\alpha+\beta)\\
     z_4 = h-s\\
@@ -183,10 +188,10 @@ Cinematica diretta estesa:
     y_2 = g_1sin(\alpha)\\
     z_1 = h\\
     g_1 = \alpha.
-\end{cases}
+\end{bmatrix}
 \]
 
-Jacobiano esteso:
+lo Jacobiano esteso $ J_e $:
 \[
 \begin{bmatrix}
     -l_1sin(\alpha)-l_2sin(\alpha+\beta) & -l_2sin(\alpha+\beta) & 0 & 0 \\
@@ -207,7 +212,7 @@ Jacobiano esteso:
 \end{bmatrix}
 \]
 
-Derivata dello Jacobiano esteso:
+mentre la derivata dello Jacobiano esteso $ \Dot{J_e} $:
 \[
 \begin{bmatrix}
     -l_1cos(\alpha)\Dot{\alpha}-l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
@@ -227,6 +232,18 @@ Derivata dello Jacobiano esteso:
     0 & 0 & 0 & 0\\
 \end{bmatrix}
 \]
+
+La dinamica è stata controllata calcolando l'energia totale, come somma dell'energia potenziale e cinetica, e confrontando la derivata prima dell'energia totale con la potenza assorbita dai giunti del manipolatore. 
+
+\lstinputlisting[language=Octave,firstline=42,lastline=76]{media/2_kin_din/3_din_inv/dinamica_SCARA_jac_inv.m}
+
+L'energia cinetica è stata calcolata come \[ E_k = \frac{1}{2}\dot{Q}^{T} J_e^{T}MJ_e\dot{Q}\]
+
+L'energia potenziale è stata calcolata come \[ E_p = S_e^{T}MA_g+E_{e_{0}}\]
+
+La potenza assorbita dai giunti è stata calcolata come \[ W = F_q^{T}\dot{Q}+F_{se}^{T}\dot{S_e}\]
+
+Di seguito si riportano i risultati della dinamica inversa.
 
 \begin{figure}[htpb!]
 	\centering
