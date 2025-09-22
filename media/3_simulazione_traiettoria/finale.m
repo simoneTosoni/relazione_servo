@@ -106,6 +106,8 @@ figure
 plot(Tcumulata,x_t_sp,Tcumulata,y_t_sp,Tcumulata,z_t_sp)
 title("Posizione gripper working space")
 legend("x","y","z",'Location','Best')
+xlabel("t [s]")
+ylabel("[m]")
 grid on
 figure(1)
 plot3(x_t_sp, y_t_sp, z_t_sp, 'b-', 'LineWidth', 1);
