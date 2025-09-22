@@ -87,6 +87,18 @@ Il tratto iniziale prevede il movimento nello spazio dei giunti del manipolatore
 \newpage
 \section{Simulazione del tratto centrale}
 
+Il tratto centrale prevede che la traiettoria sia divisa in un numero arbitrario di segmenti (nello specifico si è optato per 5 segmenti). Su ogni segmento sono stati imposti i valori di velocità assoluta massima, accelerazione e decelerazione massima e velocità iniziale e finale assolute del manipolatore. Si è poi proseguito calcolando la legge di moto complessiva raccordando i singoli segmenti (i quali seguivano una legge di moto a tre tratti) nel rispetto dei vincoli imposti, come riportato in figura \ref{fig:leggemotocentrale}.
+
+\lstinputlisting[language=Octave,firstline=35, lastline=57,firstnumber=35]{media/3_simulazione_traiettoria/finale.m}
+
+\begin{figure}[tbph!]
+	\centering
+	\includegraphics[width=\linewidth]{media/3_simulazione_traiettoria/legge_moto_centrale}
+	\caption{Legge di moto complessiva sul tratto centrale.}
+	\label{fig:leggemotocentrale}
+\end{figure}
+
+
 \newpage
 \section{Simulazione del tratto finale}
 Il tratto finale prevede il movimento nello spazio dei giunti del manipolatore dall'ultimo punto della traiettoria assegnata al punto $ P1 $.

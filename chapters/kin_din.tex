@@ -168,7 +168,7 @@ Si riporta in seguito la simulazione della traiettoria, definita rispetto al sis
 Le coppie e forze ai giunti del manipolatore sono state calcolate secondo il modello:
 \[ F_{q} = \left( J_e^{T}MJ_e \right) \ddot{Q}+\left( J_e^{T}M\dot{J_e} \right) \dot{Q} -J_e^{T}F_{se} + J_e^{T} M A_g\]
 
-\lstinputlisting[language=Octave,firstline=12,lastline=19]{media/2_kin_din/3_din_inv/dinamica_SCARA_jac_inv.m}
+\lstinputlisting[language=Octave,firstline=12,lastline=19,firstnumber=12]{media/2_kin_din/3_din_inv/dinamica_SCARA_jac_inv.m}
 
 nella quale $ S_e $ cinematica estesa del manipolatore corrisponde alla seguente matrice:
 \[
@@ -235,7 +235,7 @@ mentre la derivata dello Jacobiano esteso $ \Dot{J_e} $:
 
 La dinamica è stata controllata calcolando l'energia totale, come somma dell'energia potenziale e cinetica, e confrontando la derivata prima dell'energia totale con la potenza assorbita dai giunti del manipolatore. 
 
-\lstinputlisting[language=Octave,firstline=42,lastline=76]{media/2_kin_din/3_din_inv/dinamica_SCARA_jac_inv.m}
+\lstinputlisting[language=Octave,firstline=42,lastline=76,firstnumber=42]{media/2_kin_din/3_din_inv/dinamica_SCARA_jac_inv.m}
 
 L'energia cinetica è stata calcolata come \[ E_k = \frac{1}{2}\dot{Q}^{T} J_e^{T}MJ_e\dot{Q}\]
 

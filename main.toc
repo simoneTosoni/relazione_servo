@@ -13,6 +13,6 @@
 \contentsline {section}{\numberline {3.1}Creazione della traiettoria}{33}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Simulazione del tratto iniziale}{36}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Simulazione del tratto centrale}{40}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Simulazione del tratto finale}{41}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Calcolo delle coppie e forze ai giunti}{45}{section.3.5}%
+\contentsline {section}{\numberline {3.4}Simulazione del tratto finale}{42}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Calcolo delle coppie e forze ai giunti}{46}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Struttura del controllore}{47}{chapter.4}%
