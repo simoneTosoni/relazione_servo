@@ -22,13 +22,6 @@ Creata la traiettoria assegnata è necessario identificare un punto $ P1 $ dell'
 
 \lstinputlisting[language=Octave, firstline=49, lastline=51, firstnumber=49]{media/3_simulazione_traiettoria/creazione_nodi.m}
 
-\begin{figure}[ptbh!]
-	\centering
-	\includegraphics[width=\linewidth]{media/3_simulazione_traiettoria/traiettoria_completa}
-	\caption{Traiettoria completa da simulare.}
-	\label{fig:traiettoria_completa}
-\end{figure}
-
 \newpage
 \section{Simulazione del tratto iniziale}
 Il tratto iniziale prevede il movimento nello spazio dei giunti del manipolatore dal punto $ P1 $ al primo punto della traiettoria assegnata. 
@@ -125,7 +118,31 @@ Si è proseguito proiettando la legge di moto precedentemente ottenuta lungo la 
 	\label{fig:accelerazionewcentrale}
 \end{figure}
 
-Infine è stata calcolata la cinematica inversa. 
+Infine è stata calcolata la cinematica inversa, i cui risultati sono riportati nelle figure \ref{fig:posizionejcentrale}, \ref{fig:velocitajcentrale} e \ref{fig:accelerazionejcentrale}. 
+
+
+
+\begin{figure}[tbph!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{media/3_simulazione_traiettoria/posizione_j_centrale}
+	\caption{Posizioni dei giunti nella traiettoria assegnata.}
+	\label{fig:posizionejcentrale}
+\end{figure}
+
+\begin{figure}[tbph!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{media/3_simulazione_traiettoria/velocita_j_centrale}
+	\caption{Velocità dei giunti nella traiettoria assegnata.}
+	\label{fig:velocitajcentrale}
+\end{figure}
+
+\begin{figure}[tbph!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{media/3_simulazione_traiettoria/accelerazione_j_centrale}
+	\caption{Accelerazioni dei giunti nella traiettoria assegnata.}
+	\label{fig:accelerazionejcentrale}
+\end{figure}
+
 
 \newpage
 \section{Simulazione del tratto finale}
@@ -181,6 +198,25 @@ Il tratto finale prevede il movimento nello spazio dei giunti del manipolatore d
 	\end{subfigure}
 	\caption{Accelerazione del tratto finale.}
 \end{figure}
+
+\newpage
+\section{Traiettoria completa}
+La traiettoria completa nello spazio di lavoro del manipolatore è riportata nella figura \ref{fig:traiettoria_completa}.
+
+\begin{figure}[ptbh!]
+	\centering
+	\includegraphics[width=\linewidth]{media/3_simulazione_traiettoria/traiettoria_completa}
+	\caption{Traiettoria completa da simulare.}
+	\label{fig:traiettoria_completa}
+\end{figure}
+
+\begin{figure}[tbph!]
+	\centering
+	\includegraphics[width=\linewidth]{media/3_simulazione_traiettoria/traiettoria_ws}
+	\caption[Traiettoria nel working space proiettata lungo gli assi cartesiani.]{Traiettoria nel working space proiettata lungo gli assi cartesiani. Il quarto giunto è riferito al semiasse positivo delle x.}
+	\label{fig:traiettoriaws}
+\end{figure}
+
 
 \newpage
 \section{Calcolo delle coppie e forze ai giunti}

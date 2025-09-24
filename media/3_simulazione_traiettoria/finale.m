@@ -188,11 +188,11 @@ QQd=[]; % velocità ai giunti del robot
 QQdd=[]; % accelerazione ai giunti del robot
 
 for i=1:length(Scumulata)
-    QQ(:,i)=SCARAinvAnalitica([x_t_sp(i);y_t_sp(i);z_t_sp(i);q_j4(i)],L);
+    QQ(:,i)=SCARAinvAnalitica([x_t_sp(i);y_t_sp(i);z_t_sp(i);phi(i)],L);
     J=SCARAjac(QQ(:,i),L);
-    QQd(:,i)=J^(-1)*[v(:,i);qd_j4(i)];
+    QQd(:,i)=J^(-1)*[v(:,i);phid(i)];
     Jp=SCARAjacP(QQ(:,i),QQd(:,i),L);
-    QQdd(:,i)=J^(-1)*([a(:,i);qdd_j4(i)]-Jp*QQd(:,i));
+    QQdd(:,i)=J^(-1)*([a(:,i);phidd(i)]-Jp*QQd(:,i));
 end
 
 % plot grandezze cinematiche joint space area centrale
@@ -202,25 +202,25 @@ plot(Tcumulata,QQ(1,:),[Tcumulata(1) Tcumulata(end)],[0 0],'k')
 grid on
 title("Posizione joint 1 tratto centrale")
 xlabel("t [s]")
-ylabel("q [rad]")
+ylabel("[rad]")
 subplot(4,1,2)
 plot(Tcumulata,QQ(2,:),[Tcumulata(1) Tcumulata(end)],[0 0],'k')
 grid on
 title("Posizione joint 2 tratto centrale")
 xlabel("t [s]")
-ylabel("q [rad]")
+ylabel("[rad]")
 subplot(4,1,3)
 plot(Tcumulata,QQ(3,:),[Tcumulata(1) Tcumulata(end)],[0 0],'k')
 grid on
 title("Posizione joint 3 tratto centrale")
 xlabel("t [s]")
-ylabel("s [m]")
+ylabel("[m]")
 subplot(4,1,4)
 plot(Tcumulata,QQ(4,:),[Tcumulata(1) Tcumulata(end)],[0 0],'k')
 grid on
 title("Posizione joint 4 tratto centrale")
 xlabel("t [s]")
-ylabel("gamma [rad]")
+ylabel("[rad]")
 
 
 QQdn(1,:)=gradient(QQ(1,:),Tcumulata);
@@ -299,25 +299,38 @@ ylabel("a [rad/s^2]")
 %% plot di tutta la traiettoria completa nello spazio di lavoro
 
 for i=1:n_j4
-    S_j4(:,i)=SCARAdir([QQ(1,i); QQ(2,i); QQ(3,i); q_j4(i)],L);
+    S_j4(:,i)=SCARAdir([QQ(1,i); QQ(2,i); QQ(3,i); QQ(4,i)],L);
 end
 
 figure
 subplot(4,1,1)
 plot(tt_1,Siniziale(1,:),tt_1(end)+Tcumulata,x_t_sp,tt_1(end)+Tcumulata(end)+tt_2,Sfinale(1,:))
 title("Traiettoria completa asse x")
+legend("tratto iniziale","tratto centrale","tratto finale",'Location','best')
+ylabel("[m]")
+xlabel("t [s]")
 grid on
 subplot(4,1,2)
 plot(tt_1,Siniziale(2,:),tt_1(end)+Tcumulata,y_t_sp,tt_1(end)+Tcumulata(end)+tt_2,Sfinale(2,:))
 title("Traiettoria completa asse y")
+legend("tratto iniziale","tratto centrale","tratto finale",'Location','best')
+ylabel("[m]")
+xlabel("t [s]")
 grid on
 subplot(4,1,3)
 plot(tt_1,Siniziale(3,:),tt_1(end)+Tcumulata,z_t_sp,tt_1(end)+Tcumulata(end)+tt_2,Sfinale(3,:))
 title("Traiettoria completa asse z")
+legend("tratto iniziale","tratto centrale","tratto finale",'Location','best')
+ylabel("[m]")
+xlabel("t [s]")
 grid on
 subplot(4,1,4)
 plot(tt_1,Siniziale(4,:),tt_1(end)+Tcumulata,S_j4(4,:),tt_1(end)+Tcumulata(end)+tt_2,Sfinale(4,:))
 title("Traiettoria completa giunto 4")
+legend("tratto iniziale","tratto centrale","tratto finale",'Location','best')
+xlabel("t [s]")
+ylabel("[rad]")
+ylim([-4,4])
 grid on
 
 
