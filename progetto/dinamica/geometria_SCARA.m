@@ -87,8 +87,8 @@ Ag=[0 0 9.81 0 0 0 9.81 0 0 9.81 0 0 0 9.81 0]';
 
 % specificare limiti degli angoli ai giunti in qualche modo
 % motion range
-% J1= 290°
-% J2= 290°
+% J1= 300°
+% J2= 300°
 % J3= 300mm
 % J4= 1440°
 % 

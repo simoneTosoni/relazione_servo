@@ -21,11 +21,11 @@ title("Area di lavoro SCARA (piano XY)")
 
 % plot piano xy
 % calcolo coordinate max ai giunti 
-Q1max = pi/2 + 290/180*pi/2;
-Q1min = pi/2 - 290/180*pi/2;
+Q1max = pi/2 + 300/180*pi/2; 
+Q1min = pi/2 - 300/180*pi/2; 
 
-Q2max = + 290/180*pi/2;
-Q2min = - 290/180*pi/2;
+Q2max = + 300/180*pi/2;
+Q2min = - 300/180*pi/2;
 
 % PlotSCARA([Q1max Q2max Q(3) Q(4)],L,'b',1)
 % PlotSCARA([Q1min Q2min Q(3) Q(4)],L,'b',1)
@@ -77,8 +77,11 @@ plot3(S(1),S(2),S(3),'r*')
 
 PlotSCARA(Q,L,'b',2)
 
-Q3min = +0.05;
-Q3max = 0.40;
+% Q3min = +0.05;
+% Q3max = 0.40;
+
+Q3min = +0.0;
+Q3max = 0.3;
 
 for i=1:101
     q6(i) = Q3min+(Q3max-Q3min)/100*(i-1);
