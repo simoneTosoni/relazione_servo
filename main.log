@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  9 OCT 2025 16:44
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  13 OCT 2025 15:13
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2889,30 +2889,25 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-
-Overfull \hbox (35.4441pt too wide) in paragraph at lines 42--43
-[][] 
- []
-
 Package epstopdf Info: Source file: <media/4_control/traiettoria_finale.eps>
-(epstopdf)                    date: 2025-10-09 16:20:43
-(epstopdf)                    size: 246453 bytes
+(epstopdf)                    date: 2025-10-13 14:37:45
+(epstopdf)                    size: 253474 bytes
 (epstopdf)             Output file: <media/4_control/traiettoria_finale-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-10-09 16:21:52
-(epstopdf)                    size: 29730 bytes
+(epstopdf)                    date: 2025-10-13 14:43:38
+(epstopdf)                    size: 31228 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/4_control/traiettori
 a_finale-eps-converted-to.pdf media/4_control/traiettoria_finale.eps>
-(epstopdf)             \includegraphics on input line 48.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<media/4_control/traiettoria_finale-eps-converted-to.pdf, id=1240, 429.605pt x 
-311.1625pt>
+<media/4_control/traiettoria_finale-eps-converted-to.pdf, id=1240, 370.38374pt 
+x 285.065pt>
 File: media/4_control/traiettoria_finale-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use media/4_control/traiettoria_finale-eps-converted-to.pdf>
 Package luatex.def Info: media/4_control/traiettoria_finale-eps-converted-to.pd
-f  used on input line 48.
-(luatex.def)             Requested size: 433.62pt x 314.07698pt.
+f  used on input line 52.
+(luatex.def)             Requested size: 433.62pt x 333.73784pt.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2942,14 +2937,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37135 strings out of 477805
+ 37144 strings out of 477805
  476944,1373583 words of node,token memory allocated
  803 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 52 attribute, 72 glue_spec
 , 28 attribute_list, 2 write, 6 pdf_action nodes
-   avail lists: 1:1,2:8652,3:513,4:7728,5:7649,6:124,7:18176,8:99,9:22278,10:43,
+   avail lists: 1:1,2:8652,3:507,4:7728,5:7649,6:124,7:18176,8:99,9:22278,10:43,
 11:1669
- 54629 multiletter control sequences out of 65536+600000
+ 54638 multiletter control sequences out of 65536+600000
  83 fonts using 5370447 bytes
  109i,18n,100p,614b,2050s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
@@ -2973,7 +2968,7 @@ are/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/zapfchan/uzcmi8a.pfb>
-Output written on main.pdf (54 pages, 1242748 bytes).
+Output written on main.pdf (54 pages, 1244752 bytes).
 
 PDF statistics: 1356 PDF objects out of 1440 (max. 8388607)
  1109 compressed objects within 12 object streams
