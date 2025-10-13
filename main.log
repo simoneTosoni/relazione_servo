@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  13 OCT 2025 15:13
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  13 OCT 2025 16:02
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -864,25 +864,101 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks46
 \@floatcapt=\box82
 )
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip71
+\multirow@cntb=\count333
+\multirow@dima=\skip72
+\bigstrutjot=\dimen304
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count334
+\mult@box=\box83
+\multicol@leftmargin=\dimen305
+\c@unbalance=\count335
+\c@collectmore=\count336
+\doublecol@number=\count337
+\multicoltolerance=\count338
+\multicolpretolerance=\count339
+\full@width=\dimen306
+\page@free=\dimen307
+\premulticols=\dimen308
+\postmulticols=\dimen309
+\multicolsep=\skip73
+\multicolbaselineskip=\skip74
+\partial@page=\box84
+\last@line=\box85
+\maxbalancingoverflow=\dimen310
+\mult@rightbox=\box86
+\mult@grightbox=\box87
+\mult@firstbox=\box88
+\mult@gfirstbox=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\c@minrows=\count340
+\c@columnbadness=\count341
+\c@finalcolumnbadness=\count342
+\last@try=\dimen311
+\multicolovershoot=\dimen312
+\multicolundershoot=\dimen313
+\mult@nat@firstbox=\box126
+\colbreak@box=\box127
+\mc@col@check@num=\count343
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count333
-\lst@gtempboxa=\box83
+\lst@mode=\count344
+\lst@gtempboxa=\box128
 \lst@token=\toks47
-\lst@length=\count334
-\lst@currlwidth=\dimen304
-\lst@column=\count335
-\lst@pos=\count336
-\lst@lostspace=\dimen305
-\lst@width=\dimen306
-\lst@newlines=\count337
-\lst@lineno=\count338
-\lst@maxwidth=\dimen307
+\lst@length=\count345
+\lst@currlwidth=\dimen314
+\lst@column=\count346
+\lst@pos=\count347
+\lst@lostspace=\dimen315
+\lst@width=\dimen316
+\lst@newlines=\count348
+\lst@lineno=\count349
+\lst@maxwidth=\dimen317
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count339
-\lst@skipnumbers=\count340
-\lst@framebox=\box84
+\c@lstnumber=\count350
+\lst@skipnumbers=\count351
+\lst@framebox=\box129
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -917,9 +993,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count341
-\svg@box=\box85
-\c@svg@param@currpage=\count342
+\c@svg@param@lastpage=\count352
+\svg@box=\box130
+\c@svg@param@currpage=\count353
 )
 (/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
@@ -940,9 +1016,9 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-\@linkdim=\dimen308
-\Hy@linkcounter=\count343
-\Hy@pagecounter=\count344
+\@linkdim=\dimen318
+\Hy@linkcounter=\count354
+\Hy@pagecounter=\count355
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -957,7 +1033,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count345
+\Hy@SavedSpaceFactor=\count356
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -969,14 +1045,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count346
+\c@Hy@tempcnt=\count357
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen309
+\XeTeXLinkMargin=\dimen319
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -985,9 +1061,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count347
-\Field@Width=\dimen310
-\Fld@charsize=\dimen311
+\Fld@menulength=\count358
+\Field@Width=\dimen320
+\Fld@charsize=\dimen321
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -1002,9 +1078,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count348
-\c@Item=\count349
-\c@Hfootnote=\count350
+\Hy@abspage=\count359
+\c@Item=\count360
+\c@Hfootnote=\count361
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -1020,8 +1096,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count351
-\c@bookmark@seq@number=\count352
+\Fld@listcount=\count362
+\c@bookmark@seq@number=\count363
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -1032,49 +1108,49 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip71
+\Hy@SectionHShift=\skip75
 )
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count353
-\bibleftmargin=\skip72
-\bibindent=\skip73
-\bibparsep=\skip74
-\bibitemsep=\skip75
-\biblabelsep=\skip76
+\c@BibCnt=\count364
+\bibleftmargin=\skip76
+\bibindent=\skip77
+\bibparsep=\skip78
+\bibitemsep=\skip79
+\biblabelsep=\skip80
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip77
-\f@nch@O@elh=\skip78
-\f@nch@O@erh=\skip79
-\f@nch@O@olh=\skip80
-\f@nch@O@orh=\skip81
-\f@nch@O@elf=\skip82
-\f@nch@O@erf=\skip83
-\f@nch@O@olf=\skip84
-\f@nch@O@orf=\skip85
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
 )
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count354
-\c@@ppsavesec=\count355
-\c@@ppsaveapp=\count356
+\c@@pps=\count365
+\c@@ppsavesec=\count366
+\c@@ppsaveapp=\count367
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count357
-\c@subtable=\count358
+\c@subfigure=\count368
+\c@subtable=\count369
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip86
-\enit@outerparindent=\dimen312
+\labelindent=\skip90
+\enit@outerparindent=\dimen322
 \enit@toks=\toks48
-\enit@inbox=\box86
-\enit@count@id=\count359
-\enitdp@description=\count360
+\enit@inbox=\box131
+\enit@count@id=\count370
+\enitdp@description=\count371
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -1098,8 +1174,12 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen313
-)) (./main.aux
+\arrowsize=\dimen323
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (./main.aux
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
@@ -1193,31 +1273,31 @@ LaTeX Warning: Label `sub@fig:' multiply defined.
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-1.
+3.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1255,32 +1335,32 @@ LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen314
-\scratchbox=\box87
-\nofMPsegments=\count362
-\nofMParguments=\count363
+\scratchcounter=\count372
+\scratchdimen=\dimen324
+\scratchbox=\box132
+\nofMPsegments=\count373
+\nofMParguments=\count374
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen315
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
+\MPscratchCnt=\count375
+\MPscratchDim=\dimen325
+\MPnumerator=\count376
+\makeMPintoPDFobject=\count377
 \everyMPtoPDFconversion=\toks50
 )
-LaTeX Info: Redefining \celsius on input line 41.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 41.
+LaTeX Info: Redefining \celsius on input line 43.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 43.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 41.
-Package gensymb Info: Using \Omega for \ohm on input line 41.
+LaTeX Info: Redefining \ohm on input line 43.
+Package gensymb Info: Using \Omega for \ohm on input line 43.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Info: Redefining \it@ocap on input line 41.
-LaTeX Info: Redefining \it@ccap on input line 41.
+LaTeX Info: Redefining \it@ocap on input line 43.
+LaTeX Info: Redefining \it@ccap on input line 43.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1301,9 +1381,9 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 41.
-\c@lstlisting=\count367
-Package hyperref Info: Link coloring OFF on input line 41.
+alian.trsl' found. on input line 43.
+\c@lstlisting=\count378
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1314,28 +1394,28 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count368
+\c@section@level=\count379
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 
 \openout4 = main.out
-\c@maskedRefs=\count369
+\c@maskedRefs=\count380
 
 
 Package apacite Warning: No suitable language definition file (italian.apc) fou
 nd.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1350,14 +1430,14 @@ df>
 (epstopdf)                    size: 44670 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/elaborato-ep
 s-converted-to.pdf media/1_intro/elaborato.eps>
-(epstopdf)             \includegraphics on input line 44.
+(epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 <media/1_intro/elaborato-eps-converted-to.pdf, id=75, 597.23125pt x 725.71124pt
 >
 File: media/1_intro/elaborato-eps-converted-to.pdf Graphic file (type pdf)
 <use media/1_intro/elaborato-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/elaborato-eps-converted-to.pdf  used on 
-input line 44.
+input line 46.
 (luatex.def)             Requested size: 173.44534pt x 156.46237pt.
  [1
 
@@ -1366,7 +1446,7 @@ s-converted-to.pdf>] [2
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
-5.
+7.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./main.toc)
@@ -1467,7 +1547,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-1.
+2.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1481,7 +1561,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10])
-Overfull \hbox (3.20927pt too wide) detected at line 71
+Overfull \hbox (3.20927pt too wide) detected at line 72
 \OML/cmm/m/it/10.95 J[] \OT1/cmr/m/n/10.95 = [] [] = []
  []
 
@@ -1513,15 +1593,15 @@ d-to.pdf>
 (epstopdf)                    size: 44450 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/working_area
 _xy-eps-converted-to.pdf media/1_intro/working_area_xy.eps>
-(epstopdf)             \includegraphics on input line 93.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_xy-eps-converted-to.pdf, id=402, 559.08875pt x 441.
+<media/1_intro/working_area_xy-eps-converted-to.pdf, id=404, 559.08875pt x 441.
 65pt>
 File: media/1_intro/working_area_xy-eps-converted-to.pdf Graphic file (type pdf
 )
 <use media/1_intro/working_area_xy-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/working_area_xy-eps-converted-to.pdf  us
-ed on input line 93.
+ed on input line 94.
 (luatex.def)             Requested size: 346.89731pt x 274.03581pt.
 Package epstopdf Info: Source file: <media/1_intro/working_area_yz.eps>
 (epstopdf)                    date: 2025-10-09 16:11:38
@@ -1532,19 +1612,19 @@ d-to.pdf>
 (epstopdf)                    size: 29846 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/1_intro/working_area
 _yz-eps-converted-to.pdf media/1_intro/working_area_yz.eps>
-(epstopdf)             \includegraphics on input line 100.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_yz-eps-converted-to.pdf, id=403, 421.575pt x 316.18
+<media/1_intro/working_area_yz-eps-converted-to.pdf, id=405, 421.575pt x 316.18
 124pt>
 File: media/1_intro/working_area_yz-eps-converted-to.pdf Graphic file (type pdf
 )
 <use media/1_intro/working_area_yz-eps-converted-to.pdf>
 Package luatex.def Info: media/1_intro/working_area_yz-eps-converted-to.pdf  us
-ed on input line 100.
+ed on input line 101.
 (luatex.def)             Requested size: 346.89731pt x 260.1773pt.
 
 
-LaTeX Warning: Float too large for page by 16.65312pt on input line 106.
+LaTeX Warning: Float too large for page by 16.65312pt on input line 107.
 
 ) (./chapters/kin_din.tex
 
@@ -1612,7 +1692,7 @@ ed-to.pdf>
 posa-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posa.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf, id=500, 429.605pt x 311.1
+<media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf, id=502, 429.605pt x 311.1
 625pt>
 File: media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1633,7 +1713,7 @@ posizione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posizione_grip
 per.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf, id=501, 421.
+<media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf, id=503, 421.
 575pt x 316.18124pt>
 File: media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1667,7 +1747,7 @@ velocità_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/velocità_grip
 per.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=514, 414.
+<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=516, 414.
 54875pt x 321.2pt>
 File: media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1688,7 +1768,7 @@ accelerazione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/accelerazi
 one_gripper.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=515, 
+<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=517, 
 429.605pt x 311.1625pt>
 File: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1721,7 +1801,7 @@ erted-to.pdf>
 g_joint-eps-converted-to.pdf media/2_kin_din/1_cin_dir/g_joint.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=534, 429.605pt x 46
+<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=536, 429.605pt x 46
 7.7475pt>
 File: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1773,7 +1853,7 @@ ed-to.pdf>
 posa-eps-converted-to.pdf media/2_kin_din/2_cin_inv/posa.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=615, 429.605pt x 311.1
+<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=617, 429.605pt x 311.1
 625pt>
 File: media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1792,7 +1872,7 @@ nverted-to.pdf>
 pos_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_fisso.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=616, 368.37625pt 
+<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=618, 368.37625pt 
 x 304.13625pt>
 File: media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1824,7 +1904,7 @@ nverted-to.pdf>
 vel_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_fisso.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=636, 362.35374pt 
+<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=638, 362.35374pt 
 x 308.15125pt>
 File: media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1843,7 +1923,7 @@ nverted-to.pdf>
 acc_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_fisso.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=637, 371.3875pt x
+<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=639, 371.3875pt x
  304.13625pt>
 File: media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1875,7 +1955,7 @@ gripper_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/gripper_fisso.eps>
 
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=656, 429.605p
+<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=658, 429.605p
 t x 495.8525pt>
 File: media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1907,7 +1987,7 @@ onverted-to.pdf>
 pos_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_giunti.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=668, 364.36125pt
+<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=670, 364.36125pt
  x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1939,7 +2019,7 @@ onverted-to.pdf>
 vel_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_giunti.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=681, 364.36125pt
+<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=683, 364.36125pt
  x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1958,7 +2038,7 @@ onverted-to.pdf>
 acc_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_giunti.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=682, 367.3725pt 
+<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=684, 367.3725pt 
 x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1978,7 +2058,7 @@ Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/prism_giunti.eps
 prism_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/prism_giunti.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=683, 429.605pt
+<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=685, 429.605pt
  x 454.69875pt>
 File: media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2046,7 +2126,7 @@ rted-to.pdf>
 coppie-eps-converted-to.pdf media/2_kin_din/3_din_inv/coppie.eps>
 (epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf, id=742, 359.3425pt x 29
+<media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf, id=744, 359.3425pt x 29
 8.11375pt>
 File: media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2065,7 +2145,7 @@ erted-to.pdf>
 energia-eps-converted-to.pdf media/2_kin_din/3_din_inv/energia.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf, id=743, 366.36874pt x 
+<media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf, id=745, 366.36874pt x 
 299.1175pt>
 File: media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2084,7 +2164,7 @@ erted-to.pdf>
 potenza-eps-converted-to.pdf media/2_kin_din/3_din_inv/potenza.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf, id=744, 370.38374pt x 
+<media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf, id=746, 370.38374pt x 
 299.1175pt>
 File: media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2182,7 +2262,7 @@ ia/traiettoria_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pdf, i
-d=866, 368.37625pt x 271.0125pt>
+d=868, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pd
@@ -2204,7 +2284,7 @@ ia/traiettoria_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pdf, i
-d=867, 355.3275pt x 280.04625pt>
+d=869, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pd
@@ -2230,7 +2310,7 @@ velocita_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf, id=8
-68, 367.3725pt x 271.0125pt>
+70, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf>
@@ -2251,7 +2331,7 @@ velocita_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf, id=8
-69, 358.33875pt x 276.03125pt>
+71, 358.33875pt x 276.03125pt>
 File: media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>
@@ -2275,7 +2355,7 @@ oria/accelerazione_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.pdf,
- id=870, 372.39125pt x 271.0125pt>
+ id=872, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
@@ -2297,7 +2377,7 @@ oria/accelerazione_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.pdf,
- id=871, 372.39125pt x 271.0125pt>
+ id=873, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.
@@ -2362,7 +2442,7 @@ legge_moto_centrale.eps>
 (epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/legge_moto_centrale-eps-converted-to.pdf, id=9
-66, 618.31pt x 468.75125pt>
+68, 618.31pt x 468.75125pt>
 File: media/3_simulazione_traiettoria/legge_moto_centrale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/legge_moto_centrale-eps-converted-to.pdf>
@@ -2383,7 +2463,7 @@ toria/posizione_w_centrale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/posizione_w_centrale-eps-converted-to.pdf, id=
-971, 429.605pt x 311.1625pt>
+973, 429.605pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/posizione_w_centrale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/posizione_w_centrale-eps-converted-to.pdf>
@@ -2405,7 +2485,7 @@ velocita_w_centrale.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_w_centrale-eps-converted-to.pdf, id=9
-72, 465.74pt x 376.40625pt>
+74, 465.74pt x 376.40625pt>
 File: media/3_simulazione_traiettoria/velocita_w_centrale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_centrale-eps-converted-to.pdf>
@@ -2426,7 +2506,7 @@ oria/accelerazione_w_centrale.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_centrale-eps-converted-to.pdf,
- id=973, 498.86375pt x 402.50375pt>
+ id=975, 498.86375pt x 402.50375pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_centrale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_centrale-eps-converted-to.
@@ -2448,7 +2528,7 @@ toria/posizione_j_centrale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/posizione_j_centrale-eps-converted-to.pdf, id=
-977, 414.54875pt x 321.2pt>
+979, 414.54875pt x 321.2pt>
 File: media/3_simulazione_traiettoria/posizione_j_centrale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/posizione_j_centrale-eps-converted-to.pdf>
@@ -2502,7 +2582,7 @@ velocita_j_centrale.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_j_centrale-eps-converted-to.pdf, id=1
-038, 429.605pt x 311.1625pt>
+040, 429.605pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/velocita_j_centrale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_centrale-eps-converted-to.pdf>
@@ -2523,7 +2603,7 @@ oria/accelerazione_j_centrale.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_centrale-eps-converted-to.pdf,
- id=1039, 429.605pt x 311.1625pt>
+ id=1041, 429.605pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_centrale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_centrale-eps-converted-to.
@@ -2577,7 +2657,7 @@ toria/traiettoria_j_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf, id=
-1102, 368.37625pt x 271.0125pt>
+1104, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf>
@@ -2599,7 +2679,7 @@ toria/traiettoria_w_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf, id=
-1103, 355.3275pt x 280.04625pt>
+1105, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf>
@@ -2625,7 +2705,7 @@ locita_j_finale.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf, id=110
-4, 367.3725pt x 271.0125pt>
+6, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf>
@@ -2646,7 +2726,7 @@ locita_w_finale.eps>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf, id=110
-5, 367.3725pt x 271.0125pt>
+7, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf>
@@ -2667,7 +2747,7 @@ ia/accelerazione_j_finale.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pdf, i
-d=1106, 367.3725pt x 271.0125pt>
+d=1108, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
@@ -2689,7 +2769,7 @@ ia/accelerazione_w_finale.eps>
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pdf, i
-d=1107, 367.3725pt x 271.0125pt>
+d=1109, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pd
@@ -2751,7 +2831,7 @@ toria/traiettoria_completa-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf, id=
-1182, 421.575pt x 316.18124pt>
+1184, 421.575pt x 316.18124pt>
 File: media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf>
@@ -2772,7 +2852,7 @@ toria/traiettoria_ws-eps-converted-to.pdf media/3_simulazione_traiettoria/traie
 ttoria_ws.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/traiettoria_ws-eps-converted-to.pdf, id=1183, 
+<media/3_simulazione_traiettoria/traiettoria_ws-eps-converted-to.pdf, id=1185, 
 530.98375pt x 423.5825pt>
 File: media/3_simulazione_traiettoria/traiettoria_ws-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2812,7 +2892,7 @@ Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/coppie.eps
 toria/coppie-eps-converted-to.pdf media/3_simulazione_traiettoria/coppie.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/coppie-eps-converted-to.pdf, id=1207, 414.5487
+<media/3_simulazione_traiettoria/coppie-eps-converted-to.pdf, id=1209, 414.5487
 5pt x 321.2pt>
 File: media/3_simulazione_traiettoria/coppie-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2833,7 +2913,7 @@ toria/energia-eps-converted-to.pdf media/3_simulazione_traiettoria/energia.eps>
 
 (epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/energia-eps-converted-to.pdf, id=1208, 414.548
+<media/3_simulazione_traiettoria/energia-eps-converted-to.pdf, id=1210, 414.548
 75pt x 321.2pt>
 File: media/3_simulazione_traiettoria/energia-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2854,7 +2934,7 @@ toria/potenza-eps-converted-to.pdf media/3_simulazione_traiettoria/potenza.eps>
 
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/potenza-eps-converted-to.pdf, id=1209, 429.605
+<media/3_simulazione_traiettoria/potenza-eps-converted-to.pdf, id=1211, 429.605
 pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/potenza-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2898,15 +2978,15 @@ verted-to.pdf>
 (epstopdf)                    size: 31228 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/4_control/traiettori
 a_finale-eps-converted-to.pdf media/4_control/traiettoria_finale.eps>
-(epstopdf)             \includegraphics on input line 52.
+(epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<media/4_control/traiettoria_finale-eps-converted-to.pdf, id=1240, 370.38374pt 
+<media/4_control/traiettoria_finale-eps-converted-to.pdf, id=1243, 370.38374pt 
 x 285.065pt>
 File: media/4_control/traiettoria_finale-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use media/4_control/traiettoria_finale-eps-converted-to.pdf>
 Package luatex.def Info: media/4_control/traiettoria_finale-eps-converted-to.pd
-f  used on input line 52.
+f  used on input line 76.
 (luatex.def)             Requested size: 433.62pt x 333.73784pt.
 )
 
@@ -2937,14 +3017,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37144 strings out of 477805
- 476944,1373583 words of node,token memory allocated
- 803 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 52 attribute, 72 glue_spec
+ 37395 strings out of 477805
+ 476947,1373583 words of node,token memory allocated
+ 818 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 52 attribute, 75 glue_spec
 , 28 attribute_list, 2 write, 6 pdf_action nodes
-   avail lists: 1:1,2:8652,3:507,4:7728,5:7649,6:124,7:18176,8:99,9:22278,10:43,
+   avail lists: 1:3,2:8652,3:633,4:7728,5:7649,6:124,7:18176,8:99,9:22278,10:43,
 11:1669
- 54638 multiletter control sequences out of 65536+600000
+ 54863 multiletter control sequences out of 65536+600000
  83 fonts using 5370447 bytes
  109i,18n,100p,614b,2050s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
@@ -2968,10 +3048,10 @@ are/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/zapfchan/uzcmi8a.pfb>
-Output written on main.pdf (54 pages, 1244752 bytes).
+Output written on main.pdf (54 pages, 1246519 bytes).
 
-PDF statistics: 1356 PDF objects out of 1440 (max. 8388607)
- 1109 compressed objects within 12 object streams
- 512 named destinations out of 1000 (max. 131072)
+PDF statistics: 1361 PDF objects out of 1440 (max. 8388607)
+ 1114 compressed objects within 12 object streams
+ 513 named destinations out of 1000 (max. 131072)
  182 words of extra memory for PDF output out of 10000 (max. 100000000)
 

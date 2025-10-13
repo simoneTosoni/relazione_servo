@@ -2,7 +2,9 @@
 \graphicspath{{media/1_intro}}
 Per il sistema di controllo si è optato per un controllore decentralizzato che comandasse i singoli giunti in maniera indipendente.
 
-La simulazione è stata ottenuta con i tools SImulink e Simscape di MATLAB.
+La simulazione è stata ottenuta con i tools Simulink e Simscape di MATLAB.
+
+Si è scelto di fornire nella simulazione direttamente le posizioni calcolate ai giunti della traiettoria, invece che fornire la traiettoria nello spazio di lavoro e determinare nell'ambiente Simscape tramite function block la cinematica inversa, poiché già precedentemente determinate nella simulazione.
 
 Per ogni giunto si è scelto di implementare un controllore PID in configurazione cascade control. L'anello di controllo più interno controlla la velocità del manipolatore e presenta un guadagno proporzionale molto elevato, mentre l'azione integrale e derivativa sono spente per garantire la stabilità del controllore. L'anello più esterno controlla la posizione ed è stato implementato un controllore PI. 
 
@@ -12,19 +14,22 @@ Per ogni giunto si è scelto di implementare un controllore PID in configurazion
 	thick,
 	>=latex',
 	block/.style={draw, rectangle, minimum width=1.5cm, minimum height=1.2cm, align=center},
-	sum/.style={draw, circle, inner sep=1.5pt, node distance=1cm},
+	sum/.style={draw, circle, inner sep=2pt, node distance=1cm},
 	node distance=2cm
 	]
 	
 	% Nodi principali
-	\node (r) at (-1,0) {$x_{ref}(t)$};
-	\node[sum] (sum1) at (0.5,0) {};
-	\node[block] (Gc1) at (2,0) {$PI$};
-	\node[sum] (sum2) at (4,0) {};
+	\node (r) at (-1,0) {$q_{ref}(t)$};
+	\node[sum] (sum1) at (0.5,0) {$ + $};
+	\node[block] (Gc1) at (2.25,0) {$PI$};
+	\node[sum] (sum2) at (4,0) {$ + $};
 	\node[block] (Gc2) at (6,0) {$P$};
-	\node[block] (Gp) at (9,0) {$G(s)$};
-	\node (y1) at (12,0.5) {$x_{out}(t)$};
-	\node (y2) at (11,-0.5) {$\dot{x}_{out}(t)$};
+	\node[block] (Gp) at (9,0) {$SCARA$};
+	\node (y1) at (12,0.5) {$q_{out}(t)$};
+	\node (y2) at (11,-0.5) {$\dot{q}_{out}(t)$};
+	
+	\node[below left=10pt and -5pt of sum1] {$-$};
+	\node[below left=10pt and -5pt of sum2] {$-$};
 	
 	% Linee di segnale principali
 	\draw[->] (r) -- (sum1);
@@ -42,10 +47,29 @@ Per ogni giunto si è scelto di implementare un controllore PID in configurazion
 	
 	% Feedback esterno (primario)
 	\draw[->] (y1.south) |- ++(0,-2.5) -| (sum1.south);
-	
 \end{tikzpicture} \vspace{20pt}
 
-Si è scelto di fornire nella simulazione direttamente le posizioni calcolate ai giunti della traiettoria, invece che fornire la traiettoria nello spazio di lavoro e determinare nell'ambiente Simscape tramite function block la cinematica inversa, poiché già precedentemente determinate nella simulazione.
+Si riportano nella tabella \ref{tab:tuning_par} i parametri di controllo scelti per il tuning dei controllori.
+
+\begin{table}
+	\centering
+	\begin{tabularx}{0.8\linewidth}{|C|C|C|C|}
+		\hline
+		\rowcolor{lightgray} \textbf{Giunto} & \textbf{Anello di controllo} & \textbf{P} & \textbf{I}\\
+		\hline \hline
+		\multirow{2}{*}{{\alpha}} & posizione & 50 & 5 \\ \cline{2-4}
+		& velocità & 500 & 0 \\ \hline \hline
+		\multirow{2}{*}{{\beta}}  & posizione & 50 & 5 \\ \cline{2-4}
+		& velocità & 500 & 0\\ \hline \hline
+		\multirow{2}{*}{\textit{s}} & posizione & 50 & 5 \\ \cline{2-4}
+		& velocità & 500 & 0 \\ \hline \hline
+		\multirow{2}{*}{{\gamma}} & posizione & 50 & 5 \\ \cline{2-4}
+		& velocità & 500 & 0 \\ \hline		
+	\end{tabularx}
+	\caption{Parametri di tuning dei controllori.}
+	\label{tab:tuning_par}
+\end{table} 
+
 
 \begin{figure}[tbph!]
 	\centering
@@ -53,3 +77,5 @@ Si è scelto di fornire nella simulazione direttamente le posizioni calcolate ai
 	\caption{Confronto tra la traiettoria di riferimento e la traiettoria compiuta dal robot.}
 	\label{fig:traiettoriafinale}
 \end{figure}
+
+
