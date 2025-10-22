@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  13 OCT 2025 16:02
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2025.6.26)  22 OCT 2025 18:22
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1595,7 +1595,7 @@ d-to.pdf>
 _xy-eps-converted-to.pdf media/1_intro/working_area_xy.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_xy-eps-converted-to.pdf, id=404, 559.08875pt x 441.
+<media/1_intro/working_area_xy-eps-converted-to.pdf, id=410, 559.08875pt x 441.
 65pt>
 File: media/1_intro/working_area_xy-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1614,7 +1614,7 @@ d-to.pdf>
 _yz-eps-converted-to.pdf media/1_intro/working_area_yz.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<media/1_intro/working_area_yz-eps-converted-to.pdf, id=405, 421.575pt x 316.18
+<media/1_intro/working_area_yz-eps-converted-to.pdf, id=411, 421.575pt x 316.18
 124pt>
 File: media/1_intro/working_area_yz-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1692,7 +1692,7 @@ ed-to.pdf>
 posa-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posa.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf, id=502, 429.605pt x 311.1
+<media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf, id=508, 429.605pt x 311.1
 625pt>
 File: media/2_kin_din/1_cin_dir/posa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1713,7 +1713,7 @@ posizione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/posizione_grip
 per.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf, id=503, 421.
+<media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf, id=509, 421.
 575pt x 316.18124pt>
 File: media/2_kin_din/1_cin_dir/posizione_gripper-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1747,7 +1747,7 @@ velocità_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/velocità_grip
 per.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=516, 414.
+<media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf, id=522, 414.
 54875pt x 321.2pt>
 File: media/2_kin_din/1_cin_dir/velocità_gripper-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1768,7 +1768,7 @@ accelerazione_gripper-eps-converted-to.pdf media/2_kin_din/1_cin_dir/accelerazi
 one_gripper.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=517, 
+<media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf, id=523, 
 429.605pt x 311.1625pt>
 File: media/2_kin_din/1_cin_dir/accelerazione_gripper-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1801,7 +1801,7 @@ erted-to.pdf>
 g_joint-eps-converted-to.pdf media/2_kin_din/1_cin_dir/g_joint.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=536, 429.605pt x 46
+<media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf, id=542, 429.605pt x 46
 7.7475pt>
 File: media/2_kin_din/1_cin_dir/g_joint-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1853,7 +1853,7 @@ ed-to.pdf>
 posa-eps-converted-to.pdf media/2_kin_din/2_cin_inv/posa.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=617, 429.605pt x 311.1
+<media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf, id=623, 429.605pt x 311.1
 625pt>
 File: media/2_kin_din/2_cin_inv/posa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1872,7 +1872,7 @@ nverted-to.pdf>
 pos_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_fisso.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=618, 368.37625pt 
+<media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf, id=624, 368.37625pt 
 x 304.13625pt>
 File: media/2_kin_din/2_cin_inv/pos_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1904,7 +1904,7 @@ nverted-to.pdf>
 vel_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_fisso.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=638, 362.35374pt 
+<media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf, id=644, 362.35374pt 
 x 308.15125pt>
 File: media/2_kin_din/2_cin_inv/vel_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1923,7 +1923,7 @@ nverted-to.pdf>
 acc_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_fisso.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=639, 371.3875pt x
+<media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf, id=645, 371.3875pt x
  304.13625pt>
 File: media/2_kin_din/2_cin_inv/acc_fisso-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1955,7 +1955,7 @@ gripper_fisso-eps-converted-to.pdf media/2_kin_din/2_cin_inv/gripper_fisso.eps>
 
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=658, 429.605p
+<media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf, id=664, 429.605p
 t x 495.8525pt>
 File: media/2_kin_din/2_cin_inv/gripper_fisso-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1987,7 +1987,7 @@ onverted-to.pdf>
 pos_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/pos_giunti.eps>
 (epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=670, 364.36125pt
+<media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf, id=677, 364.36125pt
  x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/pos_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2019,7 +2019,7 @@ onverted-to.pdf>
 vel_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/vel_giunti.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=683, 364.36125pt
+<media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf, id=689, 364.36125pt
  x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/vel_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2038,7 +2038,7 @@ onverted-to.pdf>
 acc_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/acc_giunti.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=684, 367.3725pt 
+<media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf, id=690, 367.3725pt 
 x 299.1175pt>
 File: media/2_kin_din/2_cin_inv/acc_giunti-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2058,7 +2058,7 @@ Package epstopdf Info: Source file: <media/2_kin_din/2_cin_inv/prism_giunti.eps
 prism_giunti-eps-converted-to.pdf media/2_kin_din/2_cin_inv/prism_giunti.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=685, 429.605pt
+<media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf, id=691, 429.605pt
  x 454.69875pt>
 File: media/2_kin_din/2_cin_inv/prism_giunti-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2126,7 +2126,7 @@ rted-to.pdf>
 coppie-eps-converted-to.pdf media/2_kin_din/3_din_inv/coppie.eps>
 (epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf, id=744, 359.3425pt x 29
+<media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf, id=750, 359.3425pt x 29
 8.11375pt>
 File: media/2_kin_din/3_din_inv/coppie-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2145,7 +2145,7 @@ erted-to.pdf>
 energia-eps-converted-to.pdf media/2_kin_din/3_din_inv/energia.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf, id=745, 366.36874pt x 
+<media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf, id=751, 366.36874pt x 
 299.1175pt>
 File: media/2_kin_din/3_din_inv/energia-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2164,7 +2164,7 @@ erted-to.pdf>
 potenza-eps-converted-to.pdf media/2_kin_din/3_din_inv/potenza.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
-<media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf, id=746, 370.38374pt x 
+<media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf, id=752, 370.38374pt x 
 299.1175pt>
 File: media/2_kin_din/3_din_inv/potenza-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2262,7 +2262,7 @@ ia/traiettoria_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pdf, i
-d=868, 368.37625pt x 271.0125pt>
+d=874, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_iniziale-eps-converted-to.pd
@@ -2284,7 +2284,7 @@ ia/traiettoria_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pdf, i
-d=869, 355.3275pt x 280.04625pt>
+d=875, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_iniziale-eps-converted-to.pd
@@ -2310,7 +2310,7 @@ velocita_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf, id=8
-70, 367.3725pt x 271.0125pt>
+76, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_iniziale-eps-converted-to.pdf>
@@ -2331,7 +2331,7 @@ velocita_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf, id=8
-71, 358.33875pt x 276.03125pt>
+77, 358.33875pt x 276.03125pt>
 File: media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_iniziale-eps-converted-to.pdf>
@@ -2355,7 +2355,7 @@ oria/accelerazione_j_iniziale.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.pdf,
- id=872, 372.39125pt x 271.0125pt>
+ id=878, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_iniziale-eps-converted-to.
@@ -2377,7 +2377,7 @@ oria/accelerazione_w_iniziale.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.pdf,
- id=873, 372.39125pt x 271.0125pt>
+ id=879, 372.39125pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_iniziale-eps-converted-to.
@@ -2442,7 +2442,7 @@ legge_moto_centrale.eps>
 (epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/legge_moto_centrale-eps-converted-to.pdf, id=9
-68, 618.31pt x 468.75125pt>
+74, 618.31pt x 468.75125pt>
 File: media/3_simulazione_traiettoria/legge_moto_centrale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/legge_moto_centrale-eps-converted-to.pdf>
@@ -2463,7 +2463,7 @@ toria/posizione_w_centrale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 100.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/posizione_w_centrale-eps-converted-to.pdf, id=
-973, 429.605pt x 311.1625pt>
+979, 429.605pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/posizione_w_centrale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/posizione_w_centrale-eps-converted-to.pdf>
@@ -2485,7 +2485,7 @@ velocita_w_centrale.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_w_centrale-eps-converted-to.pdf, id=9
-74, 465.74pt x 376.40625pt>
+80, 465.74pt x 376.40625pt>
 File: media/3_simulazione_traiettoria/velocita_w_centrale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_centrale-eps-converted-to.pdf>
@@ -2506,7 +2506,7 @@ oria/accelerazione_w_centrale.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_centrale-eps-converted-to.pdf,
- id=975, 498.86375pt x 402.50375pt>
+ id=981, 498.86375pt x 402.50375pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_centrale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_centrale-eps-converted-to.
@@ -2528,7 +2528,7 @@ toria/posizione_j_centrale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/posizione_j_centrale-eps-converted-to.pdf, id=
-979, 414.54875pt x 321.2pt>
+985, 414.54875pt x 321.2pt>
 File: media/3_simulazione_traiettoria/posizione_j_centrale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/posizione_j_centrale-eps-converted-to.pdf>
@@ -2582,7 +2582,7 @@ velocita_j_centrale.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/velocita_j_centrale-eps-converted-to.pdf, id=1
-040, 429.605pt x 311.1625pt>
+046, 429.605pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/velocita_j_centrale-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_centrale-eps-converted-to.pdf>
@@ -2603,7 +2603,7 @@ oria/accelerazione_j_centrale.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_centrale-eps-converted-to.pdf,
- id=1041, 429.605pt x 311.1625pt>
+ id=1047, 429.605pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_centrale-eps-converted-to
 .pdf Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_centrale-eps-converted-to.
@@ -2657,7 +2657,7 @@ toria/traiettoria_j_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf, id=
-1104, 368.37625pt x 271.0125pt>
+1110, 368.37625pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_j_finale-eps-converted-to.pdf>
@@ -2679,7 +2679,7 @@ toria/traiettoria_w_finale-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf, id=
-1105, 355.3275pt x 280.04625pt>
+1111, 355.3275pt x 280.04625pt>
 File: media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_w_finale-eps-converted-to.pdf>
@@ -2704,8 +2704,8 @@ toria/velocita_j_finale-eps-converted-to.pdf media/3_simulazione_traiettoria/ve
 locita_j_finale.eps>
 (epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf, id=110
-6, 367.3725pt x 271.0125pt>
+<media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf, id=111
+2, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_j_finale-eps-converted-to.pdf>
@@ -2725,8 +2725,8 @@ toria/velocita_w_finale-eps-converted-to.pdf media/3_simulazione_traiettoria/ve
 locita_w_finale.eps>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf, id=110
-7, 367.3725pt x 271.0125pt>
+<media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf, id=111
+3, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use media/3_simulazione_traiettoria/velocita_w_finale-eps-converted-to.pdf>
@@ -2747,7 +2747,7 @@ ia/accelerazione_j_finale.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pdf, i
-d=1108, 367.3725pt x 271.0125pt>
+d=1114, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_j_finale-eps-converted-to.pd
@@ -2769,7 +2769,7 @@ ia/accelerazione_w_finale.eps>
 (epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pdf, i
-d=1109, 367.3725pt x 271.0125pt>
+d=1115, 367.3725pt x 271.0125pt>
 File: media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.p
 df Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/accelerazione_w_finale-eps-converted-to.pd
@@ -2831,7 +2831,7 @@ toria/traiettoria_completa-eps-converted-to.pdf media/3_simulazione_traiettoria
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 <media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf, id=
-1184, 421.575pt x 316.18124pt>
+1190, 421.575pt x 316.18124pt>
 File: media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf
  Graphic file (type pdf)
 <use media/3_simulazione_traiettoria/traiettoria_completa-eps-converted-to.pdf>
@@ -2852,7 +2852,7 @@ toria/traiettoria_ws-eps-converted-to.pdf media/3_simulazione_traiettoria/traie
 ttoria_ws.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/traiettoria_ws-eps-converted-to.pdf, id=1185, 
+<media/3_simulazione_traiettoria/traiettoria_ws-eps-converted-to.pdf, id=1191, 
 530.98375pt x 423.5825pt>
 File: media/3_simulazione_traiettoria/traiettoria_ws-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2892,7 +2892,7 @@ Package epstopdf Info: Source file: <media/3_simulazione_traiettoria/coppie.eps
 toria/coppie-eps-converted-to.pdf media/3_simulazione_traiettoria/coppie.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/coppie-eps-converted-to.pdf, id=1209, 414.5487
+<media/3_simulazione_traiettoria/coppie-eps-converted-to.pdf, id=1215, 414.5487
 5pt x 321.2pt>
 File: media/3_simulazione_traiettoria/coppie-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2913,7 +2913,7 @@ toria/energia-eps-converted-to.pdf media/3_simulazione_traiettoria/energia.eps>
 
 (epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/energia-eps-converted-to.pdf, id=1210, 414.548
+<media/3_simulazione_traiettoria/energia-eps-converted-to.pdf, id=1216, 414.548
 75pt x 321.2pt>
 File: media/3_simulazione_traiettoria/energia-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2934,7 +2934,7 @@ toria/potenza-eps-converted-to.pdf media/3_simulazione_traiettoria/potenza.eps>
 
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
-<media/3_simulazione_traiettoria/potenza-eps-converted-to.pdf, id=1211, 429.605
+<media/3_simulazione_traiettoria/potenza-eps-converted-to.pdf, id=1217, 429.605
 pt x 311.1625pt>
 File: media/3_simulazione_traiettoria/potenza-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2970,24 +2970,111 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
  []
 
 Package epstopdf Info: Source file: <media/4_control/traiettoria_finale.eps>
-(epstopdf)                    date: 2025-10-13 14:37:45
-(epstopdf)                    size: 253474 bytes
+(epstopdf)                    date: 2025-10-22 16:39:09
+(epstopdf)                    size: 277877 bytes
 (epstopdf)             Output file: <media/4_control/traiettoria_finale-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-10-13 14:43:38
-(epstopdf)                    size: 31228 bytes
+(epstopdf)                    date: 2025-10-22 16:44:06
+(epstopdf)                    size: 34801 bytes
 (epstopdf)             Command: <repstopdf --outfile=media/4_control/traiettori
 a_finale-eps-converted-to.pdf media/4_control/traiettoria_finale.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<media/4_control/traiettoria_finale-eps-converted-to.pdf, id=1243, 370.38374pt 
-x 285.065pt>
+<media/4_control/traiettoria_finale-eps-converted-to.pdf, id=1249, 837.1275pt x
+ 583.17876pt>
 File: media/4_control/traiettoria_finale-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use media/4_control/traiettoria_finale-eps-converted-to.pdf>
 Package luatex.def Info: media/4_control/traiettoria_finale-eps-converted-to.pd
 f  used on input line 76.
-(luatex.def)             Requested size: 433.62pt x 333.73784pt.
+(luatex.def)             Requested size: 433.62pt x 302.07118pt.
+Package epstopdf Info: Source file: <media/4_control/j1_ctrl.eps>
+(epstopdf)                    date: 2025-10-22 16:43:53
+(epstopdf)                    size: 157399 bytes
+(epstopdf)             Output file: <media/4_control/j1_ctrl-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-10-22 16:44:07
+(epstopdf)                    size: 53102 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/4_control/j1_ctrl-ep
+s-converted-to.pdf media/4_control/j1_ctrl.eps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+<media/4_control/j1_ctrl-eps-converted-to.pdf, id=1250, 1095.09125pt x 556.0775
+pt>
+File: media/4_control/j1_ctrl-eps-converted-to.pdf Graphic file (type pdf)
+<use media/4_control/j1_ctrl-eps-converted-to.pdf>
+Package luatex.def Info: media/4_control/j1_ctrl-eps-converted-to.pdf  used on 
+input line 83.
+(luatex.def)             Requested size: 650.43pt x 330.28899pt.
+
+LaTeX Warning: Float too large for page by 95.87pt on input line 86.
+
+Package epstopdf Info: Source file: <media/4_control/j2_ctrl.eps>
+(epstopdf)                    date: 2025-10-22 16:54:49
+(epstopdf)                    size: 156075 bytes
+(epstopdf)             Output file: <media/4_control/j2_ctrl-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-10-22 16:55:07
+(epstopdf)                    size: 53115 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/4_control/j2_ctrl-ep
+s-converted-to.pdf media/4_control/j2_ctrl.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+<media/4_control/j2_ctrl-eps-converted-to.pdf, id=1251, 1095.09125pt x 556.0775
+pt>
+File: media/4_control/j2_ctrl-eps-converted-to.pdf Graphic file (type pdf)
+<use media/4_control/j2_ctrl-eps-converted-to.pdf>
+Package luatex.def Info: media/4_control/j2_ctrl-eps-converted-to.pdf  used on 
+input line 90.
+(luatex.def)             Requested size: 650.43pt x 330.28899pt.
+
+LaTeX Warning: Float too large for page by 95.87pt on input line 93.
+
+Package epstopdf Info: Source file: <media/4_control/j3_ctrl.eps>
+(epstopdf)                    date: 2025-10-22 17:01:27
+(epstopdf)                    size: 162977 bytes
+(epstopdf)             Output file: <media/4_control/j3_ctrl-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-10-22 17:01:52
+(epstopdf)                    size: 53554 bytes
+(epstopdf)             Command: <repstopdf --outfile=media/4_control/j3_ctrl-ep
+s-converted-to.pdf media/4_control/j3_ctrl.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+<media/4_control/j3_ctrl-eps-converted-to.pdf, id=1252, 1095.09125pt x 556.0775
+pt>
+File: media/4_control/j3_ctrl-eps-converted-to.pdf Graphic file (type pdf)
+<use media/4_control/j3_ctrl-eps-converted-to.pdf>
+Package luatex.def Info: media/4_control/j3_ctrl-eps-converted-to.pdf  used on 
+input line 97.
+(luatex.def)             Requested size: 650.43pt x 330.28899pt.
+
+LaTeX Warning: Float too large for page by 95.87pt on input line 100.
+
+Package epstopdf Info: Source file: <media/4_control/j4_ctrl.eps>
+(epstopdf)                    date: 2025-10-22 18:22:41
+(epstopdf)                    size: 162242 bytes
+(epstopdf)             Output file: <media/4_control/j4_ctrl-eps-converted-to.p
+df>
+(epstopdf)             Command: <repstopdf --outfile=media/4_control/j4_ctrl-ep
+s-converted-to.pdf media/4_control/j4_ctrl.eps>
+(epstopdf)             \includegraphics on input line 104.
+system(repstopdf --outfile=media/4_control/j4_ctrl-eps-converted-to.pdf media/4_
+control/j4_ctrl.eps) executed.
+Package epstopdf Info: Result file: <media/4_control/j4_ctrl-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-10-22 18:23:04
+(epstopdf)                    size: 47858 bytes.
+<media/4_control/j4_ctrl-eps-converted-to.pdf, id=1253, 1095.09125pt x 556.0775
+pt>
+File: media/4_control/j4_ctrl-eps-converted-to.pdf Graphic file (type pdf)
+<use media/4_control/j4_ctrl-eps-converted-to.pdf>
+Package luatex.def Info: media/4_control/j4_ctrl-eps-converted-to.pdf  used on 
+input line 104.
+(luatex.def)             Requested size: 650.43pt x 330.28899pt.
+
+LaTeX Warning: Float too large for page by 95.87pt on input line 107.
+
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3008,7 +3095,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[54<./media/4_control/traiettoria_finale-eps-converted-to.pdf>] (./main.aux)
+[54<./media/4_control/traiettoria_finale-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[55<./media/4_control/j1_ctrl-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[56<./media/4_control/j2_ctrl-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[57<./media/4_control/j3_ctrl-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[58<./media/4_control/j4_ctrl-eps-converted-to.pdf>] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -3017,14 +3140,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37395 strings out of 477805
- 476947,1373583 words of node,token memory allocated
+ 37527 strings out of 477805
+ 476932,1373583 words of node,token memory allocated
  818 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 7 glue, 4 kern, 1 glyph, 52 attribute, 75 glue_spec
 , 28 attribute_list, 2 write, 6 pdf_action nodes
-   avail lists: 1:3,2:8652,3:633,4:7728,5:7649,6:124,7:18176,8:99,9:22278,10:43,
+   avail lists: 1:3,2:8652,3:717,4:7728,5:7649,6:124,7:18176,8:99,9:22278,10:43,
 11:1669
- 54863 multiletter control sequences out of 65536+600000
+ 54915 multiletter control sequences out of 65536+600000
  83 fonts using 5370447 bytes
  109i,18n,100p,614b,2050s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
@@ -3048,10 +3171,10 @@ are/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/zapfchan/uzcmi8a.pfb>
-Output written on main.pdf (54 pages, 1246519 bytes).
+Output written on main.pdf (58 pages, 1445170 bytes).
 
-PDF statistics: 1361 PDF objects out of 1440 (max. 8388607)
- 1114 compressed objects within 12 object streams
- 513 named destinations out of 1000 (max. 131072)
+PDF statistics: 1416 PDF objects out of 1440 (max. 8388607)
+ 1153 compressed objects within 12 object streams
+ 521 named destinations out of 1000 (max. 131072)
  182 words of extra memory for PDF output out of 10000 (max. 100000000)
 

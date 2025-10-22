@@ -61,10 +61,10 @@ Si riportano nella tabella \ref{tab:tuning_par} i parametri di controllo scelti 
 		& velocità & 500 & 0 \\ \hline \hline
 		\multirow{2}{*}{{\beta}}  & posizione & 50 & 5 \\ \cline{2-4}
 		& velocità & 500 & 0\\ \hline \hline
-		\multirow{2}{*}{\textit{s}} & posizione & 50 & 5 \\ \cline{2-4}
-		& velocità & 500 & 0 \\ \hline \hline
-		\multirow{2}{*}{{\gamma}} & posizione & 50 & 5 \\ \cline{2-4}
-		& velocità & 500 & 0 \\ \hline		
+		\multirow{2}{*}{\textit{s}} & posizione & 100 & 10 \\ \cline{2-4}
+		& velocità & 1000 & 0 \\ \hline \hline
+		\multirow{2}{*}{{\gamma}} & posizione & 100 & 5 \\ \cline{2-4}
+		& velocità & 1000 & 0 \\ \hline		
 	\end{tabularx}
 	\caption{Parametri di tuning dei controllori.}
 	\label{tab:tuning_par}
@@ -73,9 +73,35 @@ Si riportano nella tabella \ref{tab:tuning_par} i parametri di controllo scelti 
 
 \begin{figure}[tbph!]
 	\centering
-	\includegraphics[width=1\linewidth]{media/4_control/traiettoria_finale}
+	\includegraphics[width=\linewidth]{media/4_control/traiettoria_finale}
 	\caption{Confronto tra la traiettoria di riferimento e la traiettoria compiuta dal robot.}
 	\label{fig:traiettoriafinale}
 \end{figure}
 
+\begin{figure}[tbph!]
+	\centering
+	\includegraphics[width=1.5\linewidth,angle=90]{media/4_control/j1_ctrl}
+	\caption{}
+	\label{fig:j1ctrl}
+\end{figure}
 
+\begin{figure}
+	\centering
+	\includegraphics[width=1.5\linewidth,angle=90]{media/4_control/j2_ctrl}
+	\caption{}
+	\label{fig:j2ctrl}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1.5\linewidth,angle=90]{media/4_control/j3_ctrl}
+	\caption{}
+	\label{fig:j3ctrl}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1.5\linewidth,angle=90]{media/4_control/j4_ctrl}
+	\caption{}
+	\label{fig:j4ctrl}
+\end{figure}
