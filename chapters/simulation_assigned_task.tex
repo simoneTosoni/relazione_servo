@@ -18,15 +18,17 @@ Per la creazione dei punti della traiettoria si è proceduto prima definendo i p
 
 \lstinputlisting[language=Octave, firstline=24, lastline=47, firstnumber=24]{media/3_simulazione_traiettoria/creazione_nodi.m}
 
-Creata la traiettoria assegnata è necessario identificare un punto $ P1 $ dell'area di lavoro del manipolatore dal quale parte il tratto iniziale della traiettoria e al quale rientra al termine della simulazione.
+Creata la traiettoria assegnata si è proceduto identificando un punto $ P1 $ dell'area di lavoro del manipolatore dal quale parte il tratto iniziale della traiettoria e al quale rientra al termine della simulazione.
 
 \lstinputlisting[language=Octave, firstline=49, lastline=51, firstnumber=49]{media/3_simulazione_traiettoria/creazione_nodi.m}
 
 \newpage
 \section{Simulazione del tratto iniziale}
-Il tratto iniziale prevede il movimento nello spazio dei giunti del manipolatore dal punto $ P1 $ al primo punto della traiettoria assegnata. 
+Il tratto iniziale prevede il movimento nello spazio dei giunti del manipolatore dal punto $ P1 $ al primo punto della traiettoria assegnata con legge di moto cicloidale e tempo di attuazione minimo. 
 
 \lstinputlisting[language=Octave, lastline=33]{media/3_simulazione_traiettoria/tratto_iniziale.m}
+
+Si riporta la traiettoria del tratto finale nello spazio di lavoro nella figura \ref{fig:traiettoria_completa}.
 
 \begin{figure}[htbp!]
 	\centering
@@ -118,9 +120,15 @@ Si è proseguito proiettando la legge di moto precedentemente ottenuta lungo la 
 	\label{fig:accelerazionewcentrale}
 \end{figure}
 
-Infine è stata calcolata la cinematica inversa, i cui risultati sono riportati nelle figure \ref{fig:posizionejcentrale}, \ref{fig:velocitajcentrale} e \ref{fig:accelerazionejcentrale}. 
+Infine è stata calcolata la cinematica inversa per via analitica, i cui risultati sono riportati nelle figure \ref{fig:posizionejcentrale}, \ref{fig:velocitajcentrale} e \ref{fig:accelerazionejcentrale}. 
 
+\lstinputlisting[language=Octave,firstline=184, lastline=196,firstnumber=184]{media/3_simulazione_traiettoria/finale.m}
 
+Per verificare la correttezza dei risultati si è proceduto a calcolare velocità e accelerazioni anche per derivazione alle differenze finite.
+
+\lstinputlisting[language=Octave,firstline=226, lastline=229,firstnumber=226]{media/3_simulazione_traiettoria/finale.m}
+
+\lstinputlisting[language=Octave,firstline=262, lastline=265,firstnumber=262]{media/3_simulazione_traiettoria/finale.m}
 
 \begin{figure}[tbph!]
 	\centering
@@ -146,9 +154,11 @@ Infine è stata calcolata la cinematica inversa, i cui risultati sono riportati 
 
 \newpage
 \section{Simulazione del tratto finale}
-Il tratto finale prevede il movimento nello spazio dei giunti del manipolatore dall'ultimo punto della traiettoria assegnata al punto $ P1 $.
+Il tratto finale prevede il movimento nello spazio dei giunti del manipolatore dall'ultimo punto della traiettoria assegnata al punto $ P1 $ con legge di moto cicloidale e tempo di attuazione minimo.
 
 \lstinputlisting[language=Octave, lastline=34]{media/3_simulazione_traiettoria/tratto_finale.m}
+
+Si riporta la traiettoria del tratto finale nello spazio di lavoro nella figura \ref{fig:traiettoria_completa}.
 
 \begin{figure}[htbp!]
 	\centering
@@ -220,24 +230,33 @@ La traiettoria completa nello spazio di lavoro del manipolatore è riportata nel
 
 \newpage
 \section{Calcolo delle coppie e forze ai giunti}
+Il calcolo delle coppie e delle forze ai giunti è stato svolto con la dinamica inversa in maniera analoga a come riportato nel capitolo \ref{chapter:dinamica_inversa}.
+
+\lstinputlisting[language=Octave,firstline=337, lastline=361,firstnumber=337]{media/3_simulazione_traiettoria/finale.m}
+
+Anche in questo caso si è proceduto al calcolo dell'energia totale e della potenza assorbita per controllare la correttezza dei risultati ottenuti.
+
+\lstinputlisting[language=Octave,firstline=370, lastline=383,firstnumber=370]{media/3_simulazione_traiettoria/finale.m}
+
+\lstinputlisting[language=Octave,firstline=395, lastline=401,firstnumber=395]{media/3_simulazione_traiettoria/finale.m}
 
 \begin{figure}[tbph!]
 	\centering
-	\includegraphics[width=0.7\linewidth]{media/3_simulazione_traiettoria/coppie}
+	\includegraphics[width=0.8\linewidth]{media/3_simulazione_traiettoria/coppie}
 	\caption{Coppie e forze ai giunti nella traiettoria simulata.}
 	\label{fig:coppie_sim}
 \end{figure}
 
 \begin{figure}[tbph!]
 	\centering
-	\includegraphics[width=0.7\linewidth]{media/3_simulazione_traiettoria/energia}
+	\includegraphics[width=0.8\linewidth]{media/3_simulazione_traiettoria/energia}
 	\caption{Energia durante la simulazione.}
 	\label{fig:energia_sim}
 \end{figure}
 
 \begin{figure}[tbph!]
 	\centering
-	\includegraphics[width=0.7\linewidth]{media/3_simulazione_traiettoria/potenza}
+	\includegraphics[width=0.8\linewidth]{media/3_simulazione_traiettoria/potenza}
 	\caption{Potenza assorbita dai giunti durante la simulazione.}
 	\label{fig:potenza_sim}
 \end{figure}

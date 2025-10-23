@@ -81,13 +81,13 @@ La cinematica inversa del robot SCARA è la seguente:
 
 \[
 \begin{cases}
-	\alpha=acos(\frac{(x^2+y^2-l_1^2-l_2^2)}{(2l_1l_2)})\\
-	\beta=atan(\frac{y}{x})-atan(\frac{l_2sin(q_2)}{l_1+l_2cos(q_2)})\\
+	\alpha=atan(\frac{y}{x})-atan(\frac{l_2sin(q_2)}{l_1+l_2cos(q_2)})\\
+	\beta=\pm acos(\frac{(x^2+y^2-l_1^2-l_2^2)}{(2l_1l_2)})\\
 	s=h-z\\
-	\gamma=g-q_1-q_2\\
+	\gamma=g-\alpha-\beta\\
 \end{cases}\].
 
-La cinematica inversa è stata calcolata per via analitica con la funzione riportata in seguito.
+La cinematica inversa è stata calcolata per via analitica con la funzione riportata in seguito. Per il giunto \beta si è scelto arbitrariamente la configurazione $ \beta=+acos(\frac{(x^2+y^2-l_1^2-l_2^2)}{(2l_1l_2)}) $ positiva.
 
 \lstinputlisting[language=Octave]{media/2_kin_din/2_cin_inv/SCARAinvAnalitica.m}
 
@@ -99,6 +99,8 @@ Si riporta in seguito la simulazione della traiettoria, definita rispetto al sis
 
 \lstinputlisting[language=Octave,lastline=38]{media/2_kin_din/2_cin_inv/cinematica_SCARA_jac_inv.m}
 
+Si riportano di seguito i risultati della simulazione sia nello spazio di lavoro che ai giunti.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{posa}
@@ -108,61 +110,63 @@ Si riporta in seguito la simulazione della traiettoria, definita rispetto al sis
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{pos_fisso.eps}
+    \includegraphics[width=0.65\linewidth]{pos_fisso.eps}
     \caption{Posizione del gripper nel sistema di riferimento alla base del robot.}
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{vel_fisso}
-    \caption{Velocità del gripper nel sistema di riferimento alla base del robot.}
+    \includegraphics[width=0.65\linewidth]{vel_fisso}
+    \caption{Velocità del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{acc_fisso}
-    \caption{Accelerazione del gripper nel sistema di riferimento alla base del robot.}
+    \includegraphics[width=0.65\linewidth]{acc_fisso}
+    \caption{Accelerazione del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{gripper_fisso}
-    \caption{Orientamento del gripper nel sistema di riferimento alla base del robot.}
+    \caption{Orientamento del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{pos_giunti}
+    \includegraphics[width=0.65\textwidth]{pos_giunti}
     \caption{Orientamento dei giunti durante la traiettoria simulata.}
     \label{fig:enter-label}
 \end{figure}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{vel_giunti}
-    \caption{Velocità dei giunti durante la traiettoria simulata.}
+    \includegraphics[width=0.65\textwidth]{vel_giunti}
+    \caption{Velocità dei giunti durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
     \label{fig:enter-label}
 \end{figure}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{acc_giunti}
-    \caption{Accelerazione dei giunti durante la traiettoria simulata.}
+    \includegraphics[width=0.65\linewidth]{acc_giunti}
+    \caption{Accelerazione dei giunti durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{prism_giunti}
-    \caption{Posizione, velocità e accelerazione del giunto prismatico durante la traiettoria simulata.}
+    \caption{Posizione, velocità e accelerazione del giunto prismatico durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.}
     \label{fig:enter-label}
 \end{figure}
 
-\section{Dinamica inversa}
+\newpage
+\section{Dinamica inversa},
+\label{chapter:dinamica_inversa}
 \graphicspath{{media/2_kin_din/3_din_inv}}
 
 Le coppie e forze ai giunti del manipolatore sono state calcolate secondo il modello:
@@ -170,68 +174,70 @@ Le coppie e forze ai giunti del manipolatore sono state calcolate secondo il mod
 
 \lstinputlisting[language=Octave,firstline=12,lastline=19,firstnumber=12]{media/2_kin_din/3_din_inv/dinamica_SCARA_jac_inv.m}
 
-nella quale $ S_e $ cinematica estesa del manipolatore corrisponde alla seguente matrice:
-\[
-\begin{bmatrix}
-    x_4 = l_1cos(a)+l_2cos(\alpha+\beta)\\
-    y_4 = l_1sin(\alpha)+l_2sin(\alpha+\beta)\\
-    z_4 = h-s\\
-    g_4 = \alpha+\beta+\gamma\\
-    x_3 = l_1cos(\alpha)+l_2cos(\alpha+\beta)\\
-    y_3 = l_1sin(\alpha)+l_2sin(\alpha+\beta)\\
-    z_3 = h-s+g_3\\
-    x_2 = l_1cos(\alpha)+g_2cos(\alpha+\beta)\\
-    y_2 = l_1sin(\alpha)+g_2sin(\alpha+\beta)\\
-    z_2 = h\\
-    g_2 = \alpha+\beta\\
-    x_1 = g_1cos(\alpha)\\
-    y_2 = g_1sin(\alpha)\\
-    z_1 = h\\
-    g_1 = \alpha.
-\end{bmatrix}
-\]
+nel quale:
+\begin{itemize}
+	\item la cinematica estesa del manipolatore corrisponde alla seguente matrice 
+	\[ S_e=
+	\begin{bmatrix}
+		x_4 = l_1cos(a)+l_2cos(\alpha+\beta)\\
+		y_4 = l_1sin(\alpha)+l_2sin(\alpha+\beta)\\
+		z_4 = h-s\\
+		g_4 = \alpha+\beta+\gamma\\
+		x_3 = l_1cos(\alpha)+l_2cos(\alpha+\beta)\\
+		y_3 = l_1sin(\alpha)+l_2sin(\alpha+\beta)\\
+		z_3 = h-s+g_3\\
+		x_2 = l_1cos(\alpha)+g_2cos(\alpha+\beta)\\
+		y_2 = l_1sin(\alpha)+g_2sin(\alpha+\beta)\\
+		z_2 = h\\
+		g_2 = \alpha+\beta\\
+		x_1 = g_1cos(\alpha)\\
+		y_2 = g_1sin(\alpha)\\
+		z_1 = h\\
+		g_1 = \alpha.
+	\end{bmatrix}
+	\]
+	\item lo Jacobiano esteso 
+	\[  J_e =
+	\begin{bmatrix}
+		-l_1sin(\alpha)-l_2sin(\alpha+\beta) & -l_2sin(\alpha+\beta) & 0 & 0 \\
+		l_1cos(\alpha)+l_2cos(\alpha+\beta) & l_2cos(\alpha+\beta) & 0 & 0\\
+		0 & 0 & -1 & 0\\
+		1 & 1 & 0 & 1\\
+		-l_1sin(\alpha)-l_2sin(\alpha+\beta) & -l_2sin(\alpha+\beta) & 0 & 0\\
+		l_1cos(\alpha)+l_2cos(\alpha+\beta) & l_2cos(\alpha+\beta) & 0 & 0\\
+		0 & 0 & -1 & 0\\
+		-l_1sin(\alpha)-g_2sin(\alpha+\beta) & -g_2sin(\alpha+\beta) & 0 & 0\\
+		l_1cos(\alpha)+g_2cos(\alpha+\beta) & g_2cos(\alpha+\beta) & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		1 & 1 & 0 & 0\\
+		-g_1sin(\alpha) & 0 & 0 & 0\\
+		g_1cos(\alpha) & 0 & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		1 & 0 & 0 & 0\\
+	\end{bmatrix}
+	\]
+	\item mentre la derivata dello Jacobiano esteso 
+	\[ \Dot{J_e} =
+	\begin{bmatrix}
+		-l_1cos(\alpha)\Dot{\alpha}-l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+		-l_1sin(\alpha)\Dot{\alpha}-l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		-l_1cos(\alpha)\Dot{\alpha}-l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+		-l_1sin(\alpha)\Dot{\alpha}-l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		-l_1cos(\alpha)\Dot{\alpha}-g_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -g_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+		-l_1sin(\alpha)\Dot{\alpha}-g_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -g_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		-g_1cos(\alpha)\Dot{\alpha} & 0 & 0 & 0\\
+		-g_1sin(\alpha)\Dot{\alpha} & 0 & 0 & 0\\
+		0 & 0 & 0 & 0\\
+		0 & 0 & 0 & 0\\
+	\end{bmatrix}
+	\]
+\end{itemize} 
 
-lo Jacobiano esteso $ J_e $:
-\[
-\begin{bmatrix}
-    -l_1sin(\alpha)-l_2sin(\alpha+\beta) & -l_2sin(\alpha+\beta) & 0 & 0 \\
-    l_1cos(\alpha)+l_2cos(\alpha+\beta) & l_2cos(\alpha+\beta) & 0 & 0\\
-    0 & 0 & -1 & 0\\
-    1 & 1 & 0 & 1\\
-    -l_1sin(\alpha)-l_2sin(\alpha+\beta) & -l_2sin(\alpha+\beta) & 0 & 0\\
-    l_1cos(\alpha)+l_2cos(\alpha+\beta) & l_2cos(\alpha+\beta) & 0 & 0\\
-    0 & 0 & -1 & 0\\
-    -l_1sin(\alpha)-g_2sin(\alpha+\beta) & -g_2sin(\alpha+\beta) & 0 & 0\\
-    l_1cos(\alpha)+g_2cos(\alpha+\beta) & g_2cos(\alpha+\beta) & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    1 & 1 & 0 & 0\\
-    -g_1sin(\alpha) & 0 & 0 & 0\\
-    g_1cos(\alpha) & 0 & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    1 & 0 & 0 & 0\\
-\end{bmatrix}
-\]
-
-mentre la derivata dello Jacobiano esteso $ \Dot{J_e} $:
-\[
-\begin{bmatrix}
-    -l_1cos(\alpha)\Dot{\alpha}-l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
-    -l_1sin(\alpha)\Dot{\alpha}-l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    -l_1cos(\alpha)\Dot{\alpha}-l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
-    -l_1sin(\alpha)\Dot{\alpha}-l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -l_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    -l_1cos(\alpha)\Dot{\alpha}-g_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -g_2cos(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
-    -l_1sin(\alpha)\Dot{\alpha}-g_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & -g_2sin(\alpha+\beta)(\Dot{\alpha}+\Dot{\beta}) & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    -g_1cos(\alpha)\Dot{\alpha} & 0 & 0 & 0\\
-    -g_1sin(\alpha)\Dot{\alpha} & 0 & 0 & 0\\
-    0 & 0 & 0 & 0\\
-    0 & 0 & 0 & 0\\
-\end{bmatrix}
-\]
 
 La dinamica è stata controllata calcolando l'energia totale, come somma dell'energia potenziale e cinetica, e confrontando la derivata prima dell'energia totale con la potenza assorbita dai giunti del manipolatore. 
 
@@ -243,7 +249,7 @@ L'energia potenziale è stata calcolata come \[ E_p = S_e^{T}MA_g+E_{e_{0}}\]
 
 La potenza assorbita dai giunti è stata calcolata come \[ W = F_q^{T}\dot{Q}+F_{se}^{T}\dot{S_e}\]
 
-Di seguito si riportano i risultati della dinamica inversa.
+Di seguito si riportano i risultati del calcolo della dinamica inversa.
 
 \begin{figure}[htpb!]
 	\centering

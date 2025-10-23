@@ -387,6 +387,8 @@ plot(simtime,Ek,simtime,Ep,simtime,Et,[simtime(1) simtime(end)],[0 0],'k')
 %plot(tt_1,Ek(1:length(tt_1)),tt_1,Ep(1:length(tt_1)),tt_1,Ek(1:length(tt_1))+Ep(1:length(tt_1)),[tt_1(1) tt_1(end)],[0 0],'k')
 ylim([-20 180])
 title("Energia piano verticale")
+xlabel("tempo [s]")
+ylabel("[J]")
 legend("En cinetica","En potenziale","En totale","Location","best")
 grid on
 
@@ -401,6 +403,8 @@ dEt=gradient(Et,simtime);
 figure
 plot(simtime,W,simtime,dEt)
 legend("Potenza","der En tot")
+xlabel("tempo [s]")
+ylabel("[W]")
 title("Potenza piano verticale")
 grid on
 

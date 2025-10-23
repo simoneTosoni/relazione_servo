@@ -8,12 +8,12 @@
 \contentsline {section}{\numberline {2.1}Cinematica}{15}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Cinematica diretta}{15}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Cinematica inversa}{20}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Dinamica inversa}{28}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Simulazione della task assegnata}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Creazione della traiettoria}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Simulazione del tratto iniziale}{35}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Simulazione del tratto centrale}{39}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Simulazione del tratto finale}{44}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Traiettoria completa}{49}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Calcolo delle coppie e forze ai giunti}{51}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Struttura del controllore}{53}{chapter.4}%
+\contentsline {section}{\numberline {2.2}Dinamica inversa}{29}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Simulazione della task assegnata}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Creazione della traiettoria}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Simulazione del tratto iniziale}{37}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Simulazione del tratto centrale}{41}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Simulazione del tratto finale}{46}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Traiettoria completa}{51}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Calcolo delle coppie e forze ai giunti}{53}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Struttura del controllore}{57}{chapter.4}%
