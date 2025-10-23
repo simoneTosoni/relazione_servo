@@ -1,50 +1,51 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Robot SCARA.\relax }}{9}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Area di lavoro con manipolatore in una posizione singolare.\relax }}{14}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Robot SCARA.\relax }}{11}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Area di lavoro con manipolatore in una posizione singolare.\relax }}{16}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria curvilinea.\relax }}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Posizioni del gripper nel calcolo della cinematica diretta.\relax }}{18}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Velocità del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive coordinate di posizione.\relax }}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Accelerazioni del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{19}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Coordinate di orientamento, velocità ed accelerazione del quarto giunto rotoidale (gripper). Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive posizioni e velocità.\relax }}{20}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria rettilinea.\relax }}{22}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Posizione del gripper nel sistema di riferimento alla base del robot.\relax }}{23}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Velocità del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{23}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Accelerazione del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{24}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Orientamento del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{25}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Orientamento dei giunti durante la traiettoria simulata.\relax }}{26}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Velocità dei giunti durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{26}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Accelerazione dei giunti durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{27}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Posizione, velocità e accelerazione del giunto prismatico durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{28}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Coppie e forze della traiettoria simulata.\relax }}{32}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Energia assorbita dai giunti nella traiettoria simulata.\relax }}{32}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Potenza assorbita dai giunti nella traiettoria simulata.\relax }}{33}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria curvilinea.\relax }}{19}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Posizioni del gripper nel calcolo della cinematica diretta.\relax }}{20}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Velocità del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive coordinate di posizione.\relax }}{20}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Accelerazioni del gripper nel calcolo della cinematica diretta. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{21}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Coordinate di orientamento, velocità ed accelerazione del quarto giunto rotoidale (gripper). Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive posizioni e velocità.\relax }}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Posa e traiettoria compiuta dal manipolatore nella simulazione con traiettoria rettilinea.\relax }}{24}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Posizione del gripper nel sistema di riferimento alla base del robot.\relax }}{25}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Velocità del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{25}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Accelerazione del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{26}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Orientamento del gripper nel sistema di riferimento alla base del robot. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{27}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Orientamento dei giunti durante la traiettoria simulata.\relax }}{28}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Velocità dei giunti durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{28}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Accelerazione dei giunti durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{29}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Posizione, velocità e accelerazione del giunto prismatico durante la traiettoria simulata. Le grandezze che terminano con $\#$ sono state ricavate tramite derivazione alle differenze finite delle rispettive velocità.\relax }}{30}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Coppie e forze della traiettoria simulata.\relax }}{34}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Energia assorbita dai giunti nella traiettoria simulata.\relax }}{34}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Potenza assorbita dai giunti nella traiettoria simulata.\relax }}{35}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Forma della traiettoria assegnata.\relax }}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Traiettoria del tratto iniziale.\relax }}{38}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Velocità del tratto iniziale.\relax }}{39}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Accelerazione del tratto iniziale.\relax }}{40}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Legge di moto complessiva sul tratto centrale.\relax }}{42}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Posizioni assunte dal gripper nel working space nella traiettoria assegnata.\relax }}{43}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Velocità assunte dal gripper nel working space nella traiettoria assegnata.\relax }}{43}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Accelerazioni assunte dal gripper nel working space nella traiettoria assegnata.\relax }}{44}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Posizioni dei giunti nella traiettoria assegnata.\relax }}{45}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Velocità dei giunti nella traiettoria assegnata.\relax }}{45}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Accelerazioni dei giunti nella traiettoria assegnata.\relax }}{46}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Traiettoria del tratto finale.\relax }}{48}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Velocità del tratto finale.\relax }}{49}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Accelerazione del tratto finale.\relax }}{50}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Traiettoria completa da simulare.\relax }}{51}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Traiettoria nel working space proiettata lungo gli assi cartesiani.}}{52}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Coppie e forze ai giunti nella traiettoria simulata.\relax }}{54}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Energia durante la simulazione.\relax }}{55}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Potenza assorbita dai giunti durante la simulazione.\relax }}{55}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Forma della traiettoria assegnata.\relax }}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Traiettoria del tratto iniziale.\relax }}{40}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Velocità del tratto iniziale.\relax }}{41}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Accelerazione del tratto iniziale.\relax }}{42}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Legge di moto complessiva sul tratto centrale.\relax }}{44}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Posizioni assunte dal gripper nel working space nella traiettoria assegnata.\relax }}{45}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Velocità assunte dal gripper nel working space nella traiettoria assegnata.\relax }}{45}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Accelerazioni assunte dal gripper nel working space nella traiettoria assegnata.\relax }}{46}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Posizioni dei giunti nella traiettoria assegnata.\relax }}{47}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Velocità dei giunti nella traiettoria assegnata.\relax }}{47}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Accelerazioni dei giunti nella traiettoria assegnata.\relax }}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Traiettoria del tratto finale.\relax }}{50}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Velocità del tratto finale.\relax }}{51}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Accelerazione del tratto finale.\relax }}{52}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Traiettoria completa da simulare.\relax }}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Traiettoria nel working space proiettata lungo gli assi cartesiani.}}{54}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Coppie e forze ai giunti nella traiettoria simulata.\relax }}{56}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Energia durante la simulazione.\relax }}{57}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Potenza assorbita dai giunti durante la simulazione.\relax }}{57}{figure.caption.42}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Confronto tra la traiettoria di riferimento e la traiettoria compiuta dal robot.\relax }}{58}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Risposta dinamica del primo giunto.\relax }}{59}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Risposta dinamica del secondo giunto.\relax }}{60}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Risposta dinamica del terzo giunto.\relax }}{61}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Risposta dinamica del quarto giunto.\relax }}{62}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Render del manipolatore modellizzato con Simscape.\relax }}{63}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Struttura del controllore realizzato per ogni giunto del manipolatore.\relax }}{59}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Confronto tra la traiettoria di riferimento e la traiettoria compiuta dal robot.\relax }}{60}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Risposta dinamica del primo giunto.\relax }}{61}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Risposta dinamica del secondo giunto.\relax }}{62}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Risposta dinamica del terzo giunto.\relax }}{63}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Risposta dinamica del quarto giunto.\relax }}{64}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Render del manipolatore modellizzato con Simscape.\relax }}{65}{figure.caption.50}%
