@@ -1,1 +1,7 @@
 *.log
+*.aux
+*.lof
+*.out
+*.synctex.gz
+*.toc
+
